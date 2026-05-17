@@ -1,6 +1,6 @@
 {
   "title": "Opportunity Radar",
-  "updated_at": "2026-05-17T07:24:29Z",
+  "updated_at": "2026-05-17T07:51:01Z",
   "search_focus": "Configurable public opportunity radar for software engineering, data/AI, product, security, research, leadership, and adjacent roles.",
   "sources": [
     "Greenhouse/GitLab",
@@ -25,116 +25,117 @@
     "MyCareersFuture/product manager",
     "MyCareersFuture/technical program manager",
     "MyCareersFuture/ux designer",
-    "MyCareersFuture/platform engineer"
+    "MyCareersFuture/platform engineer",
+    "Custom/Custom Singapore/APAC feed"
   ],
   "source_health": [
     {
       "source": "Greenhouse/GitLab",
       "status": "ok",
       "count": 0,
-      "seconds": 0.39
+      "seconds": 0.79
     },
     {
       "source": "Greenhouse/Stripe",
       "status": "ok",
       "count": 25,
-      "seconds": 0.44
+      "seconds": 0.65
     },
     {
       "source": "Greenhouse/Cloudflare",
       "status": "ok",
       "count": 0,
-      "seconds": 0.61
+      "seconds": 0.82
     },
     {
       "source": "Greenhouse/GovTech Singapore",
       "status": "ok",
       "count": 184,
-      "seconds": 0.44
+      "seconds": 0.41
     },
     {
       "source": "Greenhouse/OKX",
       "status": "ok",
       "count": 113,
-      "seconds": 0.85
+      "seconds": 0.88
     },
     {
       "source": "Greenhouse/Databricks",
       "status": "ok",
       "count": 19,
-      "seconds": 2.06
+      "seconds": 1.01
     },
     {
       "source": "Greenhouse/Figma",
       "status": "ok",
       "count": 5,
-      "seconds": 0.58
+      "seconds": 0.37
     },
     {
       "source": "Greenhouse/Anthropic",
       "status": "ok",
       "count": 3,
-      "seconds": 0.69
+      "seconds": 0.94
     },
     {
       "source": "Lever/Mistral AI",
       "status": "ok",
       "count": 10,
-      "seconds": 2.77
+      "seconds": 4.24
     },
     {
       "source": "Ashby/OpenAI",
       "status": "ok",
       "count": 21,
-      "seconds": 0.99
+      "seconds": 1.24
     },
     {
       "source": "Ashby/Cursor",
       "status": "ok",
       "count": 3,
-      "seconds": 0.31
+      "seconds": 0.51
     },
     {
       "source": "Ashby/Modal",
       "status": "ok",
       "count": 0,
-      "seconds": 0.31
+      "seconds": 0.34
     },
     {
       "source": "Ashby/Airwallex",
       "status": "ok",
       "count": 216,
-      "seconds": 0.63
+      "seconds": 1.04
     },
     {
       "source": "MyCareersFuture/software engineer",
       "status": "ok",
       "count": 8,
-      "seconds": 0.14
+      "seconds": 0.13
     },
     {
       "source": "MyCareersFuture/data engineer",
       "status": "ok",
       "count": 8,
-      "seconds": 0.14
+      "seconds": 0.13
     },
     {
       "source": "MyCareersFuture/machine learning engineer",
       "status": "ok",
       "count": 13,
-      "seconds": 0.14
+      "seconds": 0.13
     },
     {
       "source": "MyCareersFuture/ai engineer",
       "status": "ok",
       "count": 10,
-      "seconds": 0.14
+      "seconds": 0.12
     },
     {
       "source": "MyCareersFuture/cybersecurity engineer",
       "status": "ok",
       "count": 3,
-      "seconds": 0.13
+      "seconds": 0.12
     },
     {
       "source": "MyCareersFuture/application security",
@@ -146,13 +147,13 @@
       "source": "MyCareersFuture/product manager",
       "status": "ok",
       "count": 8,
-      "seconds": 0.14
+      "seconds": 0.13
     },
     {
       "source": "MyCareersFuture/technical program manager",
       "status": "ok",
       "count": 17,
-      "seconds": 0.09
+      "seconds": 0.1
     },
     {
       "source": "MyCareersFuture/ux designer",
@@ -164,7 +165,13 @@
       "source": "MyCareersFuture/platform engineer",
       "status": "ok",
       "count": 11,
-      "seconds": 0.12
+      "seconds": 0.13
+    },
+    {
+      "source": "Custom/Custom Singapore/APAC feed",
+      "status": "ok",
+      "count": 0,
+      "seconds": 0.0
     }
   ],
   "stats": {
@@ -187,7 +194,7 @@
         "Principal",
         "Lead"
       ],
-      "score": 97,
+      "score": 88,
       "matched_profiles": [
         "Product / Program Leadership"
       ],
@@ -221,7 +228,7 @@
         "Principal",
         "Lead"
       ],
-      "score": 97,
+      "score": 88,
       "matched_profiles": [
         "Product / Program Leadership"
       ],
@@ -256,7 +263,7 @@
         "Design / Ux Research",
         "Ux"
       ],
-      "score": 94,
+      "score": 85,
       "matched_profiles": [
         "Product / Program Leadership",
         "Design / UX Research"
@@ -294,7 +301,7 @@
         "Principal",
         "Lead"
       ],
-      "score": 94,
+      "score": 85,
       "matched_profiles": [
         "Product / Program Leadership"
       ],
@@ -327,7 +334,7 @@
         "Product Manager",
         "Lead"
       ],
-      "score": 91,
+      "score": 83,
       "matched_profiles": [
         "Product / Program Leadership"
       ],
@@ -361,7 +368,7 @@
         "Strategy",
         "Lead"
       ],
-      "score": 91,
+      "score": 83,
       "matched_profiles": [
         "Product / Program Leadership"
       ],
@@ -397,13 +404,13 @@
         "Cybersecurity / Trust",
         "Risk"
       ],
-      "score": 82,
+      "score": 75,
       "matched_profiles": [
         "Software Engineering",
         "Cybersecurity / Trust"
       ],
       "why_match": "Matches Software Engineering, Cybersecurity / Trust; title relevance 25/100, profile relevance 36/100, location fit 100/100, freshness 100/100, source boost +28.",
-      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Software Engineering, Cybersecurity / Trust.",
+      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Cybersecurity / Trust.",
       "skillsets_to_build": [
         "System design, production debugging, API design, automated testing, and maintainable service ownership.",
         "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
@@ -415,6 +422,44 @@
       "learning_gaps": [
         "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
         "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Computer Software Engineer (Senior Level)",
+      "company": "XIAOMI TECHNOLOGIES SINGAPORE PTE. LTD.",
+      "location": "D05 Clementi New Town, Hong Leong Garden, Pasir Panjang",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/computer-software-engineer-xiaomi-technologies-singapore-bd0c7f550a2a266745c2c924c2a49092",
+      "source": "MyCareersFuture",
+      "published_at": "2026-05-09",
+      "summary": "Job Summary We are seeking a Senior Computer Software Engineer to lead technical work on the company's database and storage infrastructure platforms in Singapore. You will research, design, and develop large-scale, specialised software systems that power our database and storage services, and partner with hardware and… Categories: Engineering, Information T…",
+      "tags": [
+        "Software Engineering",
+        "Software Engineer",
+        "Product / Program Leadership",
+        "Lead"
+      ],
+      "score": 73,
+      "matched_profiles": [
+        "Software Engineering",
+        "Product / Program Leadership"
+      ],
+      "why_match": "Matches Software Engineering, Product / Program Leadership; title relevance 25/100, profile relevance 36/100, location fit 100/100, freshness 82/100, source boost +28.",
+      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership.",
+      "skillsets_to_build": [
+        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
+      ],
+      "certifications_to_consider": [
+        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
+      ],
+      "learning_gaps": [
+        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
       "status_badge": "New this refresh",
       "first_seen": "2026-05-17",
@@ -435,7 +480,7 @@
         "Backend",
         "Platform"
       ],
-      "score": 80,
+      "score": 72,
       "matched_profiles": [
         "Software Engineering"
       ],
@@ -470,7 +515,7 @@
         "Security",
         "Cybersecurity"
       ],
-      "score": 80,
+      "score": 72,
       "matched_profiles": [
         "Product / Program Leadership",
         "Cybersecurity / Trust"
@@ -509,7 +554,7 @@
         "Program Manager",
         "Strategy"
       ],
-      "score": 80,
+      "score": 72,
       "matched_profiles": [
         "Data / AI Engineering",
         "Product / Program Leadership"
@@ -534,44 +579,6 @@
       "status": "New"
     },
     {
-      "title": "Computer Software Engineer (Senior Level)",
-      "company": "XIAOMI TECHNOLOGIES SINGAPORE PTE. LTD.",
-      "location": "D05 Clementi New Town, Hong Leong Garden, Pasir Panjang",
-      "url": "https://www.mycareersfuture.gov.sg/job/engineering/computer-software-engineer-xiaomi-technologies-singapore-bd0c7f550a2a266745c2c924c2a49092",
-      "source": "MyCareersFuture",
-      "published_at": "2026-05-09",
-      "summary": "Job Summary We are seeking a Senior Computer Software Engineer to lead technical work on the company's database and storage infrastructure platforms in Singapore. You will research, design, and develop large-scale, specialised software systems that power our database and storage services, and partner with hardware and… Categories: Engineering, Information T…",
-      "tags": [
-        "Software Engineering",
-        "Software Engineer",
-        "Product / Program Leadership",
-        "Lead"
-      ],
-      "score": 80,
-      "matched_profiles": [
-        "Software Engineering",
-        "Product / Program Leadership"
-      ],
-      "why_match": "Matches Software Engineering, Product / Program Leadership; title relevance 25/100, profile relevance 36/100, location fit 100/100, freshness 82/100, source boost +28.",
-      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership.",
-      "skillsets_to_build": [
-        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
-        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
-      ],
-      "certifications_to_consider": [
-        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
-        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
-      ],
-      "learning_gaps": [
-        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
-        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
-      ],
-      "status_badge": "New this refresh",
-      "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
-    },
-    {
       "title": "Lead / Principal Product Manager (SLS)",
       "company": "GovTech Singapore",
       "location": "Singapore",
@@ -585,7 +592,7 @@
         "Principal",
         "Lead"
       ],
-      "score": 97,
+      "score": 88,
       "matched_profiles": [
         "Product / Program Leadership"
       ],
@@ -619,7 +626,7 @@
         "Principal",
         "Lead"
       ],
-      "score": 97,
+      "score": 88,
       "matched_profiles": [
         "Product / Program Leadership"
       ],
@@ -655,7 +662,7 @@
         "Cybersecurity / Trust",
         "Security"
       ],
-      "score": 75,
+      "score": 66,
       "matched_profiles": [
         "Software Engineering",
         "Cybersecurity / Trust"
@@ -695,14 +702,14 @@
         "Cybersecurity / Trust",
         "Risk"
       ],
-      "score": 72,
+      "score": 64,
       "matched_profiles": [
         "Software Engineering",
         "Product / Program Leadership",
         "Cybersecurity / Trust"
       ],
       "why_match": "Matches Software Engineering, Product / Program Leadership, Cybersecurity / Trust; title relevance 50/100, profile relevance 54/100, location fit 100/100, freshness 45/100, source boost +12.",
-      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership, Cybersecurity / Trust.",
+      "next_action": "Watch: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership, Cybersecurity / Trust.",
       "skillsets_to_build": [
         "System design, production debugging, API design, automated testing, and maintainable service ownership.",
         "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives.",
@@ -739,14 +746,14 @@
         "Cybersecurity / Trust",
         "Risk"
       ],
-      "score": 72,
+      "score": 64,
       "matched_profiles": [
         "Software Engineering",
         "Product / Program Leadership",
         "Cybersecurity / Trust"
       ],
       "why_match": "Matches Software Engineering, Product / Program Leadership, Cybersecurity / Trust; title relevance 50/100, profile relevance 54/100, location fit 100/100, freshness 58/100, source boost +10.",
-      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership, Cybersecurity / Trust.",
+      "next_action": "Watch: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership, Cybersecurity / Trust.",
       "skillsets_to_build": [
         "System design, production debugging, API design, automated testing, and maintainable service ownership.",
         "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives.",
@@ -782,7 +789,7 @@
         "Design / Ux Research",
         "Ux"
       ],
-      "score": 94,
+      "score": 85,
       "matched_profiles": [
         "Product / Program Leadership",
         "Design / UX Research"
@@ -820,7 +827,7 @@
         "Principal",
         "Lead"
       ],
-      "score": 94,
+      "score": 85,
       "matched_profiles": [
         "Product / Program Leadership"
       ],
@@ -853,7 +860,7 @@
         "Product Manager",
         "Lead"
       ],
-      "score": 91,
+      "score": 83,
       "matched_profiles": [
         "Product / Program Leadership"
       ],
@@ -887,7 +894,7 @@
         "Strategy",
         "Lead"
       ],
-      "score": 91,
+      "score": 83,
       "matched_profiles": [
         "Product / Program Leadership"
       ],
@@ -922,7 +929,7 @@
         "Product Manager",
         "Lead"
       ],
-      "score": 91,
+      "score": 83,
       "matched_profiles": [
         "Software Engineering",
         "Product / Program Leadership"
@@ -959,12 +966,12 @@
         "Product Manager",
         "Lead"
       ],
-      "score": 89,
+      "score": 81,
       "matched_profiles": [
         "Product / Program Leadership"
       ],
       "why_match": "Matches Product / Program Leadership; title relevance 75/100, profile relevance 36/100, location fit 100/100, freshness 82/100, source boost +26.",
-      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
+      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Product / Program Leadership.",
       "skillsets_to_build": [
         "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
       ],
@@ -992,12 +999,12 @@
         "Product Manager",
         "Lead"
       ],
-      "score": 89,
+      "score": 81,
       "matched_profiles": [
         "Product / Program Leadership"
       ],
       "why_match": "Matches Product / Program Leadership; title relevance 75/100, profile relevance 36/100, location fit 100/100, freshness 82/100, source boost +26.",
-      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
+      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Product / Program Leadership.",
       "skillsets_to_build": [
         "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
       ],
@@ -1025,12 +1032,12 @@
         "Product Manager",
         "Lead"
       ],
-      "score": 89,
+      "score": 81,
       "matched_profiles": [
         "Product / Program Leadership"
       ],
       "why_match": "Matches Product / Program Leadership; title relevance 75/100, profile relevance 36/100, location fit 100/100, freshness 82/100, source boost +26.",
-      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
+      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Product / Program Leadership.",
       "skillsets_to_build": [
         "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
       ],

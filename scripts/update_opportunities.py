@@ -40,6 +40,15 @@ class RoleProfile:
 
 
 @dataclass(frozen=True)
+class CandidateProfile:
+    enabled: bool
+    skills: tuple[str, ...]
+    strengths: tuple[str, ...]
+    target_terms: tuple[str, ...]
+    learning_priorities: tuple[str, ...]
+
+
+@dataclass(frozen=True)
 class Opportunity:
     title: str
     company: str
@@ -131,6 +140,82 @@ def compact_list(value: object, limit: int, item_limit: int = 180) -> tuple[str,
         if cleaned:
             rows.append(cleaned)
     return tuple(dict.fromkeys(rows))[:limit]
+
+
+def env_text(env_name: object) -> str:
+    name = clean_text(env_name)
+    return os.environ.get(name, "") if name else ""
+
+
+def configured_public_profile_terms(config: dict[str, Any], profiles: list[RoleProfile]) -> tuple[str, ...]:
+    """Return public-safe terms that may be derived from a private CV.
+
+    Private CV/resume text can contain names, employers, emails, phone numbers,
+    and other details that must never be copied into the generated static site.
+    The parser therefore only emits terms already present in public config.
+    """
+    terms: list[str] = []
+    terms.extend(clean_text(x) for x in config.get("title_terms", []) if clean_text(x))
+    for profile in profiles:
+        terms.append(profile.label)
+        terms.extend(profile.terms)
+    private_cfg = config.get("private_profile", {}) if isinstance(config.get("private_profile"), dict) else {}
+    terms.extend(clean_text(x) for x in private_cfg.get("public_skill_terms", []) if clean_text(x))
+    terms.extend(clean_text(x) for x in private_cfg.get("public_target_terms", []) if clean_text(x))
+    return tuple(dict.fromkeys(t for t in terms if 2 <= len(t) <= 80))
+
+
+def load_private_profile(config: dict[str, Any], profiles: list[RoleProfile]) -> CandidateProfile:
+    """Parse optional private CV/profile material without publishing raw text."""
+    private_cfg = config.get("private_profile", {}) if isinstance(config.get("private_profile"), dict) else {}
+    if not private_cfg.get("enabled"):
+        return CandidateProfile(False, (), (), (), ())
+
+    raw_parts: list[str] = []
+    json_payload: dict[str, object] = {}
+    json_text = env_text(private_cfg.get("json_env"))
+    if json_text:
+        try:
+            parsed = json.loads(json_text)
+            if isinstance(parsed, dict):
+                json_payload = parsed
+                raw_parts.append(json.dumps(parsed, ensure_ascii=False))
+        except json.JSONDecodeError:
+            print("warn: private_profile.json_env is set but is not valid JSON; using text extraction only", file=sys.stderr)
+
+    cv_text = env_text(private_cfg.get("text_env"))
+    if cv_text:
+        raw_parts.append(cv_text)
+
+    path_env = clean_text(private_cfg.get("path_env"))
+    path_value = os.environ.get(path_env, "") if path_env else ""
+    if path_value:
+        path = Path(path_value)
+        if path.exists() and path.is_file():
+            raw_parts.append(path.read_text(encoding="utf-8", errors="ignore"))
+        else:
+            print(f"warn: private profile path from {path_env} does not exist; ignoring", file=sys.stderr)
+
+    allowed_terms = configured_public_profile_terms(config, profiles)
+    raw_text = "\n".join(raw_parts)
+    matched_terms = tuple(dict.fromkeys(term for term in allowed_terms if term_matches(raw_text, term)))
+
+    def public_list(name: str, limit: int) -> tuple[str, ...]:
+        values: list[str] = []
+        raw = json_payload.get(name)
+        if isinstance(raw, list):
+            for item in raw:
+                item_s = clean_text(item, 80)
+                if item_s and any(term_matches(item_s, allowed) or term_matches(allowed, item_s) for allowed in allowed_terms):
+                    values.append(item_s)
+        return tuple(dict.fromkeys(values))[:limit]
+
+    max_terms = max(1, int(private_cfg.get("max_public_terms", 14) or 14))
+    skills = tuple(dict.fromkeys((*public_list("skills", max_terms), *matched_terms)))[:max_terms]
+    strengths = public_list("strengths", 4) or tuple(f"Private profile shows evidence of {term}." for term in skills[:3])
+    target_terms = public_list("target_terms", 8) or tuple(t for t in matched_terms if any(term_matches(t, title) for title in config.get("title_terms", [])))[:8]
+    priorities = public_list("learning_priorities", 4)
+    return CandidateProfile(bool(raw_parts or json_payload), skills, strengths[:4], target_terms, priorities)
 
 
 def llm_settings(config: dict[str, Any]) -> dict[str, Any]:
@@ -312,10 +397,11 @@ def location_allowed(location: str, summary: str, config: dict[str, Any]) -> boo
     return not include or any(term_matches(combined, term) for term in include)
 
 
-def score_opportunity(title: str, company: str, location: str, summary: str, published_at: str, source: str, config: dict[str, Any], profiles: list[RoleProfile]) -> tuple[int, list[str], list[RoleProfile], str, str, list[str], list[str], list[str]]:
+def score_opportunity(title: str, company: str, location: str, summary: str, published_at: str, source: str, config: dict[str, Any], profiles: list[RoleProfile], candidate: CandidateProfile) -> tuple[int, list[str], list[RoleProfile], str, str, list[str], list[str], list[str]]:
     text = " ".join([title, company, location, summary])
     title_hits = term_hits(title, config.get("title_terms", []))
     exclude_hits = term_hits(text, config.get("exclude_terms", []))
+    candidate_hits = term_hits(text, candidate.skills + candidate.target_terms) if candidate.enabled else []
     matched: list[RoleProfile] = []
     profile_hits_total = 0
     tags: list[str] = []
@@ -325,6 +411,8 @@ def score_opportunity(title: str, company: str, location: str, summary: str, pub
             matched.append(profile)
             profile_hits_total += min(5, len(set(hits)))
             tags.extend([profile.label, *hits[:3]])
+    if candidate_hits:
+        tags.extend(candidate_hits[:4])
     if exclude_hits:
         penalty = 28 + 6 * len(exclude_hits)
     else:
@@ -332,19 +420,25 @@ def score_opportunity(title: str, company: str, location: str, summary: str, pub
     location_fit = 100 if location_allowed(location, summary, config) else 0
     title_score = min(100, 25 * len(set(title_hits)))
     profile_score = min(100, 18 * profile_hits_total)
+    private_fit = min(100, 22 * len(set(candidate_hits))) if candidate.enabled else 0
     freshness = freshness_score(published_at)
     boost = source_boost(source, company, config)
-    score = bounded((0.46 * profile_score) + (0.22 * title_score) + (0.18 * location_fit) + (0.14 * freshness) + boost - penalty)
+    score = bounded((0.39 * profile_score) + (0.20 * title_score) + (0.16 * location_fit) + (0.12 * freshness) + (0.13 * private_fit) + boost - penalty)
     matched_labels = ", ".join(p.label for p in matched[:3]) or "general configured focus"
     boost_note = f", source boost +{boost}" if boost else ""
-    why = f"Matches {matched_labels}; title relevance {title_score}/100, profile relevance {profile_score}/100, location fit {location_fit}/100, freshness {freshness}/100{boost_note}."
+    private_note = f", private-profile fit {private_fit}/100" if candidate.enabled else ""
+    why = f"Matches {matched_labels}; title relevance {title_score}/100, profile relevance {profile_score}/100, location fit {location_fit}/100, freshness {freshness}/100{private_note}{boost_note}."
     if score >= int(config.get("alert_score", 82)):
         prefix = "Prioritize"
     elif score >= 65:
         prefix = "Shortlist"
     else:
         prefix = "Watch"
-    next_action = f"{prefix}: verify the posting is still open, then tailor your application around {matched_labels}."
+    if candidate_hits:
+        safe_hits = ", ".join(dict.fromkeys(candidate_hits[:3]))
+        next_action = f"{prefix}: verify the posting is still open, then tailor your application around {matched_labels} and public-safe profile signals: {safe_hits}."
+    else:
+        next_action = f"{prefix}: verify the posting is still open, then tailor your application around {matched_labels}."
     skills: list[str] = []
     certs: list[str] = []
     gaps: list[str] = []
@@ -352,6 +446,10 @@ def score_opportunity(title: str, company: str, location: str, summary: str, pub
         skills.extend(profile.skillsets)
         certs.extend(profile.certifications)
         gaps.extend(profile.learning_gaps)
+    if candidate.enabled and candidate_hits:
+        skills.insert(0, "Emphasize concrete evidence for the matched private-profile signals without exposing private CV details: " + ", ".join(dict.fromkeys(candidate_hits[:4])) + ".")
+    if candidate.learning_priorities:
+        gaps = list(candidate.learning_priorities) + gaps
     if not skills:
         skills = ["Build role-specific portfolio evidence, communication clarity, and measurable outcomes aligned to the configured focus."]
     if not certs:
@@ -362,7 +460,7 @@ def score_opportunity(title: str, company: str, location: str, summary: str, pub
     return score, unique_tags, matched, why, next_action, list(dict.fromkeys(skills))[:4], list(dict.fromkeys(certs))[:3], list(dict.fromkeys(gaps))[:4]
 
 
-def build_opportunity(title: object, company: object, location: object, url: object, source: str, published_at: object, summary: object, config: dict[str, Any], profiles: list[RoleProfile]) -> Opportunity | None:
+def build_opportunity(title: object, company: object, location: object, url: object, source: str, published_at: object, summary: object, config: dict[str, Any], profiles: list[RoleProfile], candidate: CandidateProfile) -> Opportunity | None:
     title_s = clean_text(title)
     company_s = clean_text(company) or "Unknown employer"
     location_s = clean_text(location) or "Remote"
@@ -372,7 +470,7 @@ def build_opportunity(title: object, company: object, location: object, url: obj
         return None
     if not location_allowed(location_s, f"{title_s} {summary_s}", config):
         return None
-    score, tags, matched, why, action, skills, certs, gaps = score_opportunity(title_s, company_s, location_s, summary_s, clean_text(published_at)[:10], source, config, profiles)
+    score, tags, matched, why, action, skills, certs, gaps = score_opportunity(title_s, company_s, location_s, summary_s, clean_text(published_at)[:10], source, config, profiles, candidate)
     if score <= 0:
         return None
     return Opportunity(
@@ -404,20 +502,20 @@ def source_result(name: str, fn) -> tuple[list[Opportunity], dict[str, object]]:
         return [], {"source": name, "status": "error", "count": 0, "error": clean_text(exc, 160), "seconds": round(time.time() - started, 2)}
 
 
-def from_greenhouse(company: str, board: str, config: dict[str, Any], profiles: list[RoleProfile]) -> list[Opportunity]:
+def from_greenhouse(company: str, board: str, config: dict[str, Any], profiles: list[RoleProfile], candidate: CandidateProfile) -> list[Opportunity]:
     payload = fetch_json(f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true")
     jobs: list[Opportunity] = []
     for item in payload.get("jobs", []) if isinstance(payload, dict) else []:
         if not isinstance(item, dict):
             continue
         location = clean_text((item.get("location") or {}).get("name") if isinstance(item.get("location"), dict) else item.get("location"))
-        job = build_opportunity(item.get("title"), company, location, item.get("absolute_url") or f"https://boards.greenhouse.io/{board}", "Greenhouse", item.get("updated_at") or item.get("first_published"), item.get("content"), config, profiles)
+        job = build_opportunity(item.get("title"), company, location, item.get("absolute_url") or f"https://boards.greenhouse.io/{board}", "Greenhouse", item.get("updated_at") or item.get("first_published"), item.get("content"), config, profiles, candidate)
         if job:
             jobs.append(job)
     return jobs
 
 
-def from_lever(company: str, slug: str, config: dict[str, Any], profiles: list[RoleProfile]) -> list[Opportunity]:
+def from_lever(company: str, slug: str, config: dict[str, Any], profiles: list[RoleProfile], candidate: CandidateProfile) -> list[Opportunity]:
     payload = fetch_json(f"https://api.lever.co/v0/postings/{slug}?mode=json")
     jobs: list[Opportunity] = []
     for item in payload if isinstance(payload, list) else []:
@@ -427,37 +525,37 @@ def from_lever(company: str, slug: str, config: dict[str, Any], profiles: list[R
         location = categories.get("location") or item.get("workplaceType") or "Remote"
         created_at = item.get("createdAt")
         published = datetime.fromtimestamp(created_at / 1000, tz=timezone.utc).date().isoformat() if isinstance(created_at, int) and created_at > 0 else ""
-        job = build_opportunity(item.get("text"), company, location, item.get("hostedUrl") or item.get("applyUrl") or f"https://jobs.lever.co/{slug}", "Lever", published, item.get("descriptionPlain") or item.get("description"), config, profiles)
+        job = build_opportunity(item.get("text"), company, location, item.get("hostedUrl") or item.get("applyUrl") or f"https://jobs.lever.co/{slug}", "Lever", published, item.get("descriptionPlain") or item.get("description"), config, profiles, candidate)
         if job:
             jobs.append(job)
     return jobs
 
 
-def from_ashby(company: str, board: str, config: dict[str, Any], profiles: list[RoleProfile]) -> list[Opportunity]:
+def from_ashby(company: str, board: str, config: dict[str, Any], profiles: list[RoleProfile], candidate: CandidateProfile) -> list[Opportunity]:
     payload = fetch_json(f"https://api.ashbyhq.com/posting-api/job-board/{board}")
     jobs: list[Opportunity] = []
     for item in payload.get("jobs", []) if isinstance(payload, dict) else []:
         if not isinstance(item, dict):
             continue
-        job = build_opportunity(item.get("title"), company, item.get("location") or item.get("locationName") or "Remote", item.get("jobUrl") or item.get("externalLink") or f"https://jobs.ashbyhq.com/{board}", "Ashby", item.get("publishedDate") or item.get("createdAt"), item.get("descriptionPlain") or item.get("descriptionHtml"), config, profiles)
+        job = build_opportunity(item.get("title"), company, item.get("location") or item.get("locationName") or "Remote", item.get("jobUrl") or item.get("externalLink") or f"https://jobs.ashbyhq.com/{board}", "Ashby", item.get("publishedDate") or item.get("createdAt"), item.get("descriptionPlain") or item.get("descriptionHtml"), config, profiles, candidate)
         if job:
             jobs.append(job)
     return jobs
 
 
-def from_remotive(query: str, config: dict[str, Any], profiles: list[RoleProfile]) -> list[Opportunity]:
+def from_remotive(query: str, config: dict[str, Any], profiles: list[RoleProfile], candidate: CandidateProfile) -> list[Opportunity]:
     payload = fetch_json("https://remotive.com/api/remote-jobs?search=" + urllib.parse.quote(query))
     jobs: list[Opportunity] = []
     for item in payload.get("jobs", []) if isinstance(payload, dict) else []:
         if not isinstance(item, dict):
             continue
-        job = build_opportunity(item.get("title"), item.get("company_name"), item.get("candidate_required_location"), item.get("url") or item.get("job_url"), "Remotive", item.get("publication_date"), item.get("description"), config, profiles)
+        job = build_opportunity(item.get("title"), item.get("company_name"), item.get("candidate_required_location"), item.get("url") or item.get("job_url"), "Remotive", item.get("publication_date"), item.get("description"), config, profiles, candidate)
         if job:
             jobs.append(job)
     return jobs
 
 
-def from_remoteok(config: dict[str, Any], profiles: list[RoleProfile]) -> list[Opportunity]:
+def from_remoteok(config: dict[str, Any], profiles: list[RoleProfile], candidate: CandidateProfile) -> list[Opportunity]:
     payload = fetch_json("https://remoteok.com/api")
     jobs: list[Opportunity] = []
     rows = payload[1:] if isinstance(payload, list) and payload else []
@@ -465,7 +563,7 @@ def from_remoteok(config: dict[str, Any], profiles: list[RoleProfile]) -> list[O
         if not isinstance(item, dict):
             continue
         summary = " ".join(clean_text(t) for t in item.get("tags", []) if t) + " " + clean_text(item.get("description"), 300)
-        job = build_opportunity(item.get("position"), item.get("company"), item.get("location") or "Remote", item.get("url") or "https://remoteok.com/", "RemoteOK", item.get("date"), summary, config, profiles)
+        job = build_opportunity(item.get("position"), item.get("company"), item.get("location") or "Remote", item.get("url") or "https://remoteok.com/", "RemoteOK", item.get("date"), summary, config, profiles, candidate)
         if job:
             jobs.append(job)
     return jobs
@@ -484,7 +582,7 @@ def join_named_rows(rows: object, field: str, limit: int = 5) -> str:
     return ", ".join(list(dict.fromkeys(labels))[:limit])
 
 
-def from_mycareersfuture(query: str, config: dict[str, Any], profiles: list[RoleProfile], limit: int = 20) -> list[Opportunity]:
+def from_mycareersfuture(query: str, config: dict[str, Any], profiles: list[RoleProfile], candidate: CandidateProfile, limit: int = 20) -> list[Opportunity]:
     """Fetch Singapore roles from MyCareersFuture's public jobs endpoint."""
     params = urllib.parse.urlencode({"search": query, "limit": max(1, min(limit, 100)), "page": 0})
     payload = fetch_json(f"https://api.mycareersfuture.gov.sg/v2/jobs?{params}")
@@ -527,6 +625,7 @@ def from_mycareersfuture(query: str, config: dict[str, Any], profiles: list[Role
             " ".join(part for part in summary_parts if part),
             config,
             profiles,
+            candidate,
         )
         if job:
             jobs.append(job)
@@ -556,13 +655,17 @@ def field_value(item: dict[str, Any], fields: dict[str, Any], name: str, default
     return get_path(item, str(raw))
 
 
-def from_custom(feed: dict[str, Any], config: dict[str, Any], profiles: list[RoleProfile]) -> list[Opportunity]:
+def from_custom(feed: dict[str, Any], config: dict[str, Any], profiles: list[RoleProfile], candidate: CandidateProfile) -> list[Opportunity]:
     payload = load_custom_payload(feed)
     fields = feed.get("fields", {}) if isinstance(feed.get("fields"), dict) else {}
     defaults = feed.get("defaults", {}) if isinstance(feed.get("defaults"), dict) else {}
     source_name = clean_text(feed.get("name")) or "Custom JSON"
     jobs: list[Opportunity] = []
-    for item in items_at_path(payload, str(feed.get("items_path", ""))):
+    if isinstance(payload, list):
+        rows = payload
+    else:
+        rows = items_at_path(payload, str(feed.get("items_path", "")))
+    for item in rows:
         if not isinstance(item, dict):
             continue
         summary = field_value(item, fields, "summary", "description")
@@ -579,6 +682,7 @@ def from_custom(feed: dict[str, Any], config: dict[str, Any], profiles: list[Rol
             summary,
             config,
             profiles,
+            candidate,
         )
         if job:
             jobs.append(job)
@@ -759,34 +863,35 @@ def main() -> int:
     profiles = role_profiles(config)
     if not profiles:
         raise SystemExit("config must define at least one role profile")
+    candidate = load_private_profile(config, profiles)
     all_jobs: list[Opportunity] = []
     health: list[dict[str, object]] = []
     sources = config.get("sources", {}) if isinstance(config.get("sources"), dict) else {}
 
     for row in sources.get("greenhouse", []):
         if isinstance(row, dict):
-            jobs, h = source_result(f"Greenhouse/{row.get('company')}", lambda r=row: from_greenhouse(str(r.get("company")), str(r.get("board")), config, profiles))
+            jobs, h = source_result(f"Greenhouse/{row.get('company')}", lambda r=row: from_greenhouse(str(r.get("company")), str(r.get("board")), config, profiles, candidate))
             all_jobs.extend(jobs); health.append(h); time.sleep(0.1)
     for row in sources.get("lever", []):
         if isinstance(row, dict):
-            jobs, h = source_result(f"Lever/{row.get('company')}", lambda r=row: from_lever(str(r.get("company")), str(r.get("slug")), config, profiles))
+            jobs, h = source_result(f"Lever/{row.get('company')}", lambda r=row: from_lever(str(r.get("company")), str(r.get("slug")), config, profiles, candidate))
             all_jobs.extend(jobs); health.append(h); time.sleep(0.1)
     for row in sources.get("ashby", []):
         if isinstance(row, dict):
-            jobs, h = source_result(f"Ashby/{row.get('company')}", lambda r=row: from_ashby(str(r.get("company")), str(r.get("board")), config, profiles))
+            jobs, h = source_result(f"Ashby/{row.get('company')}", lambda r=row: from_ashby(str(r.get("company")), str(r.get("board")), config, profiles, candidate))
             all_jobs.extend(jobs); health.append(h); time.sleep(0.1)
     for query in sources.get("remotive_queries", []):
-        jobs, h = source_result(f"Remotive/{query}", lambda q=str(query): from_remotive(q, config, profiles))
+        jobs, h = source_result(f"Remotive/{query}", lambda q=str(query): from_remotive(q, config, profiles, candidate))
         all_jobs.extend(jobs); health.append(h); time.sleep(0.1)
     if sources.get("remoteok"):
-        jobs, h = source_result("RemoteOK", lambda: from_remoteok(config, profiles))
+        jobs, h = source_result("RemoteOK", lambda: from_remoteok(config, profiles, candidate))
         all_jobs.extend(jobs); health.append(h)
     for query in sources.get("mycareersfuture_queries", []):
-        jobs, h = source_result(f"MyCareersFuture/{query}", lambda q=str(query): from_mycareersfuture(q, config, profiles, int(sources.get("mycareersfuture_limit", 20) or 20)))
+        jobs, h = source_result(f"MyCareersFuture/{query}", lambda q=str(query): from_mycareersfuture(q, config, profiles, candidate, int(sources.get("mycareersfuture_limit", 20) or 20)))
         all_jobs.extend(jobs); health.append(h); time.sleep(0.1)
     for row in sources.get("custom_json", []):
-        if isinstance(row, dict) and row.get("url"):
-            jobs, h = source_result(f"Custom/{row.get('name', row.get('url'))}", lambda r=row: from_custom(r, config, profiles))
+        if isinstance(row, dict) and (row.get("url") or row.get("path") or isinstance(row.get("items"), list)):
+            jobs, h = source_result(f"Custom/{row.get('name', row.get('url'))}", lambda r=row: from_custom(r, config, profiles, candidate))
             all_jobs.extend(jobs); health.append(h); time.sleep(0.1)
 
     now_dt = datetime.now(timezone.utc).replace(microsecond=0)

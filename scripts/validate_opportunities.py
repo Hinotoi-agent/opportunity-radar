@@ -13,7 +13,22 @@ HISTORY = ROOT / "_data" / "opportunities_history.json"
 CONFIG = ROOT / "config" / "opportunity_radar.json"
 EMAIL_RE = re.compile(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", re.I)
 PHONE_RE = re.compile(r"(?<!\d)(?:\+?\d[\s().-]*){8,}(?!\d)")
-SECRET_VALUE_RE = re.compile(r"(?i)(sk-[a-z0-9_-]{16,}|gh[pousr]_[a-z0-9_]{20,}|bearer\s+[a-z0-9._-]{20,})")
+SECRET_VALUE_RE = re.compile(
+    r"(?ix)("
+    # OpenAI / Anthropic style secret keys.
+    r"sk-(?:proj-)?[a-z0-9_-]{20,}"
+    r"|sk-ant-[a-z0-9_-]{20,}"
+    # Google AI Studio / Gemini API keys.
+    r"|AIza[0-9a-z_-]{35}"
+    # Hugging Face / Replicate tokens.
+    r"|hf_[a-z0-9]{30,}"
+    r"|r8_[a-z0-9]{30,}"
+    # GitHub tokens and generic bearer/JWT values.
+    r"|gh[pousr]_[a-z0-9_]{20,}"
+    r"|bearer\s+[a-z0-9._~+/=-]{24,}"
+    r"|eyJ[a-z0-9_-]{10,}\.[a-z0-9_-]{10,}\.[a-z0-9_-]{10,}"
+    r")"
+)
 ALLOWED_BADGES = {"New this refresh", "Still open", "Repeated high match", "Watchlist"}
 
 
