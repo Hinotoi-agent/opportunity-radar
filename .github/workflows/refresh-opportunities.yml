@@ -1,0 +1,27 @@
+name: Refresh opportunities
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate opportunity data
+        run: python3 scripts/update_opportunities.py
+      - name: Validate generated data
+        run: python3 scripts/validate_opportunities.py
+      - name: Commit refreshed data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Refresh opportunity radar data
+          file_pattern: _data/opportunities.json _data/opportunities_history.json

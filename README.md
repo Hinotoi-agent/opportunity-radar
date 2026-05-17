@@ -1,0 +1,104 @@
+# Opportunity Radar
+
+A reusable, static GitHub Pages job/opportunity radar that anyone can adapt to their own career focus.
+
+It is intentionally **not limited to AI security**. Configure it for software engineering, data science, product, design, security, research, marketing, leadership, or any mix of roles.
+
+## What it does
+
+- Pulls public roles from Greenhouse, Lever, Ashby, Remotive, RemoteOK, and optional custom JSON feeds.
+- Scores roles against configurable career signals, locations, title terms, and exclusion terms.
+- Publishes a static `/opportunities/` page that works on GitHub Pages/Jekyll.
+- Adds per-role guidance:
+  - why the role matches
+  - next action
+  - skillsets to build
+  - certifications/courses to consider
+  - learning gaps to close
+- Keeps privacy-safe history keys so trend badges do not require storing raw job URLs in history.
+- Runs in GitHub Actions with Python standard library only; no secrets required for public feeds.
+
+## Quick start
+
+1. Use this repository as a template or fork it.
+2. Edit `config/opportunity_radar.json`:
+   - `site_url`
+   - `max_items`
+   - `location.include_terms`
+   - `role_profiles`
+   - public ATS boards under `sources`
+3. Run locally:
+
+```bash
+python3 scripts/update_opportunities.py
+python3 scripts/validate_opportunities.py
+```
+
+4. Enable GitHub Pages for the repository.
+5. The included GitHub Actions workflow refreshes `_data/opportunities.json` on a schedule and validates it before committing.
+
+## Configure career focus
+
+Each `role_profiles` entry defines what you care about:
+
+```json
+{
+  "label": "Data / AI Engineering",
+  "terms": ["machine learning", "data platform", "mlops", "llm", "analytics engineering"],
+  "skillsets": ["Production ML systems, data pipelines, model evaluation, and observability."],
+  "certifications": ["Cloud data/ML engineer certification aligned to your target provider."],
+  "learning_gaps": ["Show an end-to-end project with data ingestion, training/evaluation, deployment, and monitoring."]
+}
+```
+
+You can add any domain. The generator treats profiles as scoring dimensions and learning-plan templates.
+
+## Add sources
+
+Supported public source types:
+
+- `greenhouse`: `{ "company": "Anthropic", "board": "anthropic" }`
+- `lever`: `{ "company": "Mistral AI", "slug": "mistral" }`
+- `ashby`: `{ "company": "OpenAI", "board": "openai" }`
+- `remotive`: configured with search queries
+- `remoteok`: broad remote feed
+- `custom_json`: point at a JSON endpoint and map fields
+
+Example custom feed:
+
+```json
+{
+  "type": "custom_json",
+  "name": "Example feed",
+  "url": "https://example.com/jobs.json",
+  "items_path": "jobs",
+  "fields": {
+    "title": "title",
+    "company": "company",
+    "location": "location",
+    "url": "url",
+    "summary": "description",
+    "published_at": "published_at"
+  }
+}
+```
+
+## Safety and privacy defaults
+
+- No credentials are needed for the included public feeds.
+- History stores hashed role keys, not raw job URLs.
+- The validator blocks email addresses, `mailto:` links, and likely phone numbers in generated public data.
+- If you add private/internal feeds, keep secrets out of this repo and update the workflow to read them from GitHub Actions secrets.
+
+## Files
+
+- `config/opportunity_radar.json` — main configuration.
+- `scripts/update_opportunities.py` — fetch, score, rank, and write data.
+- `scripts/validate_opportunities.py` — quality and privacy gate.
+- `_data/opportunities.json` — generated public data rendered by Jekyll.
+- `_data/opportunities_history.json` — generated privacy-safe trend history.
+- `opportunities.md` — public page.
+
+## License
+
+MIT.

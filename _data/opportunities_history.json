@@ -1,0 +1,4077 @@
+{
+  "updated_at": "2026-05-17T06:48:59Z",
+  "jobs": {
+    "7xs3y2augj47wclzqu": {
+      "title": "Lead Product Marketing Manager, Pricing and Packaging",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 82
+    },
+    "bxrke4gkrcmaixgeov": {
+      "title": "Principal Product Manager, Security - GTM",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 82
+    },
+    "obs5ixfwkqlxtc2i22": {
+      "title": "Lead Product Marketing Manager, AI",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 79
+    },
+    "vsazrd6efgtit3vyqg": {
+      "title": "Principal Cybersecurity Incident Manager (USA)",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 79
+    },
+    "bkoibjo3ol2cjytmr4": {
+      "title": "Senior Product Manager, Tenant Scale",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 74
+    },
+    "uwo3srdhtsm6uoow3y": {
+      "title": "Staff Backend Engineer, Developer Experience",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 74
+    },
+    "h3fjijtmjonidtf543": {
+      "title": "Staff Product Designer, Knowledge Graph",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 74
+    },
+    "u6lzwshktkpaykmjm4": {
+      "title": "Staff Product Designer, Security & Compliance",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 74
+    },
+    "t6bwgyt4r2i7qj2z6d": {
+      "title": "Staff Product Manager, AI Agent Orchestration",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 74
+    },
+    "pgp6vt5wr65624s5op": {
+      "title": "Manager, Security Incident Response Team (USA)",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 71
+    },
+    "qy2gooputru77qfwdi": {
+      "title": "Principal Engineer, Infrastructure Platforms",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 71
+    },
+    "unaao3mxivbcsel3b5": {
+      "title": "VP of Product Security",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 71
+    },
+    "fzmnisa2timbyo55gp": {
+      "title": "Principal Software Engineer, B2B Engineering",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 71
+    },
+    "f26at7h43njitwoigu": {
+      "title": "Backend Engineer, Analytics Instrumentation (Golang)",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "6kt3bkij5r7euftuce": {
+      "title": "Backend Engineer, Knowledge Graph (Rust)",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "5o7ujek46526n54dli": {
+      "title": "Distinguished Engineer, Agentic SDLC & Non‑Linear Productivity",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "qelmjgmbn2ncd4ifir": {
+      "title": "Enablement Lead, EMEA",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "dr253fydyvascshu6r": {
+      "title": "Engineering Manager, Software Supply Chain Security: Pipeline Security",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "rnswkwpcotpobby7xz": {
+      "title": "Intermediate Backend Engineer (C), Tenant Scale: Git",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "izxnufmqnb2ogscjk3": {
+      "title": "Intermediate Backend Engineer, Database Automation (Ruby)",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "x63htumxqtjpcvuia7": {
+      "title": "Intermediate Backend Engineer, SSCS: AI Governance",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "qpodvult4jzcos6l4w": {
+      "title": "Intermediate Backend Engineer, SSCS: Supply Chain",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "sb7nf475cbvuf72vff": {
+      "title": "Lead Commercial Legal Counsel",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "mvlctgq34uqi6kcwks": {
+      "title": "Manager, Professional Services Engineers (EMEA)",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "u532kkde6mamkox5dn": {
+      "title": "Principal Engineer, Software Supply Chain Security",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "5zpquuqqjrkmtpe7xa": {
+      "title": "Program Manager - Dubai",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "7t7cueu67gva6rtg6d": {
+      "title": "Program Manager - London",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "64dtlvcdq7gw62lp7w": {
+      "title": "Senior Backend Engineer (AI), Pipeline Execution",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "56vvkmxvh4kqypxmnj": {
+      "title": "Senior Backend Engineer (C), Tenant Scale: Git",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "q2ddjxhddnr5ppuup6": {
+      "title": "Senior Backend Engineer (RoR), AST: Secret Detection",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "mu2hdljwbj4aes56tb": {
+      "title": "Senior Backend Engineer (RoR/Go), SSCS: Pipeline Security",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "6xoqbcur3zkbs2tb22": {
+      "title": "Senior Backend Engineer (Ruby on Rails), Plan: Knowledge",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "mhhawy6lrjcb7lqtpw": {
+      "title": "Senior Backend Engineer (Ruby or Golang), Tenant Scale; Cells Infrastructure",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "xryxlqfaoqagdmzaik": {
+      "title": "Senior Backend Engineer(Go), Continuous Delivery",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "jchufvlst6i4jhnv53": {
+      "title": "Senior Backend Engineer(Golang),Software Supply Chain Security: Auth Infrastructure",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "hfwjmnqp5zmdnyubiy": {
+      "title": "Senior Backend Engineer, Analytics Instrumentation (Golang)",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "5xql723lusezxrhdza": {
+      "title": "Senior Backend Engineer, Gitlab Delivery: Runway (Platform Engineering)",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "jearmv4jedstp44iag": {
+      "title": "Senior Backend Engineer, SSCS: AI Governance",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "ci2mac6e44ecrxvesx": {
+      "title": "Senior Backend Engineer, SSCS: Supply Chain",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "7hmfw5uemqx34fh72r": {
+      "title": "Senior Security Engineer, Security Incident Response Team (SIRT)",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "u6wlfbb5opkxreltvh": {
+      "title": "Senior UX Researcher",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "cdgww4pcyeorpdbr3k": {
+      "title": "Staff Backend (Python) Engineer, AI Engineering:Duo Chat",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "qybnwvph65ocpx7zj3": {
+      "title": "Staff Backend Engineer (Go), Continuous Delivery",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "kxoutdsaoze5g6om5a": {
+      "title": "Staff Backend Engineer (Go), Software Supply Chain Security: Secrets Management",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "q55muwvzx4zm7g432e": {
+      "title": "Staff Backend Engineer (Ruby on Rails/AI), Verify",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "qutk7axze2hy7vrxiq": {
+      "title": "Staff Backend Engineer, Analytics Instrumentation (Golang)",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "qrqn7f33aieevzqcd3": {
+      "title": "Staff Backend Engineer, AST: Composition Analysis",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "qvyoceriy6jn4lrzye": {
+      "title": "Staff Backend Engineer, Gitlab Delivery: Upgrades",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "aou6ffxopewqqkjjrf": {
+      "title": "Staff Backend Engineer, Knowledge Graph (Rust)",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "rkc4zqf3j66j4u5lzb": {
+      "title": "Staff Backend Engineer, Software Supply Chain Security",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "frsuwmcbzlhljuwgbg": {
+      "title": "Staff Backend Engineer, SSCS: AI Governance",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "dt2takawyc3ajmpulu": {
+      "title": "Staff Technical Program Manager",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "d6gp3poejxbobkmcyp": {
+      "title": "Senior CRO Manager Growth Optimization Lead for US DTC Company",
+      "company": "Paired",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "q5t265jazbe7nrhtap": {
+      "title": "Lead Software Engineer",
+      "company": "CSC Generation",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 65
+    },
+    "nwhttbd5pnyrlasw66": {
+      "title": "Engineering Manager, AST: Composition Analysis",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 65
+    },
+    "kwuma5eprqoqxkri3z": {
+      "title": "Engineering Manager, Continuous Delivery",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 65
+    },
+    "4ve5a2esvoodzrfmap": {
+      "title": "Engineering Manager, Gitlab Delivery: Upgrades",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 65
+    },
+    "pkmpkowyklhu4zv3pn": {
+      "title": "Engineering Manager, Infrastructure Platforms",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 65
+    },
+    "c7ehsjg5kgml2uzuyl": {
+      "title": "Engineering Manager, SSCS: Supply Chain",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 65
+    },
+    "ye35i7vv5k4t563ct5": {
+      "title": "Manager, Solutions Architects - Commercial",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 65
+    },
+    "7gusvvtg4fmis4a6sr": {
+      "title": "Manager, Solutions Architects - SF Bay area",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 65
+    },
+    "y4tkhg6e2ta2i6x2sy": {
+      "title": "Senior Engineering Manager, Design",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 65
+    },
+    "w7thef3izidufnvk3y": {
+      "title": "Senior Engineering Manager, DevEx",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 65
+    },
+    "y5djn53zoqwhiw4yon": {
+      "title": "Senior Product Design Manager, Plan and Analytics",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 65
+    },
+    "puwk554ji7v7n67hzi": {
+      "title": "Engineering Manager AI Fleet Management & Honk",
+      "company": "Spotify",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 65
+    },
+    "7oh2ayws4s2kwmdhmn": {
+      "title": "Backend Engineer, Developer Experience & Product Platform",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 65
+    },
+    "dtuhrzrvtevmoannf3": {
+      "title": "Vice President, Enterprise Transformation & Finance Strategy",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 63
+    },
+    "6xkyzu6m3zp3s5vkvk": {
+      "title": "Researcher, Frontier Cybersecurity Risks",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 63
+    },
+    "24mbdabqcj6s6627j5": {
+      "title": "Director of Engineering, Workflows & Runners",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 62
+    },
+    "ujcyjwevltkunlax22": {
+      "title": "Forward Deployed Engineer - UK",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 62
+    },
+    "acwscjp54wgks7p54u": {
+      "title": "Senior Manager, Revenue Accounting",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 62
+    },
+    "poostqtzrnzoxh4h63": {
+      "title": "Solutions Architect, AI + Security & Compliance, EMEA",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 62
+    },
+    "dzs7b5t7zdgtwoabnm": {
+      "title": ".NET Developer Advocate",
+      "company": "JetBrains",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 62
+    },
+    "3bp4aprntlo33lsuwq": {
+      "title": "Operations Manager A379",
+      "company": "Pearl",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 62
+    },
+    "cnfi73ykprijcpykcg": {
+      "title": "Backend Engineer, AI Security",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 62
+    },
+    "hjakh7g5crfcmv3ndz": {
+      "title": "Credit Risk Strategy Manager",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 62
+    },
+    "f2v5jk3lqsuu42gvcz": {
+      "title": "Engineering Manager, Developer Productivity AI",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 62
+    },
+    "cof46pvsdoxpds4xu3": {
+      "title": "Program Manager, People Operations Strategy",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 62
+    },
+    "sgt5vjrwm4hv24pn2p": {
+      "title": "Technical Program Manager, Risk",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 62
+    },
+    "kipphvbooejkql5gco": {
+      "title": "CX, Staff Forward Deployed Engineer",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "ld5snlj2jxucxhhwvb": {
+      "title": "Director of Engineering, Security Risk Management",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "p3zsoc3vtejdule4h3": {
+      "title": "Director, Enterprise Architecture & Intelligent Automation",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "e33ppvjybptfmplcoj": {
+      "title": "Engagement Manager - EMEA",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "lgs5fncxptwvoxcykg": {
+      "title": "Engagement Manager, META",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "vfdzvb4z6wz37o6ywp": {
+      "title": "Field Strategist, Forward Deployed Engineer",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "pjwquui3wpp64almry": {
+      "title": "Forward Deployed Engineer",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "rcxuvknaavegbfqnhq": {
+      "title": "G&A Engineer, Netsuite/Claude",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "l776esbi2shtusdyne": {
+      "title": "Intermediate Site Reliability Engineer, Cloud Cost Utilization",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "4cf5nohecyk7ysm7sf": {
+      "title": "Intermediate Site Reliability Engineer, Environment Automation",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "nuqnl665ze55vip3x3": {
+      "title": "Intermediate Vulnerability Researcher, AST: Vulnerability Research",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "cefzo757l3cr5tccr3": {
+      "title": "Legal Engineer",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "wtsctbaeteze6c5tx4": {
+      "title": "Manager, SOX PMO, Business Process",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "vsyvc4qbjctzgidkwe": {
+      "title": "Procurement Analyst",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "pxnarz5saeyen2mq6n": {
+      "title": "Professional Services, Technical Architect - West",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "fioxjwvhpfkzlb5wkm": {
+      "title": "Public Sector Solutions Architect - D.C. / Northern Virginia",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "63d2rv6tinncploo6p": {
+      "title": "Senior AI Engineer",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "l3pdzxmbqi54vfjh6z": {
+      "title": "Senior Business Process Analyst, People Operations",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "2oceh34sy5ryim3v4f": {
+      "title": "Senior Corporate Security Engineer, Mac OS",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "or3cer7gbqhbzb4gsu": {
+      "title": "Senior Data Analyst, Enterprise Analytics",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "uiafybsvlrimev6tgc": {
+      "title": "Senior Data Analyst, Marketing Analytics",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "ulgxogzkxumhc2bqkn": {
+      "title": "Senior FP&A Analyst, Corporate Finance",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "zyq2mvjhmuopffqvz3": {
+      "title": "Senior Manager, Engagement Management",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "vnalx2iatbiy3cpeh4": {
+      "title": "Senior Professional Services Engineer - PubSec",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "2t5xzq4dq2vve2oqbn": {
+      "title": "Senior Professional Services, Technical Architect - AI",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "w547f7pwfprtesdndp": {
+      "title": "Senior Regional Marketing Manager, EMEA",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "3ai5gtazd2tb7ajbgg": {
+      "title": "Senior Regional Marketing Manager, India",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "ujvqnhvdwf43pvpzhx": {
+      "title": "Senior Site Reliability Engineer, Tenant Services: Geo",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "kojxhfdytndzxd5i4c": {
+      "title": "Senior Solutions Architect",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "zamvirm3oaxy6nuhuc": {
+      "title": "Senior Solutions Architect - AI & Platforms SME",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "2geobedglefu6thm6u": {
+      "title": "Senior Solutions Architect - CEUR",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "mays5pi4zbbgezeq4g": {
+      "title": "Senior Solutions Architect - West",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "oy2toaz4opgqegiixd": {
+      "title": "Senior Solutions Architect, Financial Services",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "awu3yeobizuennoexd": {
+      "title": "SMB Solutions Architect",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "4oj4nldd2ijcrkx3tl": {
+      "title": "Software Security Engineer",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "bl5omjz7dhlkxrf4pc": {
+      "title": "Solutions Architect",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "vw6xqwwm5r4tcjqzjr": {
+      "title": "Solutions Architect - France",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "clzyip3kg3ymiui7z5": {
+      "title": "Solutions Architect - Southeast",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "n43kcjkomr5eevrugq": {
+      "title": "Solutions Architect - West",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "l5ngdzvaupwgptcnz3": {
+      "title": "Solutions Architect, Commercial - West",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "vxfxetxdkumpbmmrlv": {
+      "title": "Staff HRIS Analyst, People Technology - Workday",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "6dthajrqfnyi52juam": {
+      "title": "Staff Infrastructure Security Engineer (APAC, EMEA)",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "nufuz2av7iuuldzzyj": {
+      "title": "Vice President of Engineering, DevOps Engineering",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "a5spnne3f7euffagvd": {
+      "title": "Staff Backend Engineer Core Product",
+      "company": "Kalepa",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "35ezp5dbt2cra4d3jj": {
+      "title": "Manager Platform Engineering",
+      "company": "Natera",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "volkk2emhykeqg2rqq": {
+      "title": "Engineering Program Manager, Infrastructure",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "kszyuebdhflwf75xs2": {
+      "title": "Engineering Program Manager, Tech GRC",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "2eaki2fuzsg6qavbmh": {
+      "title": "Product Designer, Global",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "fat74zm2s2mume4xo6": {
+      "title": "Product Manager, Commerce Systems",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "yp6tdnuo7cmftv77mk": {
+      "title": "Product Manager, Link Consumer Product",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "nnuz2oemh4eracl7jw": {
+      "title": "Product Manager, Payments",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "e4chtfaigrkktprdfc": {
+      "title": "Product Manager, SEA",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "rkakfaf2lougngvker": {
+      "title": "Product Manager, Stripe Infrastructure",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "h326wxgod3ck4peo2h": {
+      "title": "Senior Staff Product Designer, Agentic Commerce",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "45c42i523c65pvwvgp": {
+      "title": "Senior Staff Product Designer, Payments",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "hwzf7jqogt7w4fhycv": {
+      "title": "Staff Product Manager, Dashboard",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "saetd77pwza6q5qah2": {
+      "title": "Staff Product Manager, Enterprise (Industries)",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "py72z6hxxoriqkxqb5": {
+      "title": "Staff Product Manager, Payments",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "rnyn6wxitodey3yc3h": {
+      "title": "Business Development Representative, DoD",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 57
+    },
+    "x477ps32puwulrqrd4": {
+      "title": "Business Development Representative, Polish Speaking",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 57
+    },
+    "cyu22wv35ug2kmfdxz": {
+      "title": "Candidate Experience Specialist, Contractor",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 57
+    },
+    "ergoyj5zgkjh3zlyrk": {
+      "title": "Forward Deployed Engnieer - META",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 57
+    },
+    "7vfi5l2w7cnqdkvfk5": {
+      "title": "Android Engineer, Terminal Developer Productivity",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 57
+    },
+    "dx2qbu2sfozffpx4wd": {
+      "title": "Risk Strategist, User Risk Strategy",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 57
+    },
+    "qcur3jkcnxjd3vj4so": {
+      "title": "Backend Software Engineer, Applied Foundations",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 55
+    },
+    "jornatxubuvdvqvyjz": {
+      "title": "Backend Software Engineer, ChatGPT Engineering",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 55
+    },
+    "pxxx7ajep6xfinlxxg": {
+      "title": "Principal Software Engineer, Infrastructure Security",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 55
+    },
+    "pgb4byobkubj2pi476": {
+      "title": "Researcher, Frontier Biological and Chemical Risks",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 55
+    },
+    "fxhtzbh3cte6lilln3": {
+      "title": "Safety Response Operations Lead",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 55
+    },
+    "voatw2yvvqnwht5mkk": {
+      "title": "Senior Staff Backend Software Engineer, Codex for Finance",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 55
+    },
+    "q3nqlgiyjp2sa2f2b5": {
+      "title": "Senior Software Engineer",
+      "company": "CentralReach",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "7ms7ibhqcfvpp5yemu": {
+      "title": "Application Support Engineer",
+      "company": "Cresta",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "uuclmzumtql4bgh3vf": {
+      "title": "Business Development Representative",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "t4ut6tlwc6tqmozi66": {
+      "title": "Business Development Representative - Nordics",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "z5tvfklbb4pr4i6frv": {
+      "title": "Director of Pricing",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "wfxzvpmt4axonigquq": {
+      "title": "Director, Customer Support Systems",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "moew5su5nitn2bcetj": {
+      "title": "Field CTO - US West",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "afdpyeaeqgdtvcvq5z": {
+      "title": "Field CTO, Public Sector",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "wrfffd5j7bpj3ywavj": {
+      "title": "Regional Director - UK/I Strategic Accounts",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "si5zjmh63tdglpgtdf": {
+      "title": "Senior Commercial Legal Counsel, APAC",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "jbwmgxfjnftzgomntp": {
+      "title": "Senior Compensation Partner",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "o2davpa2vi4uplnuxm": {
+      "title": "Senior Director, Customer Experience Services",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "njgysk2sz6d2gcua3a": {
+      "title": "Senior Director, Technical Program Management",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "k5xwohe4xh547i5vgr": {
+      "title": "Senior Executive Business Partner",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "4bdemorakfdpvtqjpq": {
+      "title": "Stock Administrator",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "5hukwbaknzgkqlv73k": {
+      "title": "Vice President, Data & Insights",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "dhbx35z77dopx7yafc": {
+      "title": "Vice President, Legal Commercial",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "lpyjncqtwvbvc4vgqr": {
+      "title": "Software engineer",
+      "company": "Sticker Mule",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "gyjntn7bjf66v5c2w2": {
+      "title": "Audit & Regulatory Management Lead, Regulatory Affairs",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "f4anoh3lkkxzogatkv": {
+      "title": "Backend Engineer, Core Tech, Canada",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "yq2bs4ow5vmihwljs3": {
+      "title": "Backend Engineer, Core Technology",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "y67eegvl5vf4bfhv4z": {
+      "title": "Commercial Solutions Program Manager",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "kehxobb2hjj3rmbwuq": {
+      "title": "Credit Risk Analyst, North American Underwriter",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "fx6ogx7ehbgrwnr4et": {
+      "title": "Full Stack Engineer, Link",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "zadipgc4ink37wo3oc": {
+      "title": "IT Governance, Risk & Compliance (GRC) Analyst, Luxembourg",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "udht4i7sdwtr77oq4q": {
+      "title": "Machine Learning Engineer, Stripe Assistant",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "jf5oliabk4mumn7qbf": {
+      "title": "Marketing Operations Program Manager, Sold Funnel",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "e6vgek2miyb5cqn5vj": {
+      "title": "Partner Marketing Lead - AMER",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "tphaahdlpmqqb7qwy3": {
+      "title": "Program Manager, Card Network Office (CNO)",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "h7fooko2orvd5zulre": {
+      "title": "Program Manager, GTM Planning",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "33jjquzqjyixxdreem": {
+      "title": "Program Manager, Intake & Portfolio Management",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "biokpm6ik64chhd2u5": {
+      "title": "Risk Operations Analyst, Financial Crimes Programs",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "cmkxrnrfncecbok5yw": {
+      "title": "Risk Partnerships Manager",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "tsw5rv2vyj6x2mlipr": {
+      "title": "Risk Partnerships Manager, Banks",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "btvej3kidrklrd7g5q": {
+      "title": "Software Engineer - Smart Contract, Bridge",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "r7rn5sp7fg4a6o2v5h": {
+      "title": "Software Engineer, Bridge",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "qf6d2pxwyqsrnfkzmi": {
+      "title": "Software Engineer, Payments",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "adwpcalpspqlamhruw": {
+      "title": "Software Engineering, New Grad",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "t3nkbzspekrczibcrd": {
+      "title": "Technical Program Manager",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "ns3us4ogrkxr5k7std": {
+      "title": "Technical Program Manager, Extensibility Programs",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "26jkhutzaga4xmqyhk": {
+      "title": "Technical Program Manager, Identity and Access Management Programs",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "g5tm5n4jf6c34akcxw": {
+      "title": "Technical Program Manager, Internal Systems",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "qsrjslyscoxt5kuxzo": {
+      "title": "Technical Program Manager, Payments Experiences",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "yslfyfdsybicavipt3": {
+      "title": "Workday Compensation Lead",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "rs5s6jlbj5lp4ar6nf": {
+      "title": "Senior AI System Software Developer",
+      "company": "Wealthsimple Technologies",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "7vsj6hq2fskjqy7ysk": {
+      "title": "Data Scientist, Financial Engineering",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "siyqn3hlko4bvuhzwd": {
+      "title": "Data Scientist, Platform and B2B Products",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "2ugfepfahkvmt7eg5b": {
+      "title": "Environmental Health and Safety, Engineering & Technical Program Manager",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "b7jknxvttxvzivslov": {
+      "title": "Staff / Senior Staff Product Engineer, Full Stack - Codex for Finance",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "6camrz6vuqxdtmqput": {
+      "title": "Senior Data Engineer",
+      "company": "Valon Mortgage",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "lgsnbxqzdvstapvesz": {
+      "title": "Corporate Network Engineering Manager",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 51
+    },
+    "txqgowfftrw55ejjdf": {
+      "title": "Engineering Manager, APAC & EMEA Cards",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 51
+    },
+    "4plf3lf7arv6uct5ub": {
+      "title": "Engineering Manager, Money Management Expansion",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 51
+    },
+    "xhy5zms32lzhhoealj": {
+      "title": "Product Marketing Manager",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 51
+    },
+    "zwht37qzjs6pckzbgv": {
+      "title": "Product Marketing Manager, Growth",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 51
+    },
+    "gugukzwmkgeg425vjo": {
+      "title": "Product Marketing Manager, Pricing",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 51
+    },
+    "2pjnrh3z3ddmmofwys": {
+      "title": "Product Marketing Manager, Stripe Billing",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 51
+    },
+    "s5t3ecjby754eqeuvk": {
+      "title": "Product Support Manager",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 51
+    },
+    "idfhab5ppzgy3oxxwv": {
+      "title": "Director of Market Development",
+      "company": "Beale Infrastructure",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 49
+    },
+    "45e2bmogrea3dq4loh": {
+      "title": "Vice President DRG",
+      "company": "EnableComp",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 49
+    },
+    "24c5vgumqi7a6cmjgi": {
+      "title": "Credit Risk Strategist, Risk Foundations",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 49
+    },
+    "w552dwkosuhhmnswim": {
+      "title": "Risk Strategist - Screening (Financial Crimes)",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 49
+    },
+    "c26j5m4bn7cy5kvdij": {
+      "title": "Risk Strategist, Financial Crimes",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 49
+    },
+    "qh44gt4qo55mfrgmvw": {
+      "title": "Strategic Business Performance, Central Strategy & Operations",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 49
+    },
+    "wpfm47ehog6rzbweft": {
+      "title": "Strategy & Operations - Global Partnerships",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 49
+    },
+    "7qm4ephg4hwsillgel": {
+      "title": "Digital Marketing Manager",
+      "company": "Care Access",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "mnmuzxvxhmhravr2e2": {
+      "title": "Senior Manager Biostatistician Consultant US",
+      "company": "ClinChoice",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "iodxslfh7zt6zpxuay": {
+      "title": "Business Transformation Lead",
+      "company": "Expion Health",
+      "source": "Remotive",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "iox2eerohzsm6qo42t": {
+      "title": "Backend Software Engineer, Growth",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "komlsq4ubbm6g3rlch": {
+      "title": "Critical Harm Operations Analyst",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "anrlbdrs5e6pcwggi3": {
+      "title": "Datacenter NetDeploy Lead - Stargate",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "3z2hcs5rv2tib4he5o": {
+      "title": "Forward Deployed Engineer - Singapore",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "lb7vpv6jmoud2qkugn": {
+      "title": "Forward Deployed Software Engineer - Singapore",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "dh5l6anuwn37jvsbkj": {
+      "title": "Full Stack Software Engineer, ChatGPT Partnerships",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "gemcfkkwsw6qexao6w": {
+      "title": "Full Stack Software Engineer, Growth",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "nu2gtk7tiohqdxh6iq": {
+      "title": "Full-Stack Software Engineer, Applied Foundations",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "dxpkghzt2glmrfadj7": {
+      "title": "GTM Partnerships Enablement Lead",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "3ovcnlbhrmmfh5tmkm": {
+      "title": "Manager, Third-Party Risk Management (GTM)",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "ms4cuipwvhajqespd4": {
+      "title": "Principal Security Engineer, Infrastructure Security",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "pbaxh7lfya2riucart": {
+      "title": "Researcher, Automated Red Teaming",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "3mg5bddybpguluf4eu": {
+      "title": "Researcher, Recursive Self-Improvement Preparedness",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "tjjhvpwhc3a24koipp": {
+      "title": "Risk Analyst, Corporate Security",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "l32e3rc6hbm4ayhja6": {
+      "title": "Social Marketing Lead, Korea",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "di24ghpnkpv63aeuig": {
+      "title": "Software Engineer, Full Stack (People Innovation)",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "mjdhtwxhs5dlzsruqg": {
+      "title": "Software Engineer, Infrastructure Security",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "4z76xvldhy5f2mfr42": {
+      "title": "State Government Affairs Lead (Northeast Region)",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "2cfikdlyyni7q2foht": {
+      "title": "Strategic Sourcing Manager, Memory Storage & CPUs",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "shid7nfgxsw632kmu7": {
+      "title": "Technical Deployment Lead - Singapore",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "d6qzpkvwjprgq7itzo": {
+      "title": "Third Party Risk Manager, APAC",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "l27ejy4kqho6ehzqed": {
+      "title": "Senior Software Engineer",
+      "company": "Phaidra",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "hnyawdxecrk246etfm": {
+      "title": "Business Development Manager, Training & Certification",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "doth3doyxouzf3zwj3": {
+      "title": "Corporate Events Manager, Expo",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "dmljg6rggthqucwgrl": {
+      "title": "Data Science Manager",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "u6zwxe5ayitbzzfnsh": {
+      "title": "Data Science Manager, Growth",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "zw6ntcjq4cnfrs2du5": {
+      "title": "Fullstack Engineer, Privy",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "imxknfeew54n7m4jlo": {
+      "title": "Integrated Campaigns Manager, Startups & AI",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "hnhitjdjeypfoqzsfa": {
+      "title": "Mid-Market/Small Business Demand Gen Manager, Americas",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "sqxhduulwgh64hir5g": {
+      "title": "Paid Digital Marketing Manager",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "yo3ahvqolhdtnsefp2": {
+      "title": "Partner Development Manager, Global Networks",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "fkrwc3swe3v23wx7zy": {
+      "title": "Partner Development Manager, Strategic Partnerships",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "z55mcyjg6byty5jzrg": {
+      "title": "Product Marketing, Velocity (Mid-market & SMB) Segment",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "qeow6hvkv5ghbczj6d": {
+      "title": "Product Support Specialist",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "k5qtvvtpgpzu4ojtud": {
+      "title": "Product Support, Bridge",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "bethmdxpnz6seq64zs": {
+      "title": "Senior Integration Reliability Engineer, Technical Operations",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "34xiaqvyp2o2o6ykp6": {
+      "title": "Solutions Architect, Platforms",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "qp5aqjgdx3qbbulvh6": {
+      "title": "Solutions Architect, Platforms - UKI",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "iwudvfg4qncnkiw2mf": {
+      "title": "Solutions Architect, Platforms Velocity",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "rhtll6qedxyc4yg4t3": {
+      "title": "Solutions Engineer, Bridge",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "3j3pw2htec2bht5gll": {
+      "title": "Specialist Solutions Architect, Crypto & Stablecoins",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "2hph457aypz5och7rt": {
+      "title": "Specialist Solutions Architect, Money Management",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "b673zs377l32nzoyiq": {
+      "title": "Staff Engineer, Identity",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "lgts76hqu7pjjqzmkl": {
+      "title": "Supplier Deal Manager",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "nb76lbw27tq5m6uoxa": {
+      "title": "Talent Brand Experience Manager",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "nhd7vrjqglzealxvsv": {
+      "title": "Technical Account Manager",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "aa7j3w4tldvur7tjfc": {
+      "title": "Technical Account Manager, Terminal",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "5ahf7zkqakoftzzbp2": {
+      "title": "Technical Partner Manager, AMER Banks",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "b6ehoc2753rmw4e4li": {
+      "title": "Technical Partner Manager, EMEA Payment Methods",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "py5lsbgdlift3w2tgo": {
+      "title": "Technical Solutions Engineer",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "g5sozarhciizk22gvd": {
+      "title": "Senior Golang Developer",
+      "company": "TRE ALTAMIRA Srl",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "he2r7jbajb5bqikxls": {
+      "title": "Applied AI Engineer, Senior/Staff Fullstack Software Engineer - Singapore",
+      "company": "Mistral AI",
+      "source": "Lever",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "klzimob6awmcabcjjr": {
+      "title": "Software Engineer",
+      "company": "Obsidian Security",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "r5pz3iwlqww33jp6te": {
+      "title": "GTM Growth Product Manager, Agentic Systems",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 44
+    },
+    "qvgk7eff4th4w4c45f": {
+      "title": "Lead, AI Deployment Manager",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 44
+    },
+    "xs7f7xhl5r7b4er25i": {
+      "title": "Product Manager, Personalization",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 44
+    },
+    "jg22ijs2tzjejsvzxi": {
+      "title": "Product Marketing Manager, Codex",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 44
+    },
+    "4rdjafqpvr5mqjx4dk": {
+      "title": "Product Marketing Manager, Platform",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 44
+    },
+    "znt52boer6ln3ghsgi": {
+      "title": "Global AML Lead, Risk Operations",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 44
+    },
+    "ifseimefrgllndtakq": {
+      "title": "Senior Software Engineer",
+      "company": "Cast AI",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 43
+    },
+    "ucqk6dsnt6dmoq3wd5": {
+      "title": "Manager Collections & Recoveries",
+      "company": "Forbright Bank",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 43
+    },
+    "ujwpdcrsx5lktmf3d6": {
+      "title": "Applied AI, Forward Deployed Machine Learning Engineer- Singapore",
+      "company": "Mistral AI",
+      "source": "Lever",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 42
+    },
+    "37r6aznz7xarbbylri": {
+      "title": "Applied AI, Senior/Staff Forward Deployed Machine Learning Engineer - Singapore",
+      "company": "Mistral AI",
+      "source": "Lever",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 42
+    },
+    "o6miua2hi6jppvnpxn": {
+      "title": "Business Development Representative - APAC",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 41
+    },
+    "nu42chhzf2toja5pf7": {
+      "title": "Head of Growth Partnerships",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 41
+    },
+    "bgvznkj62vh3c7bbwo": {
+      "title": "Head of Measurement & Performance Intelligence",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 41
+    },
+    "v47hevtrpuasvcibgq": {
+      "title": "Strategic Finance, Compute",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 41
+    },
+    "5half3wmoygjqooegt": {
+      "title": "VP Population Health",
+      "company": "Covera Health",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "a4jh2323cl6ieea5z7": {
+      "title": "Operations and Support Associate",
+      "company": "Emora Health",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "lkhncatblloui7owc7": {
+      "title": "Business Immigration Paralegal LATAM",
+      "company": "HireHawk",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "gkji5tmamm5xs5ffhi": {
+      "title": "Pre Licensed Child & Adolescent Therapist",
+      "company": "InStride Health",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "4abbnw7gbtauppbq4g": {
+      "title": "Paralegal Contract Management & Legal Operations",
+      "company": "Kyverna Therapeutics",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "chszgri4rlnbgadv2m": {
+      "title": "Staff Product Manager Enterprise",
+      "company": "LiveKit",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "4mvjyserwh2s5xllhl": {
+      "title": "AI Deployment Strategist, Defence - Singapore",
+      "company": "Mistral AI",
+      "source": "Lever",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "qfad6jiyl34o5a7ehb": {
+      "title": "AI Developer Advocate - Singapore",
+      "company": "Mistral AI",
+      "source": "Lever",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "dvdoqpnhzw53jatixh": {
+      "title": "Revenue Cycle Specialist",
+      "company": "Osmind",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "2763ubew4kxyiysmjr": {
+      "title": "[TEMPLATE] Default Template",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "zenap7sqcl26ndc2y7": {
+      "title": "APAC Executive Marketing",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "sp6bvwylcop5n6bb2l": {
+      "title": "Commercial Counsel, Crypto",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "4fjy25uri2q7gwno2a": {
+      "title": "Compensation Business Partner, Core",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "vg5ve335g4jterjxmr": {
+      "title": "Deal Pricing",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "6ecsr24hspdkxkeqtl": {
+      "title": "Forward Deployed AI Accelerator, Marketing",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "6tu3roff6dhwgtqvwk": {
+      "title": "Head of Communications, APAC",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "qb3fwkhvjon4qe4wf7": {
+      "title": "Head of Global Network Partnerships",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "6mh5v4bipde74eenij": {
+      "title": "Head of Key Accounts - Enterprise",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "ojse6r7rd4mdeayj2q": {
+      "title": "Head of Professional Services, Southeast Asia & Greater China",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "tvjprhcuswdpx3jx3w": {
+      "title": "International Accounting",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "ghl673q36hisonkgl6": {
+      "title": "Payments Performance Strategist, PINless Debit",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "32qs7azoekjcz574c7": {
+      "title": "Portfolio Pricing Strategist",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "f3zli3ga7umkcneutu": {
+      "title": "US BSA Officer, Stripe & Bridge",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "r5ogssoqtqahgsgujb": {
+      "title": "User Escalation Specialist",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "kvhpqcxm3byx6wegpn": {
+      "title": "Writer, Content Marketing",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "c4u4pw5nvixeloydno": {
+      "title": "DevRel Content Creator",
+      "company": "SuperPlane",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "rgr2wypdxszakktqbx": {
+      "title": "Applied Scientist / Research Engineer - Singapore",
+      "company": "Mistral AI",
+      "source": "Lever",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 39
+    },
+    "r7qkpravwhmoctbswy": {
+      "title": "Pricing Manager",
+      "company": "AffirmedRx, PBC",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "2euctkib5icvnzota7": {
+      "title": "Customer Experience Manager",
+      "company": "Bennie",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "clkagxqqkezoqrstyp": {
+      "title": "Project Manager French English Fluent",
+      "company": "Brandtech+",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "d2o4qdsllu36prp4xg": {
+      "title": "Academic Engagement Manager USA",
+      "company": "Calyxo",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "xjimzq747bcr3uz5xv": {
+      "title": "Copywriter",
+      "company": "Coalition Technologies",
+      "source": "Remotive",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "kfpde2uinols2johvd": {
+      "title": "Software Engineer, User Operations",
+      "company": "Cursor",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "sybhitjsfotlnscvj7": {
+      "title": "Nuclear Engineer III Nuclear Safety Analysis",
+      "company": "Deep Fission, Inc",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "jcsc56lcdjyvpjyte7": {
+      "title": "Marketing Manager, Content & AI Enablement",
+      "company": "Expion Health",
+      "source": "Remotive",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "swunew76scja7tgnvb": {
+      "title": "Senior Manager Business Operations",
+      "company": "GiveDirectly",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "xrosecxoug6jz7ta2y": {
+      "title": "Clinical Provider",
+      "company": "Intellect",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "fuuk5nqjijuglppme2": {
+      "title": "Web Development Specialist",
+      "company": "Marketers in Demand",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "72a57w42yvstekyd2k": {
+      "title": "AI Deployment Engineer- ChatGPT Ecosystem",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "z3g2ndkyzvuc4u6hoo": {
+      "title": "Android Engineer, Applied Foundations",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "wll6up5u5fpmywvwsp": {
+      "title": "APAC Strategic Initiatives Lead, Global Affairs",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "5sbxnawykygmzne5fm": {
+      "title": "Community Engagement Lead - Stargate",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "ccfindgkmcjkysmv5p": {
+      "title": "CPU/Storage/PoP-WAN Program Manager",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "cr53gkcdiil6rjpec4": {
+      "title": "Infrastructure Partnership Delivery Lead – Stargate",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "knhhy7kiohxnpjgwbm": {
+      "title": "iOS Engineer, Applied Foundations",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "ljujii2tp4jk2eekyz": {
+      "title": "IT Support Singapore, APAC Regional Lead",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "36s6n5sdeoqvc6c5hj": {
+      "title": "Partner AI Deployment Engineer, Global Advisory Alliances",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "hy6rz7ekmtwsmrwnvo": {
+      "title": "Security Engineer, Infrastructure Security",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "l6n3p3zx6fszkr7kpo": {
+      "title": "Senior Global Extended Workforce Compliance Lead",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "xx7nqcyhlj42pbphd3": {
+      "title": "Software Engineer, Core Network Engineering",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "rhxnjordgkwuolcvcw": {
+      "title": "Software Engineer, Engineering Acceleration | Consumer Devices",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "dfk6ey5qg4sflmdu3e": {
+      "title": "Software Engineer, Hardware Health",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "oe6zu7fmld3j53ecug": {
+      "title": "Systems & Enablement Lead, Recruiting Operations",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "fnqsbuur6zce4mzs47": {
+      "title": "Token-as-a-Service Technical Program Manager",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "5okfc7644akrynetmj": {
+      "title": "Tokens-as-a-Service (TaaS) Lead",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "euz56gnfe4ynjebt25": {
+      "title": "Tokens-as-a-Service (Taas) Software Engineer",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "qom6dokuypx2krxuy3": {
+      "title": "Drug & Alcohol Counselor",
+      "company": "Pelago",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "nimksy2t7fthxcf6b2": {
+      "title": "Meta Ads Manager + Creative Producer AI Native",
+      "company": "singularads.com",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "7qept62jbttlio6ghv": {
+      "title": "Brand Designer, Link",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "hkqntv7digwryquc3x": {
+      "title": "Tooling Engineer",
+      "company": "Unikraft",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "kbzhcreefluwc7oehi": {
+      "title": "Language Quality Manager",
+      "company": "Welo Global",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "4pqnvta6q5fx7k37dt": {
+      "title": "Senior Sales Engineer",
+      "company": "Glia",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 37
+    },
+    "nkb2z3rh3ceynkexq4": {
+      "title": "Global Partner Marketing Lead, AI",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 36
+    },
+    "d2iaafddiitqnce664": {
+      "title": "Global People Support - Team Lead",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 36
+    },
+    "ulierbypejcejqua4g": {
+      "title": "Analytics Engineer",
+      "company": "Civitech",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 35
+    },
+    "2yw2zenoy3jhcjigey": {
+      "title": "Product Quality Engineer",
+      "company": "Cursor",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 35
+    },
+    "nqaaoe7ak4vfimdhve": {
+      "title": "Technical Support Engineering Manager",
+      "company": "Cursor",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 35
+    },
+    "j5gvcocedg5k3zdzbc": {
+      "title": "Senior DevOps Engineer",
+      "company": "Lemon.io",
+      "source": "Remotive",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 35
+    },
+    "72rfie63r6p73uc2cn": {
+      "title": "Talent Acquisition Pipeline Manager",
+      "company": "Nava PBC",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 35
+    },
+    "gen4wicyt3kptdrzjj": {
+      "title": "Compute Optimization Researcher/Engineer",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 35
+    },
+    "artyi36w3ggx5j2od4": {
+      "title": "Developer Experience Engineer",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 35
+    },
+    "ijxjzyphen6epd7fj2": {
+      "title": "Developer Experience Engineer (Mandarin-Speaking)",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 35
+    },
+    "x7t5jimkn3c5z5pnn5": {
+      "title": "🇩🇪Customer Support Manager",
+      "company": "Parkosecure GmbH",
+      "source": "Remotive",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 35
+    },
+    "7i5qxlu36x6oz3iaqi": {
+      "title": "Commercial Legal Counsel - Singapore",
+      "company": "Mistral AI",
+      "source": "Lever",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 34
+    },
+    "6jdf24murxddan5uzl": {
+      "title": "Datacenter Networking Technician, AI Compute Deployment - Stargate",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 33
+    },
+    "6m3v7zblsf2wq7befl": {
+      "title": "Executive Business Partner, APAC",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 33
+    },
+    "6xbalnbwbi2g5kaf4g": {
+      "title": "Operations Exploratory",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 33
+    },
+    "kpyskvdsz7ougngbcg": {
+      "title": "Online Hospitality Services Coordinator Entry Level",
+      "company": "Aisles & Abroad",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "ohkkmnmeikvaj4lc6h": {
+      "title": "Account Supervisor",
+      "company": "Avalere Health",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "x3ouzigmvpt7wqqawa": {
+      "title": "Destination Coordinator",
+      "company": "Careers In Travel | Destination Planners",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "ltu3szp6m3lzhhhyd4": {
+      "title": "Itinerary Support Coordinator No Experience Needed",
+      "company": "Careers In Travel | Destination Planners",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "h55hnheekestxsrobr": {
+      "title": "Travel Appointment Coordinator",
+      "company": "Careers In Travel | Destination Planners",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "abi3p7vowgztov6eiy": {
+      "title": "Office Assistant",
+      "company": "Coalition Technologies",
+      "source": "Remotive",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "wtscxgxilxqua4hi7i": {
+      "title": "Contract Mandarin Document Review Attorney",
+      "company": "Contact Government Services, LLC",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "tkkfepxjdteddcbzzl": {
+      "title": "Senior Director Nuclear Programs",
+      "company": "Deep Fission, Inc",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "2ud2fnitmvlr2ugra3": {
+      "title": "Clinical Marketing Director",
+      "company": "Genomenon",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "6j6ve5ciseysqwseng": {
+      "title": "Work From Home Break Free of the 9 5",
+      "company": "Global Elite Empire Consultants",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "5mkryw4jllki4wef5w": {
+      "title": "1090 Video Editor",
+      "company": "GoFasti",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "2fjt2htrvsw7t74t7q": {
+      "title": "Crypto Trader",
+      "company": "Maidel Group",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "ej5lqpfyb55eiidrts": {
+      "title": "Senior Medical Editor",
+      "company": "Omnicom Health",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "fdxi2cebblv4bmv7hi": {
+      "title": "Technical Support Specialist",
+      "company": "Riva International, Inc.",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "ideicungoeguemskuc": {
+      "title": "Commercial Counsel,APAC",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "n3s5dxu3svi3jt5jny": {
+      "title": "Global Indirect Tax Compliance",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "5im5t2i2zf3bwgwve4": {
+      "title": "KYB/KYC Operations Associate, Bridge (CDMX)",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "lqr4vkycb44dfrcamu": {
+      "title": "Operations Associate, Financial Crimes (AML Investigations)",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "d5ads2ln52yuf4hpmq": {
+      "title": "Operations Associate, Financial Crimes EDD/PEP",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "sb5opgkre6gnhzvksy": {
+      "title": "US Tax Law AI Specialist",
+      "company": "Weekday",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "n6qvqztc3nmyu5q4b3": {
+      "title": "HR People Ops APAC",
+      "company": "Mistral AI",
+      "source": "Lever",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 31
+    },
+    "mcxd3rr4w3cmzbjz24": {
+      "title": "Regional Director, Field Engineering - Verticals",
+      "company": "Cursor",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "ilocryxhw56m5du5cw": {
+      "title": "Technical Support Engineer - AMER",
+      "company": "Cursor",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "sjap7oxdctimjueqgc": {
+      "title": "Technical Support Engineer - APAC",
+      "company": "Cursor",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "5tptn6k7ryvqpcbotr": {
+      "title": "AI Deployment Engineer",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "jv6b3xdlhbkotrorjw": {
+      "title": "AI Deployment Engineer, Codex | India",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "vtnuqufnood6nnoa6t": {
+      "title": "AI Deployment Engineer, Codex | Korea",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "5ftlycjy4dwls3ejtw": {
+      "title": "AI Deployment Engineer, Codex | Sydney",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "lcpc3eck6t2j4dklft": {
+      "title": "AI Deployment Engineer, Codex | Tokyo",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "d7oyzkhuqisdcnkyc5": {
+      "title": "AI Deployment Engineer, Startups",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "sg26v6hhfljnjbssab": {
+      "title": "AI Deployment Engineer- Codex",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "zmhg7ul4p55dzykvg4": {
+      "title": "AI Deployment Manager - India",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "me6cclltoki3ruwyzk": {
+      "title": "AI Success Engineer - US Remote",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "oumiop6ktrp4m3zekt": {
+      "title": "AI Support Engineer - Singapore",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "hyl63msvtzg4fgqc2j": {
+      "title": "Data Scientist, Safety",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "umfhxjo3rren5d3mvz": {
+      "title": "Indirect Tax Technology Manager",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "r7es4gom6ssuufjmxl": {
+      "title": "Manufacturing Test Engineer, AI Compute Infrastructure - Stargate",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "mmubemp7ibvnxg6rzj": {
+      "title": "Quality Engineer - Rack Infrastructure & Site Operations - Stargate",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "qy56cvyxkbdd4pvdru": {
+      "title": "Senior Counsel, Product (Marketing)",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "zqsam3xo5e4dtqymm4": {
+      "title": "Solutions Engineer, Core Digital Native",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "sbbpm7g5kk54udn32w": {
+      "title": "Solutions Engineer, Core Digital Natives",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "uitp5czn2rk2dagb3g": {
+      "title": "Solutions Engineer, Core Enterprise",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "sd4a3aluwqnsp55gcr": {
+      "title": "Solutions Engineer, Financial Services",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "xrxucelesopvack6tc": {
+      "title": "Solutions Engineer, Healthcare & Life Sciences",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "c2etzgpjswz4dqolsu": {
+      "title": "Solutions Engineer, Private Equity",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "ufjw7peewtj6jz2ze6": {
+      "title": "Solutions Engineer, Retail",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "krypqu224a352m4fgq": {
+      "title": "Systems Engineer (Network / Storage / Systems)",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 30
+    },
+    "uuqgvogte4fqwgdkqr": {
+      "title": "Customer Support Representative",
+      "company": "Boom Entertainment",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 29
+    },
+    "5iuy5l5o6qycogklej": {
+      "title": "Fully Cruise & Resort Booking Specialist",
+      "company": "Careers In Travel | Destination Planners",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 29
+    },
+    "fozeg5ebzustoidhrk": {
+      "title": "1086 Digital Marketing Specialist",
+      "company": "GoFasti",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 29
+    },
+    "ypm2pmlkctptte56op": {
+      "title": "Freelance Writer",
+      "company": "IAPWE",
+      "source": "Remotive",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 29
+    },
+    "eldedirukkzujjmnaj": {
+      "title": "Workday Payroll Consultant",
+      "company": "Meridian Partners",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 29
+    },
+    "tz63hiubbbatvaxgqc": {
+      "title": "Patient Operations Coordinator",
+      "company": "Rivia Mind - Mental Healthcare",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 29
+    },
+    "tozd3fhpplgdah2t7b": {
+      "title": "Customer Success Architect",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "bkcndzui2xyt5khpnt": {
+      "title": "Customer Success Engineer",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "u42eimzzxtx5puri5c": {
+      "title": "Customer Success Engineer - West",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "2l35fmkuezw3e6hkuh": {
+      "title": "Customer Success Engineer, EMEA",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "q56hgmfretwtjstwhk": {
+      "title": "Customer Success Manager - APJ",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "po3kr77c3vd3naaqxo": {
+      "title": "Senior Customer Success Architect - Australia",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "54bvlaxtc7cbwbk7rc": {
+      "title": "Senior Customer Success Manager, DACH",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "qfzeeovdne4pkikgpk": {
+      "title": "AI Deployment Strategist - Singapore",
+      "company": "Mistral AI",
+      "source": "Lever",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "lckur6a2vqdzkgwer6": {
+      "title": "AI Deployment Strategist, Public Sector - Singapore",
+      "company": "Mistral AI",
+      "source": "Lever",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "jijq2tzd3hhgvooyyw": {
+      "title": "Global Detection and Response Lead",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "birxzukp3gjjkr4jbe": {
+      "title": "Global Safety Response Operations Analyst",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "ohkqeedtay6qf2n6op": {
+      "title": "Android Engineer, Terminal Global Payments",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "x3awiesef4upq32qol": {
+      "title": "Global Head of Specialist Solutions Architecture, Revenue",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "xqbh4q2wyq7gq3hfms": {
+      "title": "Integration Engineer (Global)",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "eud32fuilly7m7ux4i": {
+      "title": "Manager, Global Sanctions",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "mmqbdbfpwcvkxn6amc": {
+      "title": "Sr Solution Architect Consultant Sales Engineer",
+      "company": "Cyara",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 26
+    },
+    "hasijstcxdr3baokkx": {
+      "title": "Mid/Senior AI Video Artist",
+      "company": "EverAI",
+      "source": "Remotive",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 26
+    },
+    "eupkj6l3dmhvkzzoyz": {
+      "title": "Customer Success Engineer - Japan",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 26
+    },
+    "7zpvavdp52pckvbcde": {
+      "title": "Customer Success Manager",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 26
+    },
+    "2ni7ff3pu6ji24pty3": {
+      "title": "Customer Success Manager, Japan",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 26
+    },
+    "nfinpxmxqu5zndzbhd": {
+      "title": "Ecosystem Sales Manager, Alps",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 26
+    },
+    "b22as7oqb2xrlhftwi": {
+      "title": "Ecosystem Sales Manager, MEA",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 26
+    },
+    "h2snuwmvf2z6e3s6bc": {
+      "title": "Ecosystem Sales Manager, Scale - Singapore",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 26
+    },
+    "u64rtzv74f2wwxgsy6": {
+      "title": "Senior Customer Success Manager - India",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 26
+    },
+    "w4utloq3psm655doim": {
+      "title": "Field CTO",
+      "company": "Cursor",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 24
+    },
+    "goc3e74ifzopxbp6k4": {
+      "title": "GVP, Healthcare",
+      "company": "Cursor",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 24
+    },
+    "ytadw6whsf2avursd5": {
+      "title": "Head of APAC Field Marketing",
+      "company": "Cursor",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 24
+    },
+    "isjjciprwdojeriz4k": {
+      "title": "RVP, Aerospace & Defense",
+      "company": "Cursor",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 24
+    },
+    "lznomaqx5t6mxpzmve": {
+      "title": "Abuse Investigator (CBRN)",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 24
+    },
+    "vkgszkqngqaqd6262d": {
+      "title": "Account Director, Government",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 24
+    },
+    "v5axegjv7rh6mf6gtd": {
+      "title": "Account Director, Large Enterprise (FSI)",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 24
+    },
+    "45nhndovl73xwyxyaq": {
+      "title": "Creative Director, International - LATAM",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 24
+    },
+    "n5yt4ibgmewbydxuii": {
+      "title": "Growth, Korea",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 24
+    },
+    "55sqyn476wm47u2hvb": {
+      "title": "Hardware Exploratory - Singapore",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 24
+    },
+    "7afno54jpvhnf4bkkh": {
+      "title": "Head of Events, APAC",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 24
+    },
+    "u3fwpwsa7usbdecesb": {
+      "title": "Partner Director",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 24
+    },
+    "rqnanzogrgjtmmclvb": {
+      "title": "Regional Client Partner, Ads Solutions (Spanish Speaking)",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 24
+    },
+    "7aiyje44rmvtybb6l2": {
+      "title": "Commercial Account Executive - Mid-Market, US West",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 23
+    },
+    "xzxgbpombysl4ehsoq": {
+      "title": "Commercial Account Executive - Named, US West",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 23
+    },
+    "tiyzbieypbggfi5zok": {
+      "title": "Strategic Account Executive - Brazil",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 23
+    },
+    "vhphcbh6aa2a5flur5": {
+      "title": "Strategic Account Executive, Germany (Ent Industry)",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 23
+    },
+    "hcrk6uijwbmpjgrqza": {
+      "title": "APAC Sales Development Leader",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 21
+    },
+    "bypjupgykvwx2mr2w5": {
+      "title": "Performance Marketing Manager",
+      "company": "GiddyUp",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "osk6s7psbbpn25nr6t": {
+      "title": "Account Executive - Italy",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "7qakunyjsjg4d7ird6": {
+      "title": "Commercial Account Executive - DACH",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "splu6jwuvnr4p3kovy": {
+      "title": "Commercial Account Executive - Mid Market, Greece",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "don7c6phmqfquurvzo": {
+      "title": "Commercial Account Executive - Named, US East",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "yw5tvus2xdfktjvqcj": {
+      "title": "Contract Talent Acquisition Sourcer, Sales",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "qtwjktj35gwucst47x": {
+      "title": "Director Regional Sales, France",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "6cgp4vxh3vdytdbzsv": {
+      "title": "Director Regional Sales, Italy",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "zdmdhnufz7spotrayj": {
+      "title": "Enterprise Account Executive - DACH",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "cpqixnygocohabkci3": {
+      "title": "Major Account Executive - San Francisco",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "ed2yzdhmz6ol52w3uy": {
+      "title": "Major Account Executive, Alps (French Speaker)",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "4ictrz4urpb2dyftaw": {
+      "title": "Major Account Executive, Germany",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "g33livorjhxujjxeko": {
+      "title": "Major Account Executive, Northeast",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "h4aulkjgzts6by6sxu": {
+      "title": "New Business Account Executive - Korea",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "o6sbowwyszgojnxe7l": {
+      "title": "New Business Account Executive, SLED",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "ckbwck5cn47m3zz37s": {
+      "title": "New Business Account Executive, Thailand and Philippines",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "vesknigicbsnogwppx": {
+      "title": "Presales Consultant - Japan",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "we5475kranwvkw6pqt": {
+      "title": "Public Sector Strategic Account Executive - Central & Strategic Government, UK",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "exxy7ao6m6keees3w7": {
+      "title": "Public Sector Strategic Account Executive, DoD",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "gj5uybknlxtdv42byu": {
+      "title": "Regional Sales Director, ASEAN & Korea",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "lbhkvoxd5vjnn3exyt": {
+      "title": "Sales Development Representative",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "zxppuek45seu3zc2ab": {
+      "title": "Sales Development Representative, Portuguese Speaking",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "by3tclrtpoo7iosxm6": {
+      "title": "Senior Director, Global SMB Sales",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "mqljmu2tqjtaqnsdbv": {
+      "title": "Strategic Account Executive - Germany",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "4h7annhabmk4dyg7ox": {
+      "title": "Strategic Account Executive - UAE",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "vs2z7zxm2vbdjsb4dx": {
+      "title": "Strategic Account Executive, Digital Natives - India",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "x6vze345nyk3dx4kkm": {
+      "title": "Strategic Account Executive, South Africa",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "ws3r3clzuchhst5d65": {
+      "title": "Senior Marketing Manager CRO Experience Required",
+      "company": "Precision Medicine Group",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "4ruyxxz66euhjagcy6": {
+      "title": "VP of Product and Partnerships",
+      "company": "uConnect",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "4bggmv6knxpqdqyrlw": {
+      "title": "Technical Solutions Analyst",
+      "company": "Varicent",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 20
+    },
+    "66eyyjppkhq4d3nav3": {
+      "title": "Customer Success Manager",
+      "company": "CipherHealth",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 18
+    },
+    "jv5fzgiq5562uosmxx": {
+      "title": "Manager, Solutions Engineering (India)",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 18
+    },
+    "w4d6y3bjdjw2f6kt5b": {
+      "title": "Senior Counsel, Employment (Global)",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 15
+    },
+    "3zofel346ggscqvmov": {
+      "title": "Sales Development Representative Inbound",
+      "company": "Yuno",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 15
+    },
+    "bqatyene6ie5it6kxw": {
+      "title": "Digital Customer Solutions Engineer (APAC/EMEA)",
+      "company": "Cloudflare",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 14
+    },
+    "hg4vqliwvmnaqts3rg": {
+      "title": "Senior Recruiter, Sales - APJ",
+      "company": "GitLab",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 14
+    },
+    "lknxadzrpwvbmtrdog": {
+      "title": "Global Mobility and Compliance Manager",
+      "company": "Cursor",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 12
+    },
+    "zoqpr6b4ny3kbaumdo": {
+      "title": "Strategy & Operations Lead",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 12
+    },
+    "yv7cd6ia3ndre7uqik": {
+      "title": "Solutions Architect, Enterprise (Pre-sales)",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 12
+    },
+    "32x2j35txkvxb6nexm": {
+      "title": "Account Executive Southeast",
+      "company": "Apollo Information Systems",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 9
+    },
+    "5ipo7dvagakozzeplx": {
+      "title": "Freelance SEO AEO Strategist",
+      "company": "Smartbug Media/Point Sucess/Globalia",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 9
+    },
+    "w6jeivsb7e4vnvfqzy": {
+      "title": "Global Trade Compliance Intern (Summer 2026)",
+      "company": "Cloudflare",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 8
+    },
+    "43mw5wjt4vrn3whvzc": {
+      "title": "AI Scientist - Paris/London - Onsite or Hybrid or Remote",
+      "company": "Mistral AI",
+      "source": "Lever",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 7
+    },
+    "tg2z4b5iyz3ug2akhe": {
+      "title": "Chief Revenue Officer",
+      "company": "ContinuumGlobal, Inc",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 6
+    },
+    "2hygpdethnyodh6zks": {
+      "title": "Appointment Setter Mexico",
+      "company": "HireHawk",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 6
+    },
+    "jeu7psyq7jnu4xhv3n": {
+      "title": "Administrative Business Partner, OpenAI for Government & Global Affairs",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 6
+    },
+    "mr7stl7kg7dmbppxjp": {
+      "title": "Global Head of Benefits",
+      "company": "OpenAI",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 6
+    },
+    "f6duxqdtau5tgnbtdu": {
+      "title": "Account Executive, Existing Business (CEE)",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 6
+    },
+    "yjjrgsulvjfpex4uwv": {
+      "title": "Enterprise Account Executive, Cross Border China",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 6
+    },
+    "grwemvofmuy2rg3bb4": {
+      "title": "Sales Development Representative",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 6
+    },
+    "2z7dqn42m3bqaq3ecu": {
+      "title": "Sales Development Representative (Mandarin-speaking)",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 6
+    },
+    "t7nz6qrdphsafrlgfx": {
+      "title": "Sales Enablement Specialist",
+      "company": "Stripe",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 6
+    },
+    "jkerbpappxcnklmibp": {
+      "title": "Sales Development Representative",
+      "company": "Kiavi",
+      "source": "RemoteOK",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 4
+    }
+  }
+}

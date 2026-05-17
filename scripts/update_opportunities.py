@@ -1,0 +1,495 @@
+#!/usr/bin/env python3
+"""Generate a configurable static opportunity radar from public job feeds.
+
+Python standard library only. Intended for GitHub Actions + GitHub Pages.
+"""
+from __future__ import annotations
+
+import base64
+import hashlib
+import html
+import json
+import re
+import sys
+import time
+import urllib.parse
+import urllib.request
+from dataclasses import dataclass, replace
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any, Iterable
+
+ROOT = Path(__file__).resolve().parents[1]
+CONFIG = ROOT / "config" / "opportunity_radar.json"
+OUT = ROOT / "_data" / "opportunities.json"
+HISTORY_OUT = ROOT / "_data" / "opportunities_history.json"
+USER_AGENT = "OpportunityRadar/1.0 (+https://github.com/Hinotoi-agent/opportunity-radar)"
+TAG_RE = re.compile(r"<[^>]+>")
+SPACE_RE = re.compile(r"\s+")
+
+
+@dataclass(frozen=True)
+class RoleProfile:
+    label: str
+    terms: tuple[str, ...]
+    skillsets: tuple[str, ...]
+    certifications: tuple[str, ...]
+    learning_gaps: tuple[str, ...]
+
+
+@dataclass(frozen=True)
+class Opportunity:
+    title: str
+    company: str
+    location: str
+    url: str
+    source: str
+    published_at: str
+    summary: str
+    tags: tuple[str, ...]
+    score: int
+    matched_profiles: tuple[str, ...]
+    why_match: str
+    next_action: str
+    skillsets_to_build: tuple[str, ...]
+    certifications_to_consider: tuple[str, ...]
+    learning_gaps: tuple[str, ...]
+    status_badge: str = ""
+    first_seen: str = ""
+    last_seen: str = ""
+    status: str = "New"
+
+
+def clean_text(value: object, limit: int | None = None) -> str:
+    text = str(value or "")
+    for _ in range(3):
+        text = html.unescape(text)
+    text = text.replace("\xa0", " ")
+    text = TAG_RE.sub(" ", text)
+    text = SPACE_RE.sub(" ", text).strip()
+    if limit and len(text) > limit:
+        text = text[: limit - 1].rstrip() + "…"
+    return text
+
+
+def load_config() -> dict[str, Any]:
+    with CONFIG.open(encoding="utf-8") as f:
+        data = json.load(f)
+    if not isinstance(data, dict):
+        raise SystemExit("config must be a JSON object")
+    return data
+
+
+def fetch_json(url: str, extra_headers: dict[str, str] | None = None) -> object:
+    headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
+    if extra_headers:
+        headers.update(extra_headers)
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=25) as response:
+        return json.load(response)
+
+
+def get_path(row: object, dotted: str, default: object = "") -> object:
+    cur = row
+    for bit in dotted.split("."):
+        if isinstance(cur, dict):
+            cur = cur.get(bit, default)
+        elif isinstance(cur, list) and bit.isdigit():
+            idx = int(bit)
+            cur = cur[idx] if idx < len(cur) else default
+        else:
+            return default
+    return cur
+
+
+def items_at_path(payload: object, dotted: str) -> list[object]:
+    if not dotted:
+        return payload if isinstance(payload, list) else []
+    value = get_path(payload, dotted, [])
+    return value if isinstance(value, list) else []
+
+
+def term_hits(text: str, terms: Iterable[str]) -> list[str]:
+    haystack = text.lower()
+    hits: list[str] = []
+    for term in terms:
+        lowered = term.lower().strip()
+        if not lowered:
+            continue
+        if len(lowered) <= 3:
+            if re.search(rf"(?<![a-z0-9]){re.escape(lowered)}(?![a-z0-9])", haystack):
+                hits.append(term)
+        elif lowered in haystack:
+            hits.append(term)
+    return hits
+
+
+def bounded(value: float, lower: int = 0, upper: int = 100) -> int:
+    return max(lower, min(upper, round(value)))
+
+
+def freshness_score(published_at: str) -> int:
+    if not published_at:
+        return 45
+    try:
+        published = datetime.fromisoformat(published_at[:10]).replace(tzinfo=timezone.utc)
+    except ValueError:
+        return 45
+    age_days = max(0, (datetime.now(timezone.utc) - published).days)
+    if age_days <= 7:
+        return 100
+    if age_days <= 21:
+        return 82
+    if age_days <= 45:
+        return 58
+    if age_days <= 90:
+        return 32
+    return 12
+
+
+def role_profiles(config: dict[str, Any]) -> list[RoleProfile]:
+    profiles = []
+    for row in config.get("role_profiles", []):
+        if not isinstance(row, dict):
+            continue
+        profiles.append(RoleProfile(
+            label=clean_text(row.get("label")) or "General",
+            terms=tuple(clean_text(x) for x in row.get("terms", []) if clean_text(x)),
+            skillsets=tuple(clean_text(x) for x in row.get("skillsets", []) if clean_text(x)),
+            certifications=tuple(clean_text(x) for x in row.get("certifications", []) if clean_text(x)),
+            learning_gaps=tuple(clean_text(x) for x in row.get("learning_gaps", []) if clean_text(x)),
+        ))
+    return profiles
+
+
+def location_allowed(location: str, summary: str, config: dict[str, Any]) -> bool:
+    location_cfg = config.get("location", {}) if isinstance(config.get("location"), dict) else {}
+    include = [str(x).lower() for x in location_cfg.get("include_terms", [])]
+    exclude = [str(x).lower() for x in location_cfg.get("exclude_terms", [])]
+    combined = f"{location} {summary}".lower()
+    if any(term and term in combined for term in exclude):
+        return False
+    return not include or any(term and term in combined for term in include)
+
+
+def score_opportunity(title: str, company: str, location: str, summary: str, published_at: str, config: dict[str, Any], profiles: list[RoleProfile]) -> tuple[int, list[str], list[RoleProfile], str, str, list[str], list[str], list[str]]:
+    text = " ".join([title, company, location, summary])
+    title_hits = term_hits(title, config.get("title_terms", []))
+    exclude_hits = term_hits(text, config.get("exclude_terms", []))
+    matched: list[RoleProfile] = []
+    profile_hits_total = 0
+    tags: list[str] = []
+    for profile in profiles:
+        hits = term_hits(text, profile.terms)
+        if hits:
+            matched.append(profile)
+            profile_hits_total += min(5, len(set(hits)))
+            tags.extend([profile.label, *hits[:3]])
+    if exclude_hits:
+        penalty = 28 + 6 * len(exclude_hits)
+    else:
+        penalty = 0
+    location_fit = 100 if location_allowed(location, summary, config) else 0
+    title_score = min(100, 25 * len(set(title_hits)))
+    profile_score = min(100, 18 * profile_hits_total)
+    freshness = freshness_score(published_at)
+    score = bounded((0.46 * profile_score) + (0.22 * title_score) + (0.18 * location_fit) + (0.14 * freshness) - penalty)
+    matched_labels = ", ".join(p.label for p in matched[:3]) or "general configured focus"
+    why = f"Matches {matched_labels}; title relevance {title_score}/100, profile relevance {profile_score}/100, location fit {location_fit}/100, freshness {freshness}/100."
+    if score >= int(config.get("alert_score", 82)):
+        prefix = "Prioritize"
+    elif score >= 65:
+        prefix = "Shortlist"
+    else:
+        prefix = "Watch"
+    next_action = f"{prefix}: verify the posting is still open, then tailor your application around {matched_labels}."
+    skills: list[str] = []
+    certs: list[str] = []
+    gaps: list[str] = []
+    for profile in matched[:3] or profiles[:1]:
+        skills.extend(profile.skillsets)
+        certs.extend(profile.certifications)
+        gaps.extend(profile.learning_gaps)
+    if not skills:
+        skills = ["Build role-specific portfolio evidence, communication clarity, and measurable outcomes aligned to the configured focus."]
+    if not certs:
+        certs = ["Choose one hands-on course or credential that directly supports the role profile, then publish a small proof project."]
+    if not gaps:
+        gaps = ["Prepare concise examples that connect your experience to the role's day-to-day responsibilities."]
+    unique_tags = list(dict.fromkeys(clean_text(t).title() for t in tags if clean_text(t)))[:8]
+    return score, unique_tags, matched, why, next_action, list(dict.fromkeys(skills))[:4], list(dict.fromkeys(certs))[:3], list(dict.fromkeys(gaps))[:4]
+
+
+def build_opportunity(title: object, company: object, location: object, url: object, source: str, published_at: object, summary: object, config: dict[str, Any], profiles: list[RoleProfile]) -> Opportunity | None:
+    title_s = clean_text(title)
+    company_s = clean_text(company) or "Unknown employer"
+    location_s = clean_text(location) or "Remote"
+    url_s = str(url or "").strip()
+    summary_s = clean_text(summary, 360)
+    if not title_s or not url_s:
+        return None
+    if not location_allowed(location_s, f"{title_s} {summary_s}", config):
+        return None
+    score, tags, matched, why, action, skills, certs, gaps = score_opportunity(title_s, company_s, location_s, summary_s, clean_text(published_at)[:10], config, profiles)
+    if score <= 0:
+        return None
+    return Opportunity(
+        title=title_s,
+        company=company_s,
+        location=location_s,
+        url=url_s,
+        source=source,
+        published_at=clean_text(published_at)[:10],
+        summary=summary_s or "Matched by title, company, source, and location metadata.",
+        tags=tuple(tags),
+        score=score,
+        matched_profiles=tuple(p.label for p in matched),
+        why_match=why,
+        next_action=action,
+        skillsets_to_build=tuple(skills),
+        certifications_to_consider=tuple(certs),
+        learning_gaps=tuple(gaps),
+    )
+
+
+def source_result(name: str, fn) -> tuple[list[Opportunity], dict[str, object]]:
+    started = time.time()
+    try:
+        rows = fn()
+        return rows, {"source": name, "status": "ok", "count": len(rows), "seconds": round(time.time() - started, 2)}
+    except Exception as exc:  # noqa: BLE001
+        print(f"warn: {name}: {exc}", file=sys.stderr)
+        return [], {"source": name, "status": "error", "count": 0, "error": clean_text(exc, 160), "seconds": round(time.time() - started, 2)}
+
+
+def from_greenhouse(company: str, board: str, config: dict[str, Any], profiles: list[RoleProfile]) -> list[Opportunity]:
+    payload = fetch_json(f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true")
+    jobs: list[Opportunity] = []
+    for item in payload.get("jobs", []) if isinstance(payload, dict) else []:
+        if not isinstance(item, dict):
+            continue
+        location = clean_text((item.get("location") or {}).get("name") if isinstance(item.get("location"), dict) else item.get("location"))
+        job = build_opportunity(item.get("title"), company, location, item.get("absolute_url") or f"https://boards.greenhouse.io/{board}", "Greenhouse", item.get("updated_at") or item.get("first_published"), item.get("content"), config, profiles)
+        if job:
+            jobs.append(job)
+    return jobs
+
+
+def from_lever(company: str, slug: str, config: dict[str, Any], profiles: list[RoleProfile]) -> list[Opportunity]:
+    payload = fetch_json(f"https://api.lever.co/v0/postings/{slug}?mode=json")
+    jobs: list[Opportunity] = []
+    for item in payload if isinstance(payload, list) else []:
+        if not isinstance(item, dict):
+            continue
+        categories = item.get("categories") if isinstance(item.get("categories"), dict) else {}
+        location = categories.get("location") or item.get("workplaceType") or "Remote"
+        created_at = item.get("createdAt")
+        published = datetime.fromtimestamp(created_at / 1000, tz=timezone.utc).date().isoformat() if isinstance(created_at, int) and created_at > 0 else ""
+        job = build_opportunity(item.get("text"), company, location, item.get("hostedUrl") or item.get("applyUrl") or f"https://jobs.lever.co/{slug}", "Lever", published, item.get("descriptionPlain") or item.get("description"), config, profiles)
+        if job:
+            jobs.append(job)
+    return jobs
+
+
+def from_ashby(company: str, board: str, config: dict[str, Any], profiles: list[RoleProfile]) -> list[Opportunity]:
+    payload = fetch_json(f"https://api.ashbyhq.com/posting-api/job-board/{board}")
+    jobs: list[Opportunity] = []
+    for item in payload.get("jobs", []) if isinstance(payload, dict) else []:
+        if not isinstance(item, dict):
+            continue
+        job = build_opportunity(item.get("title"), company, item.get("location") or item.get("locationName") or "Remote", item.get("jobUrl") or item.get("externalLink") or f"https://jobs.ashbyhq.com/{board}", "Ashby", item.get("publishedDate") or item.get("createdAt"), item.get("descriptionPlain") or item.get("descriptionHtml"), config, profiles)
+        if job:
+            jobs.append(job)
+    return jobs
+
+
+def from_remotive(query: str, config: dict[str, Any], profiles: list[RoleProfile]) -> list[Opportunity]:
+    payload = fetch_json("https://remotive.com/api/remote-jobs?search=" + urllib.parse.quote(query))
+    jobs: list[Opportunity] = []
+    for item in payload.get("jobs", []) if isinstance(payload, dict) else []:
+        if not isinstance(item, dict):
+            continue
+        job = build_opportunity(item.get("title"), item.get("company_name"), item.get("candidate_required_location"), item.get("url") or item.get("job_url"), "Remotive", item.get("publication_date"), item.get("description"), config, profiles)
+        if job:
+            jobs.append(job)
+    return jobs
+
+
+def from_remoteok(config: dict[str, Any], profiles: list[RoleProfile]) -> list[Opportunity]:
+    payload = fetch_json("https://remoteok.com/api")
+    jobs: list[Opportunity] = []
+    rows = payload[1:] if isinstance(payload, list) and payload else []
+    for item in rows:
+        if not isinstance(item, dict):
+            continue
+        summary = " ".join(clean_text(t) for t in item.get("tags", []) if t) + " " + clean_text(item.get("description"), 300)
+        job = build_opportunity(item.get("position"), item.get("company"), item.get("location") or "Remote", item.get("url") or "https://remoteok.com/", "RemoteOK", item.get("date"), summary, config, profiles)
+        if job:
+            jobs.append(job)
+    return jobs
+
+
+def from_custom(feed: dict[str, Any], config: dict[str, Any], profiles: list[RoleProfile]) -> list[Opportunity]:
+    payload = fetch_json(str(feed.get("url")))
+    fields = feed.get("fields", {}) if isinstance(feed.get("fields"), dict) else {}
+    jobs: list[Opportunity] = []
+    for item in items_at_path(payload, str(feed.get("items_path", ""))):
+        if not isinstance(item, dict):
+            continue
+        job = build_opportunity(
+            get_path(item, str(fields.get("title", "title"))),
+            get_path(item, str(fields.get("company", "company"))),
+            get_path(item, str(fields.get("location", "location"))),
+            get_path(item, str(fields.get("url", "url"))),
+            clean_text(feed.get("name")) or "Custom JSON",
+            get_path(item, str(fields.get("published_at", "published_at"))),
+            get_path(item, str(fields.get("summary", "description"))),
+            config,
+            profiles,
+        )
+        if job:
+            jobs.append(job)
+    return jobs
+
+
+def stable_key(value: str) -> str:
+    digest = hashlib.sha1(value.encode("utf-8")).digest()
+    return base64.b32encode(digest).decode("ascii").rstrip("=").lower()[:18]
+
+
+def job_key(job: Opportunity) -> str:
+    company = SPACE_RE.sub(" ", re.sub(r"[^a-z0-9]+", " ", job.company.lower())).strip()
+    title = SPACE_RE.sub(" ", re.sub(r"[^a-z0-9]+", " ", job.title.lower())).strip()
+    return stable_key(f"{company}|{title}")
+
+
+def load_history() -> dict[str, dict[str, object]]:
+    if not HISTORY_OUT.exists():
+        return {}
+    try:
+        data = json.loads(HISTORY_OUT.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    rows = data.get("jobs", {}) if isinstance(data, dict) else {}
+    return rows if isinstance(rows, dict) else {}
+
+
+def status_badge_for(status: str, score: int, first_seen: str, today: str, alert_score: int) -> str:
+    if status == "New":
+        return "New this refresh"
+    if score >= alert_score:
+        return "Repeated high match"
+    if first_seen and first_seen != today:
+        return "Still open"
+    return "Watchlist"
+
+
+def apply_history(jobs: list[Opportunity], history: dict[str, dict[str, object]], today: str, alert_score: int) -> tuple[list[Opportunity], dict[str, dict[str, object]]]:
+    enriched: list[Opportunity] = []
+    for job in jobs:
+        key = job_key(job)
+        old = history.get(key, {}) if isinstance(history.get(key, {}), dict) else {}
+        first_seen = clean_text(old.get("first_seen")) or today
+        status = "Still open" if old and first_seen != today else "New"
+        badge = status_badge_for(status, job.score, first_seen, today, alert_score)
+        enriched.append(replace(job, first_seen=first_seen, last_seen=today, status=status, status_badge=badge))
+        history[key] = {"title": job.title, "company": job.company, "source": job.source, "first_seen": first_seen, "last_seen": today, "last_score": job.score}
+    return enriched, history
+
+
+def dedupe(jobs: Iterable[Opportunity]) -> list[Opportunity]:
+    best: dict[str, Opportunity] = {}
+    for job in jobs:
+        key = job_key(job)
+        existing = best.get(key)
+        if existing is None or job.score > existing.score:
+            best[key] = job
+    return sorted(best.values(), key=lambda j: (-j.score, j.company.lower(), j.title.lower()))
+
+
+def to_dict(job: Opportunity) -> dict[str, object]:
+    return {
+        "title": job.title,
+        "company": job.company,
+        "location": job.location,
+        "url": job.url,
+        "source": job.source,
+        "published_at": job.published_at,
+        "summary": job.summary,
+        "tags": list(job.tags),
+        "score": job.score,
+        "matched_profiles": list(job.matched_profiles),
+        "why_match": job.why_match,
+        "next_action": job.next_action,
+        "skillsets_to_build": list(job.skillsets_to_build),
+        "certifications_to_consider": list(job.certifications_to_consider),
+        "learning_gaps": list(job.learning_gaps),
+        "status_badge": job.status_badge,
+        "first_seen": job.first_seen,
+        "last_seen": job.last_seen,
+        "status": job.status,
+    }
+
+
+def main() -> int:
+    config = load_config()
+    profiles = role_profiles(config)
+    if not profiles:
+        raise SystemExit("config must define at least one role profile")
+    all_jobs: list[Opportunity] = []
+    health: list[dict[str, object]] = []
+    sources = config.get("sources", {}) if isinstance(config.get("sources"), dict) else {}
+
+    for row in sources.get("greenhouse", []):
+        if isinstance(row, dict):
+            jobs, h = source_result(f"Greenhouse/{row.get('company')}", lambda r=row: from_greenhouse(str(r.get("company")), str(r.get("board")), config, profiles))
+            all_jobs.extend(jobs); health.append(h); time.sleep(0.1)
+    for row in sources.get("lever", []):
+        if isinstance(row, dict):
+            jobs, h = source_result(f"Lever/{row.get('company')}", lambda r=row: from_lever(str(r.get("company")), str(r.get("slug")), config, profiles))
+            all_jobs.extend(jobs); health.append(h); time.sleep(0.1)
+    for row in sources.get("ashby", []):
+        if isinstance(row, dict):
+            jobs, h = source_result(f"Ashby/{row.get('company')}", lambda r=row: from_ashby(str(r.get("company")), str(r.get("board")), config, profiles))
+            all_jobs.extend(jobs); health.append(h); time.sleep(0.1)
+    for query in sources.get("remotive_queries", []):
+        jobs, h = source_result(f"Remotive/{query}", lambda q=str(query): from_remotive(q, config, profiles))
+        all_jobs.extend(jobs); health.append(h); time.sleep(0.1)
+    if sources.get("remoteok"):
+        jobs, h = source_result("RemoteOK", lambda: from_remoteok(config, profiles))
+        all_jobs.extend(jobs); health.append(h)
+    for row in sources.get("custom_json", []):
+        if isinstance(row, dict) and row.get("url"):
+            jobs, h = source_result(f"Custom/{row.get('name', row.get('url'))}", lambda r=row: from_custom(r, config, profiles))
+            all_jobs.extend(jobs); health.append(h); time.sleep(0.1)
+
+    now_dt = datetime.now(timezone.utc).replace(microsecond=0)
+    now = now_dt.isoformat().replace("+00:00", "Z")
+    today = now_dt.date().isoformat()
+    alert_score = int(config.get("alert_score", 82))
+    ranked = dedupe(all_jobs)
+    ranked, history = apply_history(ranked, load_history(), today, alert_score)
+    ranked = sorted(ranked, key=lambda j: (0 if j.status == "New" and j.score >= alert_score else 1, -j.score, j.company.lower(), j.title.lower()))
+    max_items = int(config.get("max_items", 12))
+    published = ranked[:max_items]
+    alerts = [job for job in ranked if job.score >= alert_score][:6]
+    data = {
+        "title": clean_text(config.get("title")) or "Opportunity Radar",
+        "updated_at": now,
+        "search_focus": clean_text(config.get("search_focus"), 500),
+        "sources": [h["source"] for h in health],
+        "source_health": health,
+        "stats": {"candidates_scored": len(ranked), "published_count": len(published), "alert_count": len(alerts)},
+        "alerts": [to_dict(job) for job in alerts],
+        "jobs": [to_dict(job) for job in published],
+    }
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    HISTORY_OUT.write_text(json.dumps({"updated_at": now, "jobs": history}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"wrote {len(published)} published opportunities from {len(ranked)} scored candidates to {OUT}")
+    print(f"alerts={len(alerts)} sources_ok={sum(1 for h in health if h.get('status') == 'ok')}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

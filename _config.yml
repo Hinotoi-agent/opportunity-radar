@@ -1,0 +1,12 @@
+title: Opportunity Radar
+description: A configurable static job/opportunity radar for any career focus.
+url: ""
+baseurl: ""
+markdown: kramdown
+sass:
+  style: compressed
+exclude:
+  - scripts/
+  - config/
+  - README.md
+  - LICENSE
