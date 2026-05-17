@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate generated Opportunity Radar data before publishing."""
+"""Validate generated Merlion Radar data before publishing."""
 from __future__ import annotations
 
 import json

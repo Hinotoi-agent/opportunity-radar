@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "config" / "opportunity_radar.json"
 OUT = ROOT / "_data" / "opportunities.json"
 HISTORY_OUT = ROOT / "_data" / "opportunities_history.json"
-USER_AGENT = "OpportunityRadar/1.0 (+https://github.com/Hinotoi-agent/opportunity-radar)"
+USER_AGENT = "MerlionRadar/1.0 (+https://github.com/Hinotoi-agent/merlion-radar)"
 TAG_RE = re.compile(r"<[^>]+>")
 SPACE_RE = re.compile(r"\s+")
 
@@ -905,7 +905,7 @@ def main() -> int:
     published = enrich_jobs_with_llm(select_published_jobs(ranked, max_items, config), config)
     alerts = [job for job in ranked if job.score >= alert_score][:6]
     data = {
-        "title": clean_text(config.get("title")) or "Opportunity Radar",
+        "title": clean_text(config.get("title")) or "Merlion Radar",
         "updated_at": now,
         "search_focus": clean_text(config.get("search_focus"), 500),
         "sources": [h["source"] for h in health],

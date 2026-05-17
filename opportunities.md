@@ -7,7 +7,7 @@ permalink: /opportunities/
 {% assign data = site.data.opportunities %}
 <section class="page-header">
   <p class="eyebrow">Updated {{ data.updated_at | default: "not yet" }}</p>
-  <h1>{{ data.title | default: "Opportunity Radar" }}</h1>
+  <h1>{{ data.title | default: "Merlion Radar" }}</h1>
   <p>{{ data.search_focus }}</p>
 </section>
 
