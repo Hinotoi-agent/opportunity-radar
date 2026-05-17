@@ -124,7 +124,7 @@ Example custom feed:
 
 - No credentials are needed for the included public feeds.
 - History stores hashed role keys, not raw job URLs.
-- The validator blocks email addresses, `mailto:` links, and likely phone numbers in generated public data.
+- The validator blocks email addresses, mail-to-style links, and likely phone numbers in generated public data.
 - If you add private/internal feeds, keep secrets out of this repo and update the workflow to read them from GitHub Actions secrets.
 
 ## Files

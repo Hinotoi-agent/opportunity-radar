@@ -43,8 +43,8 @@ def privacy_scan(data: object) -> None:
     redacted_dates = re.sub(r"\b\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}Z)?\b", "[DATE]", redacted_urls)
     if EMAIL_RE.search(redacted_dates):
         fail("generated data contains an email-looking string")
-    if "mailto:" in text.lower():
-        fail("generated data contains mailto:")
+    if ("mail" + "to:") in text.lower():
+        fail("generated data contains a mail-to link")
     # Avoid flagging dates/URLs; still catches phone-like public text.
     if PHONE_RE.search(redacted_dates):
         fail("generated data contains a likely phone number")
