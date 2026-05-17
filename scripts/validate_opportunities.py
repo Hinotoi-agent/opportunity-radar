@@ -13,6 +13,7 @@ HISTORY = ROOT / "_data" / "opportunities_history.json"
 CONFIG = ROOT / "config" / "opportunity_radar.json"
 EMAIL_RE = re.compile(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", re.I)
 PHONE_RE = re.compile(r"(?<!\d)(?:\+?\d[\s().-]*){8,}(?!\d)")
+SECRET_VALUE_RE = re.compile(r"(?i)(sk-[a-z0-9_-]{16,}|gh[pousr]_[a-z0-9_]{20,}|bearer\s+[a-z0-9._-]{20,})")
 ALLOWED_BADGES = {"New this refresh", "Still open", "Repeated high match", "Watchlist"}
 
 
@@ -47,6 +48,31 @@ def privacy_scan(data: object) -> None:
     # Avoid flagging dates/URLs; still catches phone-like public text.
     if PHONE_RE.search(redacted_dates):
         fail("generated data contains a likely phone number")
+    if SECRET_VALUE_RE.search(text):
+        fail("generated data contains a token/API-key-looking value")
+
+
+def config_secret_scan(config: object) -> None:
+    """Reject committed secret values; configs must name env vars instead."""
+    if not isinstance(config, dict):
+        fail("config must be an object")
+    text = json.dumps(config, ensure_ascii=False)
+    if SECRET_VALUE_RE.search(text):
+        fail("config contains a token/API-key-looking value; use an *_env setting and GitHub Actions secrets")
+
+    def walk(value: object, path: str = "config") -> None:
+        if isinstance(value, dict):
+            for key, item in value.items():
+                lowered = str(key).lower()
+                child = f"{path}.{key}"
+                if lowered in {"api_key", "apikey", "secret", "token", "password"} and item:
+                    fail(f"{child} must not store a secret value; store an environment variable name such as api_key_env instead")
+                walk(item, child)
+        elif isinstance(value, list):
+            for idx, item in enumerate(value):
+                walk(item, f"{path}[{idx}]")
+
+    walk(config)
 
 
 def main() -> int:
@@ -54,6 +80,7 @@ def main() -> int:
         fail(f"missing {DATA}")
     data = load(DATA)
     config = load(CONFIG)
+    config_secret_scan(config)
     if not isinstance(data, dict):
         fail("data must be an object")
     jobs = data.get("jobs")

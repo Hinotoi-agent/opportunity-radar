@@ -17,6 +17,7 @@ It is intentionally **not limited to AI security**. Configure it for software en
   - learning gaps to close
 - Keeps privacy-safe history keys so trend badges do not require storing raw job URLs in history.
 - Runs in GitHub Actions with Python standard library only; no secrets required for public feeds.
+- Optional LLM enrichment works with OpenAI-compatible endpoints, Anthropic, Gemini, or any compatible gateway, using environment-variable secrets only.
 
 ## Quick start
 
@@ -52,6 +53,42 @@ Each `role_profiles` entry defines what you care about:
 ```
 
 You can add any domain. The generator treats profiles as scoring dimensions and learning-plan templates.
+
+## Optional LLM enrichment
+
+The radar does **not** require an LLM or API key. By default, `config/opportunity_radar.json` has `llm.enabled` set to `false`, and the deterministic profile guidance is used.
+
+If you want model-generated guidance, enable the `llm` block and store the real key outside the repo as an environment variable or GitHub Actions secret. The config should contain only the variable name, never the secret value:
+
+```json
+"llm": {
+  "enabled": true,
+  "provider": "openai_compatible",
+  "model": "gpt-4o-mini",
+  "base_url": "https://api.openai.com/v1",
+  "api_key_env": "OPENAI_API_KEY",
+  "max_items_to_enrich": 6
+}
+```
+
+Supported providers:
+
+- `openai_compatible`: OpenAI, OpenRouter, Together, Fireworks, local gateways, or any `/chat/completions` compatible endpoint. Set `base_url` and `model` for your provider.
+- `anthropic`: uses `/v1/messages`; set `model` such as a Claude model and `api_key_env` such as `ANTHROPIC_API_KEY`.
+- `gemini`: uses Google Generative Language `generateContent`; set `model` such as `gemini-1.5-flash` and `api_key_env` such as `GEMINI_API_KEY`.
+
+For GitHub Actions, add the key in **Settings → Secrets and variables → Actions**, then expose it to the generate step, for example:
+
+```yaml
+env:
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+```
+
+Security guardrails:
+
+- Do not commit literal API keys, bearer tokens, passwords, or private feed credentials.
+- The validator rejects token/API-key-looking values and config fields such as `api_key`, `token`, `secret`, or `password` when they contain values.
+- LLM output is still validated for required fields and public-data privacy constraints before publishing.
 
 ## Add sources
 

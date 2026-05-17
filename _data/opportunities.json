@@ -1,6 +1,6 @@
 {
   "title": "Opportunity Radar",
-  "updated_at": "2026-05-17T06:50:01Z",
+  "updated_at": "2026-05-17T07:04:08Z",
   "search_focus": "Configurable public opportunity radar for software engineering, data/AI, product, security, research, leadership, and adjacent roles.",
   "sources": [
     "Greenhouse/GitLab",
@@ -22,79 +22,79 @@
       "source": "Greenhouse/GitLab",
       "status": "ok",
       "count": 180,
-      "seconds": 0.45
+      "seconds": 0.4
     },
     {
       "source": "Greenhouse/Stripe",
       "status": "ok",
       "count": 124,
-      "seconds": 0.51
+      "seconds": 0.6
     },
     {
       "source": "Greenhouse/Cloudflare",
       "status": "ok",
       "count": 2,
-      "seconds": 0.48
+      "seconds": 0.58
     },
     {
       "source": "Lever/Mistral AI",
       "status": "ok",
       "count": 11,
-      "seconds": 0.48
+      "seconds": 2.78
     },
     {
       "source": "Ashby/OpenAI",
       "status": "ok",
       "count": 115,
-      "seconds": 5.24
+      "seconds": 0.23
     },
     {
       "source": "Ashby/Cursor",
       "status": "ok",
       "count": 11,
-      "seconds": 0.19
+      "seconds": 0.08
     },
     {
       "source": "Ashby/Modal",
       "status": "ok",
       "count": 0,
-      "seconds": 0.37
+      "seconds": 0.07
     },
     {
       "source": "Remotive/software engineer remote",
       "status": "ok",
       "count": 8,
-      "seconds": 0.05
+      "seconds": 0.06
     },
     {
       "source": "Remotive/data engineer remote",
       "status": "ok",
       "count": 8,
-      "seconds": 0.03
+      "seconds": 0.06
     },
     {
       "source": "Remotive/product manager remote",
       "status": "ok",
       "count": 8,
-      "seconds": 0.03
+      "seconds": 0.07
     },
     {
       "source": "Remotive/security engineer remote",
       "status": "ok",
       "count": 8,
-      "seconds": 0.03
+      "seconds": 0.06
     },
     {
       "source": "Remotive/designer remote",
       "status": "ok",
       "count": 8,
-      "seconds": 0.03
+      "seconds": 0.08
     },
     {
       "source": "RemoteOK",
       "status": "ok",
       "count": 75,
-      "seconds": 0.09
+      "seconds": 0.08
     }
   ],
   "stats": {

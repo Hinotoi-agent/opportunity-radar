@@ -10,6 +10,15 @@
   "search_focus": "Configurable public opportunity radar for software engineering, data/AI, product, security, research, leadership, and adjacent roles.",
   "title_terms": ["engineer", "developer", "architect", "manager", "lead", "researcher", "scientist", "analyst", "designer", "product"],
   "exclude_terms": ["sales", "account executive", "customer success", "recruiter", "internship", "office manager"],
+  "llm": {
+    "enabled": false,
+    "provider": "openai_compatible",
+    "model": "gpt-4o-mini",
+    "base_url": "https://api.openai.com/v1",
+    "api_key_env": "OPENAI_API_KEY",
+    "max_items_to_enrich": 6,
+    "timeout_seconds": 30
+  },
   "role_profiles": [
     {
       "label": "Software Engineering",

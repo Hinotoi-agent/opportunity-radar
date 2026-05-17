@@ -9,9 +9,11 @@ import base64
 import hashlib
 import html
 import json
+import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass, replace
@@ -87,6 +89,120 @@ def fetch_json(url: str, extra_headers: dict[str, str] | None = None) -> object:
     req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=25) as response:
         return json.load(response)
+
+
+def post_json(url: str, payload: dict[str, object], headers: dict[str, str], timeout: int) -> object:
+    body = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(url, data=body, method="POST", headers={
+        "User-Agent": USER_AGENT,
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        **headers,
+    })
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        return json.load(response)
+
+
+def extract_json_object(text: str) -> dict[str, object]:
+    text = text.strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```(?:json)?\s*", "", text)
+        text = re.sub(r"\s*```$", "", text)
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        start = text.find("{")
+        end = text.rfind("}")
+        if start == -1 or end == -1 or end <= start:
+            return {}
+        try:
+            data = json.loads(text[start:end + 1])
+        except json.JSONDecodeError:
+            return {}
+    return data if isinstance(data, dict) else {}
+
+
+def compact_list(value: object, limit: int, item_limit: int = 180) -> tuple[str, ...]:
+    if not isinstance(value, list):
+        return ()
+    rows: list[str] = []
+    for item in value:
+        cleaned = clean_text(item, item_limit)
+        if cleaned:
+            rows.append(cleaned)
+    return tuple(dict.fromkeys(rows))[:limit]
+
+
+def llm_settings(config: dict[str, Any]) -> dict[str, Any]:
+    raw = config.get("llm", {}) if isinstance(config.get("llm"), dict) else {}
+    return raw if isinstance(raw, dict) else {}
+
+
+def llm_enrichment_enabled(config: dict[str, Any]) -> bool:
+    settings = llm_settings(config)
+    if not settings.get("enabled"):
+        return False
+    env_name = clean_text(settings.get("api_key_env"))
+    if not env_name:
+        print("warn: llm.enabled is true but llm.api_key_env is empty; using deterministic guidance", file=sys.stderr)
+        return False
+    if not os.environ.get(env_name):
+        print(f"warn: {env_name} is not set; using deterministic guidance", file=sys.stderr)
+        return False
+    return True
+
+
+def call_llm(prompt: str, config: dict[str, Any]) -> dict[str, object]:
+    settings = llm_settings(config)
+    provider = clean_text(settings.get("provider")).lower() or "openai_compatible"
+    model = clean_text(settings.get("model"))
+    env_name = clean_text(settings.get("api_key_env"))
+    credential = os.environ.get(env_name, "")
+    timeout = int(settings.get("timeout_seconds", 30) or 30)
+    if not credential or not model:
+        return {}
+
+    if provider in {"openai", "openai_compatible"}:
+        base_url = clean_text(settings.get("base_url")) or "https://api.openai.com/v1"
+        payload = {
+            "model": model,
+            "temperature": 0.2,
+            "messages": [
+                {"role": "system", "content": "Return only compact JSON. Never include emails, phone numbers, secrets, URLs, markdown, or code fences."},
+                {"role": "user", "content": prompt},
+            ],
+            "response_format": {"type": "json_object"},
+        }
+        data = post_json(base_url.rstrip("/") + "/chat/completions", payload, {"Authorization": f"Bearer {credential}"}, timeout)
+        content = get_path(data, "choices.0.message.content", "")
+        return extract_json_object(str(content))
+
+    if provider == "anthropic":
+        base_url = clean_text(settings.get("base_url")) or "https://api.anthropic.com/v1"
+        payload = {
+            "model": model,
+            "max_tokens": int(settings.get("max_tokens", 700) or 700),
+            "temperature": 0.2,
+            "system": "Return only compact JSON. Never include emails, phone numbers, secrets, URLs, markdown, or code fences.",
+            "messages": [{"role": "user", "content": prompt}],
+        }
+        data = post_json(base_url.rstrip("/") + "/messages", payload, {"x-api-key": credential, "anthropic-version": "2023-06-01"}, timeout)
+        content = get_path(data, "content.0.text", "")
+        return extract_json_object(str(content))
+
+    if provider == "gemini":
+        base_url = clean_text(settings.get("base_url")) or "https://generativelanguage.googleapis.com/v1beta"
+        endpoint = f"{base_url.rstrip('/')}/models/{urllib.parse.quote(model, safe='')}:generateContent?key={urllib.parse.quote(credential)}"
+        payload = {
+            "contents": [{"role": "user", "parts": [{"text": "Return only compact JSON. Never include emails, phone numbers, secrets, URLs, markdown, or code fences.\n\n" + prompt}]}],
+            "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"},
+        }
+        data = post_json(endpoint, payload, {}, timeout)
+        content = get_path(data, "candidates.0.content.parts.0.text", "")
+        return extract_json_object(str(content))
+
+    print(f"warn: unsupported llm.provider {provider!r}; using deterministic guidance", file=sys.stderr)
+    return {}
 
 
 def get_path(row: object, dotted: str, default: object = "") -> object:
@@ -431,6 +547,64 @@ def to_dict(job: Opportunity) -> dict[str, object]:
     }
 
 
+def llm_prompt(job: Opportunity, config: dict[str, Any]) -> str:
+    return json.dumps({
+        "task": "Personalize career action guidance for a public static opportunity radar card.",
+        "rules": [
+            "Return JSON only with keys: next_action, skillsets_to_build, certifications_to_consider, learning_gaps.",
+            "Do not include URLs, emails, phone numbers, secrets, private contact details, or markdown.",
+            "Keep every list item concise, practical, and applicable to the role.",
+            "Use the configured search focus and matched profiles; do not invent private facts about the employer.",
+        ],
+        "search_focus": clean_text(config.get("search_focus"), 500),
+        "opportunity": {
+            "title": job.title,
+            "company": job.company,
+            "location": job.location,
+            "source": job.source,
+            "summary": job.summary,
+            "score": job.score,
+            "matched_profiles": list(job.matched_profiles),
+            "why_match": job.why_match,
+            "existing_next_action": job.next_action,
+            "existing_skillsets_to_build": list(job.skillsets_to_build),
+            "existing_certifications_to_consider": list(job.certifications_to_consider),
+            "existing_learning_gaps": list(job.learning_gaps),
+        },
+    }, ensure_ascii=False)
+
+
+def enrich_jobs_with_llm(jobs: list[Opportunity], config: dict[str, Any]) -> list[Opportunity]:
+    if not llm_enrichment_enabled(config):
+        return jobs
+    settings = llm_settings(config)
+    max_items = max(0, int(settings.get("max_items_to_enrich", 6) or 6))
+    enriched: list[Opportunity] = []
+    for idx, job in enumerate(jobs):
+        if idx >= max_items:
+            enriched.append(job)
+            continue
+        try:
+            data = call_llm(llm_prompt(job, config), config)
+        except (urllib.error.URLError, TimeoutError, OSError, ValueError, json.JSONDecodeError) as exc:
+            print(f"warn: llm enrichment failed for {job.company}/{job.title}: {clean_text(exc, 120)}", file=sys.stderr)
+            enriched.append(job)
+            continue
+        next_action = clean_text(data.get("next_action"), 220) or job.next_action
+        skills = compact_list(data.get("skillsets_to_build"), 4) or job.skillsets_to_build
+        certs = compact_list(data.get("certifications_to_consider"), 3) or job.certifications_to_consider
+        gaps = compact_list(data.get("learning_gaps"), 4) or job.learning_gaps
+        enriched.append(replace(
+            job,
+            next_action=next_action,
+            skillsets_to_build=tuple(skills),
+            certifications_to_consider=tuple(certs),
+            learning_gaps=tuple(gaps),
+        ))
+        time.sleep(float(settings.get("request_delay_seconds", 0.2) or 0.2))
+    return enriched
+
+
 def main() -> int:
     config = load_config()
     profiles = role_profiles(config)
@@ -471,7 +645,7 @@ def main() -> int:
     ranked, history = apply_history(ranked, load_history(), today, alert_score)
     ranked = sorted(ranked, key=lambda j: (0 if j.status == "New" and j.score >= alert_score else 1, -j.score, j.company.lower(), j.title.lower()))
     max_items = int(config.get("max_items", 12))
-    published = ranked[:max_items]
+    published = enrich_jobs_with_llm(ranked[:max_items], config)
     alerts = [job for job in ranked if job.score >= alert_score][:6]
     data = {
         "title": clean_text(config.get("title")) or "Opportunity Radar",
