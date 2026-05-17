@@ -1,6 +1,6 @@
 {
   "title": "Opportunity Radar",
-  "updated_at": "2026-05-17T07:51:01Z",
+  "updated_at": "2026-05-17T08:07:36Z",
   "search_focus": "Configurable public opportunity radar for software engineering, data/AI, product, security, research, leadership, and adjacent roles.",
   "sources": [
     "Greenhouse/GitLab",
@@ -33,139 +33,139 @@
       "source": "Greenhouse/GitLab",
       "status": "ok",
       "count": 0,
-      "seconds": 0.79
+      "seconds": 0.39
     },
     {
       "source": "Greenhouse/Stripe",
       "status": "ok",
       "count": 25,
-      "seconds": 0.65
+      "seconds": 0.86
     },
     {
       "source": "Greenhouse/Cloudflare",
       "status": "ok",
       "count": 0,
-      "seconds": 0.82
+      "seconds": 0.36
     },
     {
       "source": "Greenhouse/GovTech Singapore",
       "status": "ok",
       "count": 184,
-      "seconds": 0.41
+      "seconds": 1.04
     },
     {
       "source": "Greenhouse/OKX",
       "status": "ok",
       "count": 113,
-      "seconds": 0.88
+      "seconds": 0.46
     },
     {
       "source": "Greenhouse/Databricks",
       "status": "ok",
       "count": 19,
-      "seconds": 1.01
+      "seconds": 1.29
     },
     {
       "source": "Greenhouse/Figma",
       "status": "ok",
       "count": 5,
-      "seconds": 0.37
+      "seconds": 0.56
     },
     {
       "source": "Greenhouse/Anthropic",
       "status": "ok",
       "count": 3,
-      "seconds": 0.94
+      "seconds": 0.93
     },
     {
       "source": "Lever/Mistral AI",
       "status": "ok",
       "count": 10,
-      "seconds": 4.24
+      "seconds": 6.02
     },
     {
       "source": "Ashby/OpenAI",
       "status": "ok",
       "count": 21,
-      "seconds": 1.24
+      "seconds": 20.53
     },
     {
       "source": "Ashby/Cursor",
       "status": "ok",
       "count": 3,
-      "seconds": 0.51
+      "seconds": 0.05
     },
     {
       "source": "Ashby/Modal",
       "status": "ok",
       "count": 0,
-      "seconds": 0.34
+      "seconds": 0.06
     },
     {
       "source": "Ashby/Airwallex",
       "status": "ok",
       "count": 216,
-      "seconds": 1.04
+      "seconds": 0.61
     },
     {
       "source": "MyCareersFuture/software engineer",
       "status": "ok",
       "count": 8,
-      "seconds": 0.13
+      "seconds": 0.12
     },
     {
       "source": "MyCareersFuture/data engineer",
       "status": "ok",
       "count": 8,
-      "seconds": 0.13
+      "seconds": 0.1
     },
     {
       "source": "MyCareersFuture/machine learning engineer",
       "status": "ok",
       "count": 13,
-      "seconds": 0.13
+      "seconds": 0.11
     },
     {
       "source": "MyCareersFuture/ai engineer",
       "status": "ok",
       "count": 10,
-      "seconds": 0.12
+      "seconds": 0.1
     },
     {
       "source": "MyCareersFuture/cybersecurity engineer",
       "status": "ok",
       "count": 3,
-      "seconds": 0.12
+      "seconds": 0.09
     },
     {
       "source": "MyCareersFuture/application security",
       "status": "ok",
       "count": 15,
-      "seconds": 0.14
+      "seconds": 0.12
     },
     {
       "source": "MyCareersFuture/product manager",
       "status": "ok",
       "count": 8,
-      "seconds": 0.13
+      "seconds": 0.12
     },
     {
       "source": "MyCareersFuture/technical program manager",
       "status": "ok",
       "count": 17,
-      "seconds": 0.1
+      "seconds": 0.09
     },
     {
       "source": "MyCareersFuture/ux designer",
       "status": "ok",
       "count": 4,
-      "seconds": 0.12
+      "seconds": 0.11
     },
     {
       "source": "MyCareersFuture/platform engineer",
       "status": "ok",
       "count": 11,
-      "seconds": 0.13
+      "seconds": 0.12
     },
     {
       "source": "Custom/Custom Singapore/APAC feed",
