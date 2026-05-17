@@ -1,7 +1,7 @@
 title: Opportunity Radar
 description: A configurable static job/opportunity radar for any career focus.
-url: ""
-baseurl: ""
+url: "https://hinotoi-agent.github.io"
+baseurl: "/opportunity-radar"
 markdown: kramdown
 sass:
   style: compressed
