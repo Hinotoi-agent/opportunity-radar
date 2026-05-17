@@ -1,15 +1,63 @@
 {
   "title": "Opportunity Radar",
   "site_url": "https://hinotoi-agent.github.io/opportunity-radar/",
-  "max_items": 12,
+  "max_items": 18,
   "alert_score": 82,
   "location": {
-    "include_terms": ["remote", "worldwide", "global", "apac", "singapore", "asia"],
-    "exclude_terms": ["us only", "united states only", "canada only"]
+    "include_terms": [
+      "singapore",
+      "singaporean",
+      "singaporeans",
+      "singapore pr",
+      "apac",
+      "asia pacific",
+      "southeast asia",
+      "south east asia",
+      "asean",
+      "asia"
+    ],
+    "exclude_terms": [
+      "remote",
+      "remote us",
+      "remote, us",
+      "us remote",
+      "us",
+      "usa",
+      "u.s.",
+      "united states",
+      "canada",
+      "americas",
+      "north america",
+      "latin america",
+      "emea only",
+      "europe only"
+    ]
   },
   "search_focus": "Configurable public opportunity radar for software engineering, data/AI, product, security, research, leadership, and adjacent roles.",
-  "title_terms": ["engineer", "developer", "architect", "manager", "lead", "researcher", "scientist", "analyst", "designer", "product"],
-  "exclude_terms": ["sales", "account executive", "customer success", "recruiter", "internship", "office manager"],
+  "title_terms": [
+    "engineer",
+    "developer",
+    "architect",
+    "manager",
+    "lead",
+    "researcher",
+    "scientist",
+    "analyst",
+    "designer",
+    "product"
+  ],
+  "exclude_terms": [
+    "sales",
+    "account executive",
+    "customer success",
+    "recruiter",
+    "internship",
+    "office manager",
+    "remote us",
+    "usa only",
+    "canada only",
+    "americas only"
+  ],
   "llm": {
     "enabled": false,
     "provider": "openai_compatible",
@@ -22,56 +70,225 @@
   "role_profiles": [
     {
       "label": "Software Engineering",
-      "terms": ["software engineer", "backend", "frontend", "full stack", "platform", "distributed systems", "developer tools", "api"],
-      "skillsets": ["System design, production debugging, API design, automated testing, and maintainable service ownership."],
-      "certifications": ["Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project."],
-      "learning_gaps": ["Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions."]
+      "terms": [
+        "software engineer",
+        "backend",
+        "frontend",
+        "full stack",
+        "platform",
+        "distributed systems",
+        "developer tools",
+        "api"
+      ],
+      "skillsets": [
+        "System design, production debugging, API design, automated testing, and maintainable service ownership."
+      ],
+      "certifications": [
+        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project."
+      ],
+      "learning_gaps": [
+        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions."
+      ]
     },
     {
       "label": "Data / AI Engineering",
-      "terms": ["machine learning", "data platform", "data engineer", "mlops", "llm", "analytics engineering", "model evaluation"],
-      "skillsets": ["Data pipelines, model evaluation, feature stores or embeddings, deployment, monitoring, and cost/performance tradeoffs."],
-      "certifications": ["Cloud data/ML engineer certification aligned to the employer stack, or a hands-on MLOps specialization."],
-      "learning_gaps": ["Publish an end-to-end data or ML project with ingestion, evaluation, deployment, and monitoring evidence."]
+      "terms": [
+        "machine learning",
+        "data platform",
+        "data engineer",
+        "mlops",
+        "llm",
+        "analytics engineering",
+        "model evaluation"
+      ],
+      "skillsets": [
+        "Data pipelines, model evaluation, feature stores or embeddings, deployment, monitoring, and cost/performance tradeoffs."
+      ],
+      "certifications": [
+        "Cloud data/ML engineer certification aligned to the employer stack, or a hands-on MLOps specialization."
+      ],
+      "learning_gaps": [
+        "Publish an end-to-end data or ML project with ingestion, evaluation, deployment, and monitoring evidence."
+      ]
     },
     {
       "label": "Product / Program Leadership",
-      "terms": ["product manager", "program manager", "strategy", "roadmap", "go-to-market", "stakeholder", "principal", "lead"],
-      "skillsets": ["Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."],
-      "certifications": ["Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."],
-      "learning_gaps": ["Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."]
+      "terms": [
+        "product manager",
+        "program manager",
+        "strategy",
+        "roadmap",
+        "go-to-market",
+        "stakeholder",
+        "principal",
+        "lead"
+      ],
+      "skillsets": [
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
+      ],
+      "certifications": [
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
+      ],
+      "learning_gaps": [
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
+      ]
     },
     {
       "label": "Cybersecurity / Trust",
-      "terms": ["security", "cybersecurity", "appsec", "product security", "incident response", "threat", "risk", "privacy", "trust and safety"],
-      "skillsets": ["Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."],
-      "certifications": ["Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."],
-      "learning_gaps": ["Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."]
+      "terms": [
+        "security",
+        "cybersecurity",
+        "appsec",
+        "product security",
+        "incident response",
+        "threat",
+        "risk",
+        "privacy",
+        "trust and safety"
+      ],
+      "skillsets": [
+        "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
+      ],
+      "certifications": [
+        "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."
+      ],
+      "learning_gaps": [
+        "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
+      ]
     },
     {
       "label": "Design / UX Research",
-      "terms": ["product designer", "ux", "user research", "design systems", "interaction design", "content design"],
-      "skillsets": ["Portfolio storytelling, user research synthesis, interaction flows, design systems, accessibility, and product impact measurement."],
-      "certifications": ["Accessibility training such as WCAG-focused coursework if the role emphasizes inclusive design or design systems."],
-      "learning_gaps": ["Prepare case studies that connect user evidence to product decisions and measurable outcomes."]
+      "terms": [
+        "product designer",
+        "ux",
+        "user research",
+        "design systems",
+        "interaction design",
+        "content design"
+      ],
+      "skillsets": [
+        "Portfolio storytelling, user research synthesis, interaction flows, design systems, accessibility, and product impact measurement."
+      ],
+      "certifications": [
+        "Accessibility training such as WCAG-focused coursework if the role emphasizes inclusive design or design systems."
+      ],
+      "learning_gaps": [
+        "Prepare case studies that connect user evidence to product decisions and measurable outcomes."
+      ]
     }
   ],
   "sources": {
     "greenhouse": [
-      {"company": "GitLab", "board": "gitlab"},
-      {"company": "Stripe", "board": "stripe"},
-      {"company": "Cloudflare", "board": "cloudflare"}
+      {
+        "company": "GitLab",
+        "board": "gitlab"
+      },
+      {
+        "company": "Stripe",
+        "board": "stripe"
+      },
+      {
+        "company": "Cloudflare",
+        "board": "cloudflare"
+      },
+      {
+        "company": "GovTech Singapore",
+        "board": "govtech"
+      },
+      {
+        "company": "OKX",
+        "board": "okx"
+      },
+      {
+        "company": "Databricks",
+        "board": "databricks"
+      },
+      {
+        "company": "Figma",
+        "board": "figma"
+      },
+      {
+        "company": "Anthropic",
+        "board": "anthropic"
+      }
     ],
     "lever": [
-      {"company": "Mistral AI", "slug": "mistral"}
+      {
+        "company": "Mistral AI",
+        "slug": "mistral"
+      }
     ],
     "ashby": [
-      {"company": "OpenAI", "board": "openai"},
-      {"company": "Cursor", "board": "cursor"},
-      {"company": "Modal", "board": "modal"}
+      {
+        "company": "OpenAI",
+        "board": "openai"
+      },
+      {
+        "company": "Cursor",
+        "board": "cursor"
+      },
+      {
+        "company": "Modal",
+        "board": "modal"
+      },
+      {
+        "company": "Airwallex",
+        "board": "airwallex"
+      }
     ],
-    "remotive_queries": ["software engineer remote", "data engineer remote", "product manager remote", "security engineer remote", "designer remote"],
-    "remoteok": true,
-    "custom_json": []
+    "remotive_queries": [],
+    "remoteok": false,
+    "mycareersfuture_limit": 50,
+    "mycareersfuture_queries": [
+      "software engineer",
+      "data engineer",
+      "machine learning engineer",
+      "ai engineer",
+      "cybersecurity engineer",
+      "application security",
+      "product manager",
+      "technical program manager",
+      "ux designer",
+      "platform engineer"
+    ],
+    "custom_json": [
+      {
+        "name": "Custom Singapore/APAC feed",
+        "path": "config/custom_opportunities.json",
+        "optional": true,
+        "items_path": "jobs",
+        "defaults": {
+          "location": "Singapore / APAC"
+        },
+        "fields": {
+          "title": "title",
+          "company": "company",
+          "location": "location",
+          "url": "url",
+          "summary_fields": [
+            "summary",
+            "description",
+            "tags"
+          ],
+          "published_at": "published_at"
+        }
+      }
+    ]
+  },
+  "source_boosts": {
+    "MyCareersFuture": 18,
+    "GovTech": 16,
+    "Airwallex": 12,
+    "OKX": 10,
+    "Singapore": 10,
+    "APAC": 8,
+    "Custom Singapore/APAC": 14
+  },
+  "source_minimums": {
+    "MyCareersFuture": 5,
+    "GovTech": 2,
+    "Airwallex": 2,
+    "OKX": 1,
+    "Singapore": 8
   }
 }

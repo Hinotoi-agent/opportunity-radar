@@ -225,19 +225,43 @@ def items_at_path(payload: object, dotted: str) -> list[object]:
     return value if isinstance(value, list) else []
 
 
-def term_hits(text: str, terms: Iterable[str]) -> list[str]:
+def term_matches(text: str, term: object) -> bool:
+    lowered = clean_text(term).lower()
+    if not lowered:
+        return False
     haystack = text.lower()
+    if len(lowered) <= 3 or re.fullmatch(r"[a-z0-9]+", lowered):
+        return re.search(rf"(?<![a-z0-9]){re.escape(lowered)}(?![a-z0-9])", haystack) is not None
+    return lowered in haystack
+
+
+def term_hits(text: str, terms: Iterable[str]) -> list[str]:
     hits: list[str] = []
     for term in terms:
-        lowered = term.lower().strip()
-        if not lowered:
-            continue
-        if len(lowered) <= 3:
-            if re.search(rf"(?<![a-z0-9]){re.escape(lowered)}(?![a-z0-9])", haystack):
-                hits.append(term)
-        elif lowered in haystack:
+        if term_matches(text, term):
             hits.append(term)
     return hits
+
+
+def numeric_config(config: dict[str, Any], dotted: str, default: int = 0) -> int:
+    value = get_path(config, dotted, default)
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def source_boost(source: str, company: str, config: dict[str, Any]) -> int:
+    boosts = config.get("source_boosts", {}) if isinstance(config.get("source_boosts"), dict) else {}
+    combined = f"{source} {company}".lower()
+    total = 0
+    for label, value in boosts.items():
+        if term_matches(combined, label):
+            try:
+                total += int(value)
+            except (TypeError, ValueError):
+                continue
+    return total
 
 
 def bounded(value: float, lower: int = 0, upper: int = 100) -> int:
@@ -280,15 +304,15 @@ def role_profiles(config: dict[str, Any]) -> list[RoleProfile]:
 
 def location_allowed(location: str, summary: str, config: dict[str, Any]) -> bool:
     location_cfg = config.get("location", {}) if isinstance(config.get("location"), dict) else {}
-    include = [str(x).lower() for x in location_cfg.get("include_terms", [])]
-    exclude = [str(x).lower() for x in location_cfg.get("exclude_terms", [])]
-    combined = f"{location} {summary}".lower()
-    if any(term and term in combined for term in exclude):
+    include = location_cfg.get("include_terms", [])
+    exclude = location_cfg.get("exclude_terms", [])
+    combined = f"{location} {summary}"
+    if any(term_matches(combined, term) for term in exclude):
         return False
-    return not include or any(term and term in combined for term in include)
+    return not include or any(term_matches(combined, term) for term in include)
 
 
-def score_opportunity(title: str, company: str, location: str, summary: str, published_at: str, config: dict[str, Any], profiles: list[RoleProfile]) -> tuple[int, list[str], list[RoleProfile], str, str, list[str], list[str], list[str]]:
+def score_opportunity(title: str, company: str, location: str, summary: str, published_at: str, source: str, config: dict[str, Any], profiles: list[RoleProfile]) -> tuple[int, list[str], list[RoleProfile], str, str, list[str], list[str], list[str]]:
     text = " ".join([title, company, location, summary])
     title_hits = term_hits(title, config.get("title_terms", []))
     exclude_hits = term_hits(text, config.get("exclude_terms", []))
@@ -309,9 +333,11 @@ def score_opportunity(title: str, company: str, location: str, summary: str, pub
     title_score = min(100, 25 * len(set(title_hits)))
     profile_score = min(100, 18 * profile_hits_total)
     freshness = freshness_score(published_at)
-    score = bounded((0.46 * profile_score) + (0.22 * title_score) + (0.18 * location_fit) + (0.14 * freshness) - penalty)
+    boost = source_boost(source, company, config)
+    score = bounded((0.46 * profile_score) + (0.22 * title_score) + (0.18 * location_fit) + (0.14 * freshness) + boost - penalty)
     matched_labels = ", ".join(p.label for p in matched[:3]) or "general configured focus"
-    why = f"Matches {matched_labels}; title relevance {title_score}/100, profile relevance {profile_score}/100, location fit {location_fit}/100, freshness {freshness}/100."
+    boost_note = f", source boost +{boost}" if boost else ""
+    why = f"Matches {matched_labels}; title relevance {title_score}/100, profile relevance {profile_score}/100, location fit {location_fit}/100, freshness {freshness}/100{boost_note}."
     if score >= int(config.get("alert_score", 82)):
         prefix = "Prioritize"
     elif score >= 65:
@@ -346,7 +372,7 @@ def build_opportunity(title: object, company: object, location: object, url: obj
         return None
     if not location_allowed(location_s, f"{title_s} {summary_s}", config):
         return None
-    score, tags, matched, why, action, skills, certs, gaps = score_opportunity(title_s, company_s, location_s, summary_s, clean_text(published_at)[:10], config, profiles)
+    score, tags, matched, why, action, skills, certs, gaps = score_opportunity(title_s, company_s, location_s, summary_s, clean_text(published_at)[:10], source, config, profiles)
     if score <= 0:
         return None
     return Opportunity(
@@ -445,21 +471,112 @@ def from_remoteok(config: dict[str, Any], profiles: list[RoleProfile]) -> list[O
     return jobs
 
 
+def join_named_rows(rows: object, field: str, limit: int = 5) -> str:
+    """Return a compact comma-separated label list from API rows."""
+    if not isinstance(rows, list):
+        return ""
+    labels: list[str] = []
+    for row in rows:
+        if isinstance(row, dict):
+            label = clean_text(row.get(field))
+            if label:
+                labels.append(label)
+    return ", ".join(list(dict.fromkeys(labels))[:limit])
+
+
+def from_mycareersfuture(query: str, config: dict[str, Any], profiles: list[RoleProfile], limit: int = 20) -> list[Opportunity]:
+    """Fetch Singapore roles from MyCareersFuture's public jobs endpoint."""
+    params = urllib.parse.urlencode({"search": query, "limit": max(1, min(limit, 100)), "page": 0})
+    payload = fetch_json(f"https://api.mycareersfuture.gov.sg/v2/jobs?{params}")
+    jobs: list[Opportunity] = []
+    for item in payload.get("results", []) if isinstance(payload, dict) else []:
+        if not isinstance(item, dict):
+            continue
+        posted_company = item.get("postedCompany") if isinstance(item.get("postedCompany"), dict) else {}
+        hiring_company = item.get("hiringCompany") if isinstance(item.get("hiringCompany"), dict) else {}
+        metadata = item.get("metadata") if isinstance(item.get("metadata"), dict) else {}
+        salary = item.get("salary") if isinstance(item.get("salary"), dict) else {}
+        salary_type = salary.get("type") if isinstance(salary.get("type"), dict) else {}
+        address = item.get("address") if isinstance(item.get("address"), dict) else {}
+        districts = address.get("districts") if isinstance(address.get("districts"), list) else []
+        district = ""
+        if districts and isinstance(districts[0], dict):
+            district = clean_text(districts[0].get("location") or districts[0].get("region"))
+        company = hiring_company.get("name") or posted_company.get("name") or "Unknown employer"
+        public_url = metadata.get("jobDetailsUrl") or f"https://www.mycareersfuture.gov.sg/job/{item.get('uuid', '')}"
+        skills = join_named_rows(item.get("skills"), "skill", 8)
+        categories = join_named_rows(item.get("categories"), "category", 4)
+        employment = join_named_rows(item.get("employmentTypes"), "employmentType", 4)
+        salary_summary = ""
+        if isinstance(salary.get("minimum"), (int, float)) and isinstance(salary.get("maximum"), (int, float)):
+            salary_summary = f"Salary range SGD {int(salary['minimum'])}-{int(salary['maximum'])} {clean_text(salary_type.get('salaryType')).lower()}"
+        summary_parts = [
+            clean_text(item.get("description"), 320),
+            f"Categories: {categories}" if categories else "",
+            f"Employment: {employment}" if employment else "",
+            f"Skills: {skills}" if skills else "",
+            salary_summary,
+        ]
+        job = build_opportunity(
+            item.get("title"),
+            company,
+            district or "Singapore",
+            public_url,
+            "MyCareersFuture",
+            metadata.get("newPostingDate") or metadata.get("originalPostingDate") or metadata.get("createdAt"),
+            " ".join(part for part in summary_parts if part),
+            config,
+            profiles,
+        )
+        if job:
+            jobs.append(job)
+    return jobs
+
+
+def load_custom_payload(feed: dict[str, Any]) -> object:
+    if isinstance(feed.get("items"), list):
+        return feed.get("items")
+    if feed.get("path"):
+        path = Path(str(feed.get("path")))
+        if not path.is_absolute():
+            path = ROOT / path
+        if not path.exists() and feed.get("optional", False):
+            return []
+        with path.open(encoding="utf-8") as f:
+            return json.load(f)
+    if feed.get("url"):
+        return fetch_json(str(feed.get("url")))
+    return []
+
+
+def field_value(item: dict[str, Any], fields: dict[str, Any], name: str, default_path: str = "") -> object:
+    raw = fields.get(name, default_path or name)
+    if isinstance(raw, list):
+        return " ".join(clean_text(get_path(item, str(path))) for path in raw if clean_text(get_path(item, str(path))))
+    return get_path(item, str(raw))
+
+
 def from_custom(feed: dict[str, Any], config: dict[str, Any], profiles: list[RoleProfile]) -> list[Opportunity]:
-    payload = fetch_json(str(feed.get("url")))
+    payload = load_custom_payload(feed)
     fields = feed.get("fields", {}) if isinstance(feed.get("fields"), dict) else {}
+    defaults = feed.get("defaults", {}) if isinstance(feed.get("defaults"), dict) else {}
+    source_name = clean_text(feed.get("name")) or "Custom JSON"
     jobs: list[Opportunity] = []
     for item in items_at_path(payload, str(feed.get("items_path", ""))):
         if not isinstance(item, dict):
             continue
+        summary = field_value(item, fields, "summary", "description")
+        summary_extra = field_value(item, fields, "summary_fields", "")
+        if summary_extra:
+            summary = f"{clean_text(summary)} {clean_text(summary_extra)}"
         job = build_opportunity(
-            get_path(item, str(fields.get("title", "title"))),
-            get_path(item, str(fields.get("company", "company"))),
-            get_path(item, str(fields.get("location", "location"))),
-            get_path(item, str(fields.get("url", "url"))),
-            clean_text(feed.get("name")) or "Custom JSON",
-            get_path(item, str(fields.get("published_at", "published_at"))),
-            get_path(item, str(fields.get("summary", "description"))),
+            field_value(item, fields, "title", "title"),
+            field_value(item, fields, "company", "company") or defaults.get("company"),
+            field_value(item, fields, "location", "location") or defaults.get("location"),
+            field_value(item, fields, "url", "url"),
+            source_name,
+            field_value(item, fields, "published_at", "published_at"),
+            summary,
             config,
             profiles,
         )
@@ -522,6 +639,38 @@ def dedupe(jobs: Iterable[Opportunity]) -> list[Opportunity]:
             best[key] = job
     return sorted(best.values(), key=lambda j: (-j.score, j.company.lower(), j.title.lower()))
 
+
+
+
+def matches_selector(job: Opportunity, selector: str) -> bool:
+    return term_matches(f"{job.source} {job.company} {job.location}", selector)
+
+
+def select_published_jobs(ranked: list[Opportunity], max_items: int, config: dict[str, Any]) -> list[Opportunity]:
+    selected: list[Opportunity] = []
+    selected_keys: set[str] = set()
+    minimums = config.get("source_minimums", {}) if isinstance(config.get("source_minimums"), dict) else {}
+    for selector, raw_count in minimums.items():
+        try:
+            count = max(0, int(raw_count))
+        except (TypeError, ValueError):
+            continue
+        for job in ranked:
+            if len(selected) >= max_items or count <= 0:
+                break
+            key = job_key(job)
+            if key not in selected_keys and matches_selector(job, str(selector)):
+                selected.append(job)
+                selected_keys.add(key)
+                count -= 1
+    for job in ranked:
+        if len(selected) >= max_items:
+            break
+        key = job_key(job)
+        if key not in selected_keys:
+            selected.append(job)
+            selected_keys.add(key)
+    return selected
 
 def to_dict(job: Opportunity) -> dict[str, object]:
     return {
@@ -632,6 +781,9 @@ def main() -> int:
     if sources.get("remoteok"):
         jobs, h = source_result("RemoteOK", lambda: from_remoteok(config, profiles))
         all_jobs.extend(jobs); health.append(h)
+    for query in sources.get("mycareersfuture_queries", []):
+        jobs, h = source_result(f"MyCareersFuture/{query}", lambda q=str(query): from_mycareersfuture(q, config, profiles, int(sources.get("mycareersfuture_limit", 20) or 20)))
+        all_jobs.extend(jobs); health.append(h); time.sleep(0.1)
     for row in sources.get("custom_json", []):
         if isinstance(row, dict) and row.get("url"):
             jobs, h = source_result(f"Custom/{row.get('name', row.get('url'))}", lambda r=row: from_custom(r, config, profiles))
@@ -645,7 +797,7 @@ def main() -> int:
     ranked, history = apply_history(ranked, load_history(), today, alert_score)
     ranked = sorted(ranked, key=lambda j: (0 if j.status == "New" and j.score >= alert_score else 1, -j.score, j.company.lower(), j.title.lower()))
     max_items = int(config.get("max_items", 12))
-    published = enrich_jobs_with_llm(ranked[:max_items], config)
+    published = enrich_jobs_with_llm(select_published_jobs(ranked, max_items, config), config)
     alerts = [job for job in ranked if job.score >= alert_score][:6]
     data = {
         "title": clean_text(config.get("title")) or "Opportunity Radar",

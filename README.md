@@ -6,7 +6,7 @@ It is intentionally **not limited to AI security**. Configure it for software en
 
 ## What it does
 
-- Pulls public roles from Greenhouse, Lever, Ashby, Remotive, RemoteOK, and optional custom JSON feeds.
+- Pulls public roles from Greenhouse, Lever, Ashby, Remotive, RemoteOK, Singapore's MyCareersFuture portal, and optional custom JSON feeds.
 - Scores roles against configurable career signals, locations, title terms, and exclusion terms.
 - Publishes a static `/opportunities/` page that works on GitHub Pages/Jekyll.
 - Adds per-role guidance:
@@ -97,24 +97,32 @@ Supported public source types:
 - `greenhouse`: `{ "company": "Anthropic", "board": "anthropic" }`
 - `lever`: `{ "company": "Mistral AI", "slug": "mistral" }`
 - `ashby`: `{ "company": "OpenAI", "board": "openai" }`
-- `remotive`: configured with search queries
-- `remoteok`: broad remote feed
-- `custom_json`: point at a JSON endpoint and map fields
+- `remotive`: configured with search queries; set to an empty list when you want a Singapore/APAC-only run.
+- `remoteok`: broad remote feed; set to `false` when remote/global jobs should not compete with local Singapore results.
+- `mycareersfuture_queries`: Singapore portal searches, for example `["software engineer", "cybersecurity engineer", "product manager"]`; optional `mycareersfuture_limit` controls rows per query.
+- `custom_json`: point at a JSON endpoint, an optional local JSON file, or inline `items`, then map fields.
 
-Example custom feed:
+Singapore/APAC tuning options:
+
+- `location.exclude_terms` can block broad non-local matches such as `remote`, `us`, `remote us`, `usa`, `canada`, and `americas`.
+- `source_boosts` can lift trusted Singapore/APAC sources such as MyCareersFuture, GovTech Singapore, Airwallex, OKX, or a custom Singapore/APAC feed.
+- `source_minimums` can reserve published slots for important local sources so global ATS boards do not dominate the page.
+
+Example custom feed backed by `config/custom_opportunities.json`:
 
 ```json
 {
-  "type": "custom_json",
-  "name": "Example feed",
-  "url": "https://example.com/jobs.json",
+  "name": "Custom Singapore/APAC feed",
+  "path": "config/custom_opportunities.json",
+  "optional": true,
   "items_path": "jobs",
+  "defaults": {"location": "Singapore / APAC"},
   "fields": {
     "title": "title",
     "company": "company",
     "location": "location",
     "url": "url",
-    "summary": "description",
+    "summary_fields": ["summary", "description", "tags"],
     "published_at": "published_at"
   }
 }

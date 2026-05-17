@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T07:04:08Z",
+  "updated_at": "2026-05-17T07:24:29Z",
   "jobs": {
     "7xs3y2augj47wclzqu": {
       "title": "Lead Product Marketing Manager, Pricing and Packaging",
@@ -1495,7 +1495,7 @@
       "source": "Greenhouse",
       "first_seen": "2026-05-17",
       "last_seen": "2026-05-17",
-      "last_score": 54
+      "last_score": 49
     },
     "t3nkbzspekrczibcrd": {
       "title": "Technical Program Manager",
@@ -1607,7 +1607,7 @@
       "source": "Greenhouse",
       "first_seen": "2026-05-17",
       "last_seen": "2026-05-17",
-      "last_score": 51
+      "last_score": 46
     },
     "4plf3lf7arv6uct5ub": {
       "title": "Engineering Manager, Money Management Expansion",
@@ -1615,7 +1615,7 @@
       "source": "Greenhouse",
       "first_seen": "2026-05-17",
       "last_seen": "2026-05-17",
-      "last_score": 51
+      "last_score": 46
     },
     "xhy5zms32lzhhoealj": {
       "title": "Product Marketing Manager",
@@ -2807,7 +2807,7 @@
       "source": "Ashby",
       "first_seen": "2026-05-17",
       "last_seen": "2026-05-17",
-      "last_score": 35
+      "last_score": 30
     },
     "j5gvcocedg5k3zdzbc": {
       "title": "Senior DevOps Engineer",
@@ -2879,7 +2879,7 @@
       "source": "Ashby",
       "first_seen": "2026-05-17",
       "last_seen": "2026-05-17",
-      "last_score": 33
+      "last_score": 24
     },
     "6xbalnbwbi2g5kaf4g": {
       "title": "Operations Exploratory",
@@ -3647,7 +3647,7 @@
       "source": "Ashby",
       "first_seen": "2026-05-17",
       "last_seen": "2026-05-17",
-      "last_score": 21
+      "last_score": 7
     },
     "bypjupgykvwx2mr2w5": {
       "title": "Performance Marketing Manager",
@@ -4072,6 +4072,4878 @@
       "first_seen": "2026-05-17",
       "last_seen": "2026-05-17",
       "last_score": 4
+    },
+    "eaynfo4qqgoqzgj25w": {
+      "title": "Lead UX Designer",
+      "company": "PALO IT SINGAPORE PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 65
+    },
+    "ai3plaeqco6ck2aujz": {
+      "title": "IT Security Officer (CyberSecurity Engineer)",
+      "company": "NSEARCH GLOBAL PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "pmtkb7u7xb6lrwcjdi": {
+      "title": "Data Engineer",
+      "company": "OPUS IT SERVICES PTE LTD",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "27zlcbriyievw2p6cp": {
+      "title": "Data Engineer - Yearly Renewable Contract",
+      "company": "THE EDGE CONTRACTING SERVICES PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "5wbzwacujz7psyum7y": {
+      "title": "UI/UX Designer (Mobile & Web Applications) [Contract]",
+      "company": "ARGYLL SCOTT CONSULTING PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "nhpfyl2qzc5zqkzlnu": {
+      "title": "Data Engineer - Associate Manager",
+      "company": "KPMG SERVICES PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "sxuq63efdwyxwprips": {
+      "title": "LLM Machine Learning Engineer, TikTok Search",
+      "company": "TIKTOK PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 70
+    },
+    "7pgjfxugnuk72jkvyp": {
+      "title": "Machine Learning Engineer (LLM & Personalized Search), TikTok Search",
+      "company": "TIKTOK PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 70
+    },
+    "cvgzdwwxvu6vhwny3o": {
+      "title": "UI/UX Designer",
+      "company": "GROUND LABS PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "pgqzayddsugzvhpgrb": {
+      "title": "Data Engineer",
+      "company": "NSEARCH GLOBAL PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "323aubotg53ncbprvk": {
+      "title": "Machine Learning Engineer - Local Services Search",
+      "company": "TIKTOK PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "gfpdsxj53cumuyopqa": {
+      "title": "Machine Learning Engineer - Search Recommendation (E-commerce) - Singapore",
+      "company": "TIKTOK PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "tvtj4wp2c3yhre27xl": {
+      "title": "Machine Learning Engineer, TikTok Search Local Services",
+      "company": "TIKTOK PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "achit2caa77smwfclr": {
+      "title": "Senior Software Engineer (Systems)",
+      "company": "KULICKE & SOFFA PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "a4vjxnmwdf34pczs7v": {
+      "title": "Software Engineer- Senior Embedded Engineer(Automotive / Linux / Tools)",
+      "company": "REALTEK SINGAPORE PRIVATE LIMITED",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "drl4eiz46ah6niils3": {
+      "title": "Senior Product Manager",
+      "company": "BITSMEDIA PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 51
+    },
+    "7bnt5omohpwv2jihwy": {
+      "title": "Product Manager ( Junior)",
+      "company": "FLINTEX CONSULTING PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 51
+    },
+    "ew62nkcgq5kjw4uxe5": {
+      "title": "Product Manager (AI Project) - SPVL",
+      "company": "SCIENTEC CONSULTING PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "chuo3lsk2rogo7ff7l": {
+      "title": "Senior Specialist, Product Manager, Claims Solution Suite",
+      "company": "AMPLIFY HEALTH ASIA PTE. LIMITED",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "2ej4tuns4q73od6gg5": {
+      "title": "Senior Specialist, Product Manager, Clinical Informatic",
+      "company": "AMPLIFY HEALTH ASIA PTE. LIMITED",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "34ltcnqu4zu2f7si5n": {
+      "title": "Data Engineer",
+      "company": "ACTIVATE INTERACTIVE PTE LTD",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "gwsctpdzuzdbgg57bx": {
+      "title": "Cybersecurity Engineer",
+      "company": "ONESECURE ASIA PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "rsi5jtppitxttxge2z": {
+      "title": "Machine Learning Engineer, National Jobs-Skills Data Office (SIPD)",
+      "company": "SKILLSFUTURE SINGAPORE AGENCY",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "kvepn6hu5a2n2yzmnx": {
+      "title": "Foundation Engineering, DXR Product Management, Product Manager, Associate, Singapore",
+      "company": "GOLDMAN SACHS SERVICES (SINGAPORE) PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 70
+    },
+    "xhjp66nb5uulwmgf5d": {
+      "title": "Foundation Engineering, DXR Product Management, Product Manager, Executive Director, Singapore",
+      "company": "GOLDMAN SACHS SERVICES (SINGAPORE) PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 70
+    },
+    "jtm2f6m2amcmy3wtob": {
+      "title": "UI/UX Designer (Up till $3,500, West)",
+      "company": "RECRUIT NOW SINGAPORE PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 74
+    },
+    "vzcs7ko6li7t42cwyj": {
+      "title": "Software Engineer",
+      "company": "SEMI INTEGRATION (S) PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "443l3cslmyt4r47w5r": {
+      "title": "Software Engineer, Open Source Security - Singapore",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "igftlwoskpyd62cn7f": {
+      "title": "Robotics Software Engineer Trainee",
+      "company": "HIVEBOTICS PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 61
+    },
+    "jfzrjnj7ooa7rr2gtj": {
+      "title": "Senior/Software Engineer",
+      "company": "UPPER SPRING CONSULTING PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "7zow7ccd7qsydyd44w": {
+      "title": "Machine Learning Engineer (Recommendation) - Global E-Commerce",
+      "company": "BYTEDANCE PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 36
+    },
+    "ydjqerqb4g7vz537nc": {
+      "title": "Machine Learning Engineer - Search Recommendation (E-commerce) (ByteDance Singapore)",
+      "company": "BYTEDANCE PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 36
+    },
+    "k7pktbxh2274irzpyb": {
+      "title": "Machine Learning Engineer Graduate (Global E-Commerce, Platform Governance) - 2026 Start (BS/MS)",
+      "company": "BYTEDANCE PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 36
+    },
+    "eny37ezwbf4bi4sw2p": {
+      "title": "Machine Learning Engineer Graduate (Global E-Commerce, Platform Governance) - 2026 Start (PhD)",
+      "company": "BYTEDANCE PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 36
+    },
+    "h2xiw5guv3vmz2pgoo": {
+      "title": "Machine Learning Engineer Graduate (Global E-Commerce, Recommendation) - 2026 Start (PhD)",
+      "company": "BYTEDANCE PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 36
+    },
+    "damllggub4oundaf7h": {
+      "title": "Machine Learning Engineer, Global E-Commerce (ETA, Pricing & Conversion)",
+      "company": "BYTEDANCE PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 36
+    },
+    "qhzeibwskj73guaf7e": {
+      "title": "Machine Learning Engineer, Local Services Search (ByteDance Singapore)",
+      "company": "BYTEDANCE PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 36
+    },
+    "xpjvp427vgzj4atox5": {
+      "title": "Senior Software Engineer, Robotic Test Automation - Singapore",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 43
+    },
+    "how5fq4dybqzvm3k33": {
+      "title": "Senior Data Engineer, Sales Insights, Analytics, Data Engineering and Science",
+      "company": "AMAZON WEB SERVICES SINGAPORE PRIVATE LIMITED",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "hnze655ylbenaarl7a": {
+      "title": "Product Manager",
+      "company": "GAIN CITY BEST-ELECTRIC PTE LTD",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 29
+    },
+    "7r2tvxla3vqk6uhahv": {
+      "title": "Lead / Principal Product Manager (SLS)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 97
+    },
+    "hboei7krzvdwvjklve": {
+      "title": "Principal / Lead Product Manager, TradeNet, DEP",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 97
+    },
+    "qb6glngc727b2u2yzl": {
+      "title": "Principal / Lead UX Designer (GeBIZ X)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 94
+    },
+    "vocfbx5pmxtg36ktyg": {
+      "title": "Principal Product Manager",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 94
+    },
+    "6zy743g76vl6w3g72e": {
+      "title": "Lead Product Manager",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 91
+    },
+    "wos2opop5is4bjrnsa": {
+      "title": "Senior / Product Manager (SC)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 91
+    },
+    "cewrlin6olup4m566h": {
+      "title": "Senior / Product Manager, One Talent Management Platform (PSD)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 91
+    },
+    "sjkbhniwtiuyvhidoo": {
+      "title": "Lead / Product Manager (ACRA)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 89
+    },
+    "4hvoj6vx6xpq366gng": {
+      "title": "Lead / Product Manager (PSD)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 89
+    },
+    "hqmqilwb6zbgznsu34": {
+      "title": "Lead / Senior Localization Product Manager, AI Programme",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 89
+    },
+    "562uve6syr6godp2vw": {
+      "title": "Lead / Senior Product Manager, AI Programme",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 89
+    },
+    "3eb7kfktlk4ercckfr": {
+      "title": "Lead / Senior Product Manager, Data (ESG)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 89
+    },
+    "7b6leg6fwubteu323c": {
+      "title": "Lead / Senior Product Manager, PlatformAI - AI Safety and Governance, AI Programme",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 89
+    },
+    "mk442ovlahkbaesk25": {
+      "title": "Lead Product Manager - Engineering Productivity",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 89
+    },
+    "62wadwn3s3vh3j5fkd": {
+      "title": "Lead Product Manager, Case Central (MSF)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 89
+    },
+    "2ll5p53y6ebesrkttl": {
+      "title": "Lead Product Manager, Corporate Finance (MOE)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 89
+    },
+    "7f7m4j2dy6drw5hss7": {
+      "title": "Lead Product Manager, Geospatial",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 89
+    },
+    "uagzezkaho7a6c3vhh": {
+      "title": "Lead/ Senior Product Manager",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 89
+    },
+    "fmhdkbqkqrizmx4qvt": {
+      "title": "Principal / Lead Software Engineer, Core Engineering Products",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 88
+    },
+    "3ar2xrgi7zxvacmw2i": {
+      "title": "Product Manager",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 88
+    },
+    "o63icibifwrrzdtqlc": {
+      "title": "Product Manager, GoBusiness",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 88
+    },
+    "nen52iweifzqfncka4": {
+      "title": "Staff / Principal Software Engineer, Consulting Practice",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 88
+    },
+    "tmg6xcjxxsanabqaa5": {
+      "title": "Lead / Senior Software Engineer, Digital Society Products (AGC)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 86
+    },
+    "rgfsm5udwu3m5i6sci": {
+      "title": "Senior Product Manager",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 86
+    },
+    "dqhp7mwzqag2ks46ux": {
+      "title": "Senor Software Engineer, Team Lead, TIC",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 86
+    },
+    "5bghf6ansnjec6fihv": {
+      "title": "Lead Product Manager, GDT (MSF)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 85
+    },
+    "oihbgzj2sh3xca2gjs": {
+      "title": "Lead / Senior / Software Engineer, DXD (MOE)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "bzv75l23ov2zves7w3": {
+      "title": "Lead / Senior Service Designer, TradeNet",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "x7uwmqblj7kyl2otrp": {
+      "title": "Lead Cybersecurity Engineer, Tradenet",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "a76mumg55pz2ri7len": {
+      "title": "Lead UX Designer, Culture, Community and Youth Cluster (CCYC)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "dth6agdwqe3gffvi2r": {
+      "title": "Principal / Lead Designer - Work Pass Integrated System (WINS)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "nwvq3xh5m5cgrrynrv": {
+      "title": "Senior / Lead Software Engineer, Digital Economy Products",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "eetnhflir6m3oqsmod": {
+      "title": "Senior / Product Manager (MDDI)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "dket4ng4yyk22mzdtd": {
+      "title": "Senior / Product Manager (MOH)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "zjngitqg4iwxhzzlew": {
+      "title": "Senior / Product Manager, Discovery, Digital Society Products",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "d4xqfbiifqxm654n42": {
+      "title": "Senior / Product Manager, Managed Agencies",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "7wgv5fj66i7mka5lsd": {
+      "title": "Senior AI Product Manager, Mother Tongue Languages, Managed Agencies (MOE)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "tdyyzpzwlkyufuguqs": {
+      "title": "Senior Product Designer – MOM Enforcement",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "2e72ip7ywbp7ewkll4": {
+      "title": "Senior Product Manager, ACRA",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "zrb47y6yvy4t62xa6b": {
+      "title": "Senior Product Manager, Engagement and Case Management Program",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "rv2nhrkhtw6p27pjgk": {
+      "title": "Senior Product Manager, Singpass",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 83
+    },
+    "dweeogs5jh7bt2xguu": {
+      "title": "Senior Platform Engineer",
+      "company": "ASSOCIATION EDHEC BUSINESS SCHOOL Singapore Branch",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 82
+    },
+    "rwhbr7m5yfqkroto6n": {
+      "title": "Backend Platform Engineer",
+      "company": "FIREROCK CAPITAL PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "ufwujtlrhuqgjby7b5": {
+      "title": "Data Product Manager (MSF)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "ej3ftllchehp4ufz64": {
+      "title": "Principal / Lead Designer, Consulting Practice",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "eitgu3yy55fpvrlr6n": {
+      "title": "Product Manager, GDT (MSF)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "e7ntyyt7xa66geilpy": {
+      "title": "Senior Cybersecurity Engineer",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "qcnh2gaagzv23m76tr": {
+      "title": "Senior Platform Infrastructure Engineer, Healthcare",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "hnrmgus6rxhmyl2owe": {
+      "title": "Senior Platform Infrastructure Engineer, TIC",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "43n3gdyexfmnxc7org": {
+      "title": "Senior Product Manager, GDT (MSF)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "tymq4cx2czbd2cmhyv": {
+      "title": "Senior Software Engineer , Singapore Land Transport Authority",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "o5ucdl647yxhhmumq3": {
+      "title": "Senior Software Engineer, Ministry of Education",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "6ybwcmil4tpiynxqg4": {
+      "title": "Software Engineer (DevOps), TIC",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "wj6qmn44fm6ocl7hcf": {
+      "title": "Software Engineer - HealthCare Tech",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "a56gzrj5ndppynvhxi": {
+      "title": "Software Engineer, Core Engineering Products",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "4mag4jzgd4flw72rvt": {
+      "title": "Software Engineer, TIC",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "pz3dvjdptlqsai6kwc": {
+      "title": "Lead Cybersecurity Specialist (Offensive Security)",
+      "company": "JJ CONSULTING SERVICES",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "gnnsa67pgzt3d25bge": {
+      "title": "Technical Program Manager, LLM data",
+      "company": "RAKUTEN ASIA PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "ekmjvoxzds4lzu3hlw": {
+      "title": "Computer Software Engineer (Senior Level)",
+      "company": "XIAOMI TECHNOLOGIES SINGAPORE PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 80
+    },
+    "h33ip2yyzf6ixpcd3t": {
+      "title": "Software Engineering, Lakehouse and AI Data Platform Engineer, Analyst, Singapore",
+      "company": "GOLDMAN SACHS SERVICES (SINGAPORE) PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "rcqtcew2q6zolumtf6": {
+      "title": "Assistant Director / Senior Manager, AI Strategy and Plans",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "pylc76vzthi5jyonpt": {
+      "title": "Data Engineer, GDT (ESG)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "opme7n7gkcwf7ltgsq": {
+      "title": "Manager / Senior Manager, Strategy & Plans Office, GDT - GPO",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "wrhg4omz5vjuhjaexw": {
+      "title": "Platform Infrastructure Engineer (NEA)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "ndbdujxaxfljaalogk": {
+      "title": "Platform Infrastructure Engineer - TIC",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "4r2uvwt4fu4ofsmy3p": {
+      "title": "Principal Designer - AI Workflows & Processes",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "fuwy6wwqehmxreohl6": {
+      "title": "Senior / Software Engineer (DOS)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "3r7rstb2vxjdwlgyg4": {
+      "title": "Senior / Staff Software Engineer, Healthcare-Tech",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "dicdb2w6ctwcvjkxjg": {
+      "title": "Senior / UX Designer, Culture, Community and Youth Cluster (CCYC)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "5ipzng2lf35dfapgc2": {
+      "title": "Senior / UX Designer, Discovery - Digital Society Products (DSP)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "dlyheq7opw2qz6jmt7": {
+      "title": "Senior / UX Designer, Engagement and Case Management Programme",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "alpmf5wgznmgjta3va": {
+      "title": "Senior Software Engineer (Enterprise Singapore)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "inex6zgdjq6or574xp": {
+      "title": "Senior Software Engineer (MDDI)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "njutq54zlro6fdemdi": {
+      "title": "Senior Software Engineer (PSD)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "6g6ca366j57ow76a4j": {
+      "title": "Senior Software Engineer (Reimagine Engineering), Software Engineering Practice",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "xda2rac422f64ucxb6": {
+      "title": "Senior Software Engineer, AI Infrastructure & Operations (AI Practice)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "j6sk7dytpiqw5x2xd2": {
+      "title": "Senior Software Engineer, Engagement and Case Management Programme",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "oc4utgmufk7px6yrrz": {
+      "title": "Senior Software Engineer, Meteorological Services (NEA)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "76mhbupan7fulkltwd": {
+      "title": "Senior Software Engineer, Singpass",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "rs6s6gv7l5jyc5tcxg": {
+      "title": "Senior Software Engineer, Waste Management (NEA)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "bfuo2avcfangoa3txc": {
+      "title": "Senior UX Designer (PA)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "4l4c6mwwymaoplzc2w": {
+      "title": "Software Engineer (BCA)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "yfvs44q4ep5sbv7ruc": {
+      "title": "Software Engineer (Enterprise SG)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "jrb2f73zmj5vfskwxs": {
+      "title": "Software Engineer (HPB)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "ryahyihbr2wnukkpr7": {
+      "title": "Software Engineer (MDDI)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "gzqgvhyrd3hkvhhqc3": {
+      "title": "Software Engineer - Fullstack, AI Programme",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "hccbbzmug2fjvr6evb": {
+      "title": "Software Engineer, Digital Society Products - Apps",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "rwbkcc6x4kxzoaj5ko": {
+      "title": "Software Engineer, Experimental Systems and Technology Lab",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "5eleti2k7umzwic2cm": {
+      "title": "Software Engineer, GDT (MSF)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "gh76nnyiz6cmwbyyhq": {
+      "title": "Software Engineer, GoBIZ",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "aj7g4jkp6i5ioz4dvq": {
+      "title": "Software Engineer, Ministry of Education (Geospatial)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "hbrhnjejjrvwoqy3x5": {
+      "title": "Software Engineer, Singpass",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "tavsk54gaugn5h22v3": {
+      "title": "UX Designer, Digital Economy Products (DEP) - GreenGov",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "6mnerwh2k6vam6oum4": {
+      "title": "UX Designer, Family Life Group (FLG) - Ministry of Social & Family Development",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "oi5oqveckslzoqziet": {
+      "title": "UX Designer, Managed Agencies (Health Promotion Board)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 78
+    },
+    "ahmhzjtgl2xwjseujn": {
+      "title": "Product Ops Lead",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 77
+    },
+    "d7f7yasbf7kdut7vbx": {
+      "title": "Senior / Lead Designer, HR Systems (MOE)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 77
+    },
+    "i5matjqufxvtf4cvak": {
+      "title": "IAM Platform Engineer - SailPoint, CyberArk, Ping Identity",
+      "company": "ASTEK SINGAPORE INNOVATION TECHNOLOGY PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 76
+    },
+    "svr4glmjp53jliptjd": {
+      "title": "Senior Software Engineer, Frontend - Identity & User Security",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "mslhdgpnrsm5vgpobw": {
+      "title": "Lead/ Senior Platform Engineer (AWS & DevOps)",
+      "company": "CYGNIFY PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "oxhuuae6ltcfca4o7d": {
+      "title": "Assistant Deputy Director / Product Manager (SC)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "reuynbi57zfxokbzkb": {
+      "title": "Engineering Manager, Apps Product, DSP",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "aqnrsi7xbkiww23y6w": {
+      "title": "Lead Engineering Manager, Engagement and Case Study Management Programme",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "6jknng43h4w35epzmd": {
+      "title": "Lead Engineering Manager, Salesforce (MOE)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "ahmnm7qjwhtxxwol5c": {
+      "title": "Product Lead (MOM)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "3kf56mkk4hjsj2y4ie": {
+      "title": "Product Lead - LTA Enforcement 2.0",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "qblmgy74wenzdvbcih": {
+      "title": "Product Manager (PA)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "44oc6mrc7hiknxnds7": {
+      "title": "Product Manager (VITAL)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "vi57tgukxbvny27yr2": {
+      "title": "Senior / Product Manager (AGD)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "yadvstwinju7fd5262": {
+      "title": "Senior / Product Manager, Data Analytics (SC)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "2c5kjjj43gm4fq6mdl": {
+      "title": "Senior / Product Manager, GeBIZ X (MOF)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "om7u4cgtuuhe4rzsk7": {
+      "title": "Senior / Product Manager, Managed Agencies (DOS)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "dozxr6ltbcr3g5bu3a": {
+      "title": "Senior / Product Manager, Service SG, PMOSG (PSD)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "5shzhbty4jhdqz5trj": {
+      "title": "Lead Technical Program Manager",
+      "company": "GRABTAXI HOLDINGS PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 75
+    },
+    "hxab33d5wkjxsmataz": {
+      "title": "Data Engineer (MSF)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 74
+    },
+    "6c5iriz3wpu6dcsu2d": {
+      "title": "Senior Software Engineer, Managed Agencies (ELD)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 74
+    },
+    "db6bwfazba7opayyck": {
+      "title": "Technical Program Manager for AI Singapore (AI Talent Development)",
+      "company": "NATIONAL UNIVERSITY OF SINGAPORE",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 74
+    },
+    "5hyiglekptkwnr5ts4": {
+      "title": "Junior DevOps Platform Engineer",
+      "company": "QUANTEAM (SINGAPORE) PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 74
+    },
+    "vjjkhoor5s7aety3ue": {
+      "title": "Senior Core AI Engineer",
+      "company": "SINGAPORE EXCHANGE LIMITED",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 74
+    },
+    "d5kqwzojwbyi65uor5": {
+      "title": "Engineering Lead/Manager, Risk",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "a7dathkryafghpi6tm": {
+      "title": "Senior Product Manager, Identity & User Security",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "ij6mjlwjet7kyxybgs": {
+      "title": "Senior Product Manager, Transaction Risk",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "afiqud6jypk7opt2k2": {
+      "title": "Staff Product Designer, Design Systems",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "v5yv37je33onsys3ev": {
+      "title": "Software Engineering, Lakehouse and AI Data Platform Engineer, Associate, Singapore",
+      "company": "GOLDMAN SACHS SERVICES (SINGAPORE) PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "dlpyqcm3ziphbn2qaa": {
+      "title": "Software Engineering, Lakehouse and AI Data Platform Engineer, Executive Director, Singapore",
+      "company": "GOLDMAN SACHS SERVICES (SINGAPORE) PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "pctyaciafhzx545h5s": {
+      "title": "Data Engineer (GeBIZ X)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "mj6zj2tgpm3sbskdd7": {
+      "title": "Designer, Skills & Workforce Development Agency (SWDA)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "trkjv2ces7efvewa77": {
+      "title": "Engineering Manager (Infrastructure), Finance Cluster",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "3qdvt3wcyvf43kvioo": {
+      "title": "Engineering Manager, Digital Economy Products",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "2xtkdloelqf6wzoxk4": {
+      "title": "Engineering Manager, Judiciary (IPOS)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "kfr7eidvx5zrwe5ec6": {
+      "title": "Engineering Manager, Meteorological Services (NEA)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "b6z2wxcvykkhdl6w63": {
+      "title": "Engineering Manager, Public Health & Corporate Systems (National Environment Agency)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "xth2n4tmr7ojelcblt": {
+      "title": "Product Operations Specialist, LEARN - Civil Service College (CSC)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "qglio7duujtsebdikl": {
+      "title": "Senior Software Engineer, GeBIZ X",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "oeyxmjw4oxfh7jhq66": {
+      "title": "Software Engineering",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "fwyo5gujkiqfsde2m2": {
+      "title": "Software Engineering (MOF)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "qoqreehjyp5n2hjgxn": {
+      "title": "Software Engineering, Data Programme (DXD)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "7vhi3fryljyzix4wwo": {
+      "title": "Senior Product Manager - Risk Platform",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "obs5t4vua4igpqywvh": {
+      "title": "Senior/Staff Software Engineer, Liquidity Platform, Risk & Analytics",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "fkt6icdxdusvegjtim": {
+      "title": "Technical Program Manager (Network Deployment)",
+      "company": "SALT TALENT SEARCH PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 72
+    },
+    "tlfybz43ttq7n4tx32": {
+      "title": "Foundation Engineering, Kubernetes Platform Engineer Lead, Executive Director, Singapore",
+      "company": "GOLDMAN SACHS SERVICES (SINGAPORE) PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 70
+    },
+    "43zfewhut2zfexxnu5": {
+      "title": "Assistant Director / Deputy Director Product Operations, DXD (MOE)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "gqj4ku43eyzeaaeo6z": {
+      "title": "Data Scientist, AI Innovation - AI Practice",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "2enzjmcvetn34hrcho": {
+      "title": "Data Scientist, Multimodal AI (AI Practice)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "wah3bdf5ec4oy75jy6": {
+      "title": "Data Scientist, Responsible AI (AI Practice)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "wj3jvbkciirsrz556z": {
+      "title": "Deputy Director, Design Management, Product Development Office",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "tgb6yws4q7mbzvksic": {
+      "title": "Director / Deputy Director, Engineering Management (Product Development Office)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "krheslzlluwfj2odb3": {
+      "title": "Engineering Manager , Council for Estate Agencies",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "wnvishr4ulzfp2fu7x": {
+      "title": "Engineering Manager / Senior Engineering Manager - Healthcare-Tech",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "ia7led3hforetpockj": {
+      "title": "Engineering Manager, GoBiz, Managed Agencies",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "6lc46onn6fim6rvvze": {
+      "title": "Engineering Manager, Managed Agencies (BCA)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "b356rz3k53kaiuab2a": {
+      "title": "Engineering Manager, Salesforce (IMDA)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "lytkkge6f5jmgr46an": {
+      "title": "Enterprise Platform Engineer, Salesforce (MOE)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "2zsz3jy54l2zrf2cdt": {
+      "title": "Product Operations Deputy Director, Product Management Practice",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "bpxb2ndloy7b3tboa2": {
+      "title": "Programme Manager, Internal Approving Authority, IT (MOM)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "2edpmxwxi2p4lcxvci": {
+      "title": "Programme Manager, MCCY",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "m5ouc2edb52qrnv5t5": {
+      "title": "Senior / Designer, Ministry of Transport (MOT)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "7refmzg5zk7vcebu26": {
+      "title": "Senior / Manager, IT Strategy and Planning (MOM)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "a6tihuoak5rb3r2kfi": {
+      "title": "Senior Data Scientist, GDT (MSF)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "kzbz3tcpfe2drvvfdo": {
+      "title": "Senior Designer, Customs eServices",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "vp465qrt2pfbivekq4": {
+      "title": "Senior Designer, Examination Administration and Digital Assessment (MOE)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "66c5pdilmv52rz53bp": {
+      "title": "Senior Designer, TradeNet, Digital Economy Products",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "yvtqxu3poma4garvd7": {
+      "title": "Senior Manager / Manager, Internal Communications, Organisational Excellence",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "2asqlcywo53wqv2jgl": {
+      "title": "Staff Platform Infrastructure Engineer",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "g3s6raoba7pmadze4h": {
+      "title": "Systems Engineer, Smart City Technology Division (HDB Cluster)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 69
+    },
+    "rxdjz7ypd6t6rt7obp": {
+      "title": "Technical Program Manager, Asia & Middle East",
+      "company": "ST. JAMES'S PLACE (SINGAPORE) PRIVATE LIMITED",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "n6fm4oot6q7m4qp5nl": {
+      "title": "Senior Machine Learning Engineer, TikTok BRIC Account Security (Singapore)",
+      "company": "TIKTOK PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 68
+    },
+    "bnjqigpa6oj7okxv7o": {
+      "title": "(Senior) Software Engineer, Backend - Financial Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "i3uhuqgbt7lmcqgwx7": {
+      "title": "Manager, Operations Strategy (Market Insights/User Research)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "67u3ch3jugia5irrcj": {
+      "title": "Principal Software Engineer, Edge Team",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "wxeetw2qzeyhlrx3wf": {
+      "title": "Senior / Software Engineer, Payments Team - API & Checkout Experience",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "yzfxire65pt47wxneb": {
+      "title": "Senior / Staff Software Engineer Backend, Billing",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "fhmkqi7d2a72kkrdhb": {
+      "title": "Senior Software Engineer (Backend), Growth",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "w762z4woiyc4b4gw67": {
+      "title": "Senior Software Engineer, Backend - GTPN Platform (Relocate to Singapore)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "axh7reieigba7ftokm": {
+      "title": "Senior Software Engineer, Backend - IAM & Account Infra",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "ncdwstoy4pgmbq3o72": {
+      "title": "Senior Software Engineer, Backend - Onboarding",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "hkicly4cefpdmnqzbp": {
+      "title": "Senior Software Engineer, Data Platform & AI Enablement",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "7rfdnmiihc3qo2oxiu": {
+      "title": "Senior Software Engineer, Risk",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "3uzwaivyf3ypk6oyv2": {
+      "title": "Senior Software Engineer, Transaction Risk",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "rpnjeolxpri5vjc373": {
+      "title": "Software Engineer Backend, Billing",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "6m54ze5utxjsx3ybqw": {
+      "title": "Software Engineer, Frontend - Tech Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "xjufuu3lubnlbdsv7u": {
+      "title": "Staff Software Engineer (Backend), Growth",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "uutjjysasmwfbt2uaa": {
+      "title": "Staff Software Engineer, Backend - Onboarding",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "flgyjw4rzwuu75fgs2": {
+      "title": "Staff Software Engineer, Backend - Scale",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "mrm2lfb5g5zxy3gexd": {
+      "title": "Staff Software Engineer, Data Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "3amkmdjutp6lq5tznj": {
+      "title": "Staff Software Engineer, Risk",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "sq52vlgjjxejfxu76d": {
+      "title": "Product Manager",
+      "company": "IG ASIA PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "3gg3e2jbbyn7kxvo6r": {
+      "title": "Senior/Principal Product Manager, DEX Trading",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 67
+    },
+    "thn5wiaw2n6gc6o2r7": {
+      "title": "Solution Engineer (Cybersecurity)",
+      "company": "ABPGROUP PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 66
+    },
+    "u24ryi4csyhgryyhav": {
+      "title": "Full Stack Software Engineer - A26136",
+      "company": "ACTIVATE INTERACTIVE PTE LTD",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 66
+    },
+    "wjgzjjt5quwdtzztuw": {
+      "title": "Assistant Director, Design Management (MSF)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 66
+    },
+    "szb7ztyf3pogkh3pbi": {
+      "title": "Assistant Director, Engineering Management, HealthCare",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 66
+    },
+    "rjfgwynqcetmwxgh3h": {
+      "title": "Deputy Director, Engineering Management, Ministry of Trade & Industry",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 66
+    },
+    "6llzh7vlqmv65g62ef": {
+      "title": "Engineering Manager, GDT (MSF)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 66
+    },
+    "hjnpcyvxhxepaiqcej": {
+      "title": "Engineering Manager, Salesforce (MSF)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 66
+    },
+    "4keswfq7ihm3prnpse": {
+      "title": "Enterprise Software Specialist, GDT (MSF)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 66
+    },
+    "fd6amx3iqnzhqihzb4": {
+      "title": "ICT & SS Auditor, Internal Audit",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 66
+    },
+    "i4rooeaqh2i36yqhwm": {
+      "title": "Product Policy Specialist",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 66
+    },
+    "gpf6hif2iigezpeqsc": {
+      "title": "Programme Manager, Consulting Practice",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 66
+    },
+    "3bywwusbf7giojojeo": {
+      "title": "Senior Product Operations Specialist, Product Management Practice",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 66
+    },
+    "kth623qjlilqgfevae": {
+      "title": "Backend / Platform Engineer",
+      "company": "LAWGORITHM PRIVATE LIMITED",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 66
+    },
+    "7kfluismgwve7zxjhe": {
+      "title": "Lead Product Designer",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 66
+    },
+    "xg4tls43hnby3ucol2": {
+      "title": "Software & Application Developer for ABB 800xA DCS System & IT/OT Cyber security assistance",
+      "company": "A & H CONTROLS (PTE. LTD.)",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "ijekpc3bvx5u7q7hf2": {
+      "title": "Engineering Lead / Staff Engineer, Infrastructure (Data &AI)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "uvb566zjrbhct42est": {
+      "title": "Engineering Lead/Manager, Billing",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "rd3j2resrimtvdgo6w": {
+      "title": "Product Lead, Lending",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "bo4bibxq62vjpuxwaj": {
+      "title": "Product Lead, Payment Fraud",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "32eszupkihnp3to4o2": {
+      "title": "Senior Manager, Product Strategy",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "ydnhgraunncmscufjh": {
+      "title": "Senior Product Manager, Corporate Site",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "swu4mj4xxsmsuqoak7": {
+      "title": "Senior Product Manager, Growth",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "md37vogwdwssy5izqa": {
+      "title": "Senior Product Manager, Payment Fraud",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "i5ucwwdcvdjw4nby42": {
+      "title": "Senior Product Manager, Spend",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "whahz5uzuxex6fcse7": {
+      "title": "Senior Product Manager, Transaction Monitoring",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "e2ar4wp6a45j3p3glu": {
+      "title": "Senior Software Engineer, Developer Experience",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "eztd7nhc4tjqnalfud": {
+      "title": "Staff Product Designer",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "ydzm3w2z3c37wvaigv": {
+      "title": "Staff Product Manager (0-1 Billing)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "clgzodi7vjowewv6my": {
+      "title": "Staff Product Manager, AI Growth",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "frc52d37prb6wvquqh": {
+      "title": "Staff Product Manager, Check-Out",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "65samqrqspvp4za7o7": {
+      "title": "Staff Product Manager, Direct Issuing",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "54pktns2vcygxs3tve": {
+      "title": "Staff Product Manager, Embedded Finance",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "yuxp4cvejhqaqjzmgq": {
+      "title": "Staff Product Manager, Onboarding",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "bqcqyijebzuofqrkwc": {
+      "title": "Staff Product Manager, Regulatory Reporting",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "hhmr3u2lnjck3uvl3f": {
+      "title": "Applied AI Engineer",
+      "company": "EPAM SYSTEMS PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "yrcbvvdycunx3pn4g4": {
+      "title": "Assistant / Deputy Director, AI Capability Building and Partnerships, Managed Agencies (MOE)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "cqx5igx542n6r4k2dm": {
+      "title": "Assistant / Deputy Director, Design Management - AI Programme",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "yaxlglwdq3gmevzv5z": {
+      "title": "Assistant / Deputy Director, Design Management - Government Productivity Engineering",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "pz3p6xqrwkrjqhhf7w": {
+      "title": "Assistant / Deputy Director, GDT - GPO",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "tw3ged35ffqftlgsvw": {
+      "title": "Assistant Director, Engineering Management (BCA)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "zlwq4yrpyfxtpco4dk": {
+      "title": "Deputy Director / Assistant Director, Agency Success Programme Management - Government Productivity Engineering",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "fzezp4q4loipdicnh6": {
+      "title": "Deputy Director, Infrastructure Engineering Management",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "ftflenxf2lg32rdawh": {
+      "title": "Engineering Manager, GeBIZ X",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "f5l5biebq3t5y6nlm2": {
+      "title": "ICT & SS Auditor",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "wcygkduvpquxtba42s": {
+      "title": "Senior Enterprise Software Specialist, Finance ERP (PSD)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "z7e5rourd7sz736cfe": {
+      "title": "Senior Enterprise Software Specialist, Human Capital Management (PSD)",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "thjol6ix5ia54vdziu": {
+      "title": "Senior/Lead Infra Consultant",
+      "company": "NCS PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "h6vw2le3huy2udvkhq": {
+      "title": "Principal Product Manager, Affiliate Program & KOL",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "2bdrr36y6mo6tb33cz": {
+      "title": "Principal Product Manager, AI Agent Infrastructure",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "joi4mgrpofonqiuw2l": {
+      "title": "Principal/Senior Product Manager, Advanced Trading Operations (Spot/Derivatives)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "t3g5hra4zuvosy7sr3": {
+      "title": "Senior Product Manager, Risk Intelligence Product",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "papgqxhr5txq2ukzol": {
+      "title": "Machine Learning Engineer (AI Search ) - TikTok Search",
+      "company": "TIKTOK PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 64
+    },
+    "auu6kz5uxwffrtp2ls": {
+      "title": "Product Manager - A26108",
+      "company": "ACTIVATE INTERACTIVE PTE LTD",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 63
+    },
+    "vzm5bpr5ayeqjnsu6y": {
+      "title": "UX Researcher and Service Designer - A26138",
+      "company": "ACTIVATE INTERACTIVE PTE LTD",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 63
+    },
+    "izl7qkeqm74gxdtrs5": {
+      "title": "Software Engineer - P26003",
+      "company": "ACTIVATE INTERACTIVE PTE LTD",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 61
+    },
+    "kpjm3vgyfezffvzji2": {
+      "title": "Technical Program Manager (Networking/ Data Centre)",
+      "company": "ADECCO PERSONNEL PTE LTD",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 61
+    },
+    "nmtonsep5zbz4l6xq5": {
+      "title": "Engineering Manager / Senior Engineering Manager, Experimental Systems and Technology Lab",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 61
+    },
+    "ywhlxfysdilqpg23o3": {
+      "title": "Product Operations Specialist, Singpass",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 61
+    },
+    "zclwedigeix2nn2kon": {
+      "title": "Senior Product Designer, Pay",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 61
+    },
+    "xheif4iecv377ynumz": {
+      "title": "Senior Product Manager, Infra Operations",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 61
+    },
+    "4pxxa6di3gupm3h4z3": {
+      "title": "Data Engineer",
+      "company": "SYSVALENT PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 61
+    },
+    "e2gw25aer5usqxthr5": {
+      "title": "Assistant / Deputy Director, Design Management - Workflow and Transactional Services Programmes",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "tgp5vvnk7m4suertes": {
+      "title": "Director / Deputy Director, Design Management - Data Programme",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "bqulvvycls24wlvy7z": {
+      "title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "u7raygtx5gjpzrmkme": {
+      "title": "Principal/Senior Product Manager, AI and Agent",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 60
+    },
+    "chm223hxjd7ul2izgr": {
+      "title": "(Senior) Data Infra Product Manager, On Chain (Web3)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 59
+    },
+    "vharayyc5ult4qqxwc": {
+      "title": "Platform Engineer (Red Hat OpenShift) - A26103",
+      "company": "ACTIVATE INTERACTIVE PTE LTD",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "t5q22jcfu2kucny2mp": {
+      "title": "(Senior) Data Platform Engineer, Growth Data Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "fybwude2rodgr6ikgu": {
+      "title": "(Senior) Software Engineer, Android - Financial Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "s4i3nktjxl4qefvkpz": {
+      "title": "(Senior) Software Engineer, iOS - Financial Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "qqg22miajn5fbei2zw": {
+      "title": "Associate/Manager, Credit Risk Operations (Debt Collections)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "53gnao67csg24p44lx": {
+      "title": "Director, Product Strategy",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "4sfojucddut6p3zgrn": {
+      "title": "Engineering Lead - IAM & Account Infrastructure",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "sth3qlcy6yqflvdp4h": {
+      "title": "Engineering Lead - Onboarding Team",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "oaqifdha34fiyygozv": {
+      "title": "Engineering Lead, Core Banking",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "4icu5yf72k6kp2f5dj": {
+      "title": "Engineering Lead, Growth",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "3ybqjiddnv4lduvtnd": {
+      "title": "Engineering Lead, KYC",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "n6spiuq2gpyumxamlr": {
+      "title": "Engineering Lead, Notification Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "hahdg2ebpxkn64rrwr": {
+      "title": "Engineering Lead, Regulatory Reporting",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "cs3mzmg22ce2lpmtjl": {
+      "title": "Engineering Manager, Risk",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "44g4rltsygmb3fspe7": {
+      "title": "Manager, Revenue Strategy",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "6jc4pzvj4zdzn25ek3": {
+      "title": "Manager, Revenue Strategy & Enablement, SG & SEA",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "jx75pdsyf2zzdbf2bk": {
+      "title": "Manager, Revenue Strategy, SG",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "4dj7gwu6gk52yvfl7d": {
+      "title": "Partner Enablement & Strategy Manager",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "3bccsfykrathq7wkqm": {
+      "title": "Principal Architect, Data Knowledge Platform & AI",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "2ukahzuhtnair3skur": {
+      "title": "Senior / Software Engineer, Global Payments",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "w6yl3yto2fiurruq6f": {
+      "title": "Senior Backend Engineer, Spend Team (Cards)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "kzmrastrhrnh7vtqkk": {
+      "title": "Senior Corporate Security Engineer",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "brfurokcx3tvazpx2e": {
+      "title": "Senior Data Engineer",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "g5hbgenyptlvwffti2": {
+      "title": "Senior Data Platform Engineer (Knowledge Platform & AI Enablement)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "2yekim4dvzkqeistep": {
+      "title": "Senior Data Scientist, Analytics (Risk & Fraud)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "6b3sb7lxv6npkc5kfj": {
+      "title": "Senior Data Scientist, Anaytics (Risk & Compliance)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "7t5ngrkp7zfoxmdgbe": {
+      "title": "Senior Frontend Engineer, Billing",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "lgmhzinljnkbbromyc": {
+      "title": "Senior Frontend Engineer, Regulatory Reporting",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "wm2r4oehysglnh472y": {
+      "title": "Senior Manager, Enterprise Strategy & GTM, APAC",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "kar24cxlohdp76giet": {
+      "title": "Senior Manager, Operations Strategy",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "3glgq7f2oymrzhk4nn": {
+      "title": "Senior Software Engineer, AI - Global Treasury Payment Network",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "xuj7qzptfqlezgdu5r": {
+      "title": "Senior Software Engineer, Corporate IT",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "sd2uuva4baepl5pvhp": {
+      "title": "Senior Software Engineer, Edge Team",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "wgoqw43x6viomln25s": {
+      "title": "Senior Software Engineer, GTPN Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "ndyp4kv7q76yweeksv": {
+      "title": "Senior Software Engineer, Infrastructure (Cloud Platform)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "osrcrh2p72jfhjobma": {
+      "title": "Senior Software Engineer, Issuing Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "4vszjpdzxkg5auv6qe": {
+      "title": "Senior Software Engineer, Lending",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "l3rpod445bsvbyowew": {
+      "title": "Senior Software Engineer, Lending Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "a4t3abopx2efj2m4qx": {
+      "title": "Senior Software Engineer, Notification Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "25la5ogoifg4qkbssw": {
+      "title": "Senior Software Engineer, Regulatory Reporting",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "2lhowke6ti5lodpci6": {
+      "title": "Senior Software Engineer, Search Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "nixnyad2l3bdxprtu5": {
+      "title": "Software Engineer, Corporate IT",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "nhgqmlbezdny3xloj6": {
+      "title": "Software Engineer, GTPN Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "uv4hestq7bno5emhp6": {
+      "title": "Software Engineer, Notification Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "o7up65qdesmxg4szfz": {
+      "title": "Staff / Engineering Lead, Data&AI Infrastructure",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "t77mdavkotmdbg76rp": {
+      "title": "Staff / Senior Backend Engineer, Billing",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "gugtvr4vpviq4ouw3a": {
+      "title": "Staff / Senior Software Engineer, Infrastructure (Citizen Dev)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "xenddkgnbwxozwmu7k": {
+      "title": "Staff Backend Engineer, Issuing Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "4fh3b2jnlgm2e43asa": {
+      "title": "Staff Corporate Security Engineer",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "hukac4s66beyp4fdrq": {
+      "title": "Staff Data Engineer",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "5wad7mbk5f365przbz": {
+      "title": "Staff Data Platform Engineer",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "yxh7otqddoh7hjfjrl": {
+      "title": "Staff Software Engineer, Cards",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "hbvauvq5ykvgktr2w2": {
+      "title": "Staff Software Engineer, Ecosystem",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "2vlyzurqgznf433tur": {
+      "title": "Staff Software Engineer, Lending",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "soypwp3277kdwaopwl": {
+      "title": "Staff Software Engineer, Lending Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "weddxevlsodkscam4s": {
+      "title": "Staff Software Engineer, Search Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "xkwarnvxumawnyo5f4": {
+      "title": "Staff Software Engineer, Tech Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "cs6xs4opkofglyca62": {
+      "title": "Staff/Senior Risk & Fraud Data Scientist, Algorithm",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "3cc3o572mum6tbsoxc": {
+      "title": "Technical Program Manager, Finance System",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "neltl4jg5lmaamcjqe": {
+      "title": "Talent Acquisition Sourcer",
+      "company": "GovTech Singapore",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "ppujacbhw73r3w2jdf": {
+      "title": "Engineering Director, Frontend Business Lead",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "zwwj3jssggp2xny3uc": {
+      "title": "Frontend Business Lead",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "z5atzefyrisqmaediu": {
+      "title": "Mechanical Engineer / Software Engineer / Vision Engineer – OEM Semiconductor)",
+      "company": "STAFFKING PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "hyiqztfqxuntwjvcs5": {
+      "title": "AI Engineer",
+      "company": "TOFFS TECHNOLOGIES PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 58
+    },
+    "lckmq2jhyndgmvssdg": {
+      "title": "Information Security Engineer, Product Security - Singapore",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 57
+    },
+    "gno4biksckgqdcdwoh": {
+      "title": "AI Engineer",
+      "company": "AI SYSTEM INTEGRATOR ASIA PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "wfkvo47utkkzqej7ul": {
+      "title": "Director of Product Design - Developer Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "zpmes3oee6up6ukmf7": {
+      "title": "Manager, Product Finance",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "qagfx6nmmceuu43mpg": {
+      "title": "Product Design Manager",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "ujlgl5yma2ovehdf6u": {
+      "title": "Senior Data Scientist, Analytics (Product)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "ntndipokpv2y2obsmi": {
+      "title": "Staff Data Scientist, Analytics (Product)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "ngbodbttjwyfelx2fj": {
+      "title": "Fraud Risk Strategy Expert",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "r5uuzx2jgquwnwgzdw": {
+      "title": "Principal AI Engineer, AI Agent Development",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "3icotledhl4crscnak": {
+      "title": "Principal AI Engineer, Chatbot Development",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "xp3lgn7efu3fmedlo5": {
+      "title": "Principal Engineer, Agent Infrastructure & Memory Architecture",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "uj3qvppad7fapg3z3k": {
+      "title": "Senior Model Risk Quant Manager",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "vbxco37xoitclrrp2c": {
+      "title": "Senior Staff Engineer, AI Platform and Infrastructure",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "bek6vcsqglvoqfzvv5": {
+      "title": "Senior Strategy & Operations Manager, OKX SG",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "etgniqxng3lcgzw22i": {
+      "title": "Artificial Intelligence (AI) Engineer",
+      "company": "PC PARTNER TECHNOLOGY PTE. LIMITED",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "hxybocxuuhoxo72xr2": {
+      "title": "Applied AI Engineer",
+      "company": "PEBBLEROAD PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "muovo6yrjbvzgnnutt": {
+      "title": "AI ENGINEER",
+      "company": "SONARSOURCE PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 56
+    },
+    "x5jhkynxh67oguzssp": {
+      "title": "Product Manager / Director, AI Trading",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 55
+    },
+    "4nnsnyspx5j2nz6cxf": {
+      "title": "Product Manager / Director, Content Moderation & Creator Ecosystems",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 55
+    },
+    "545m72ddbumiqyprlt": {
+      "title": "Senior Data Scientist, Risk (Risk Strategy)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 55
+    },
+    "n73nasbchcopc523qr": {
+      "title": "Senior Product Manager, AI Agent Products",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 55
+    },
+    "3d4ii7utfgnv55gk33": {
+      "title": "Senior Product Manager/ Director , Campaign Platforms",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 55
+    },
+    "rsx5yksearxcdregtv": {
+      "title": "Senior Software Engineer, Rust (Cross-Platform)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 55
+    },
+    "yde2zfvpvmdyjfby55": {
+      "title": "Staff Software Engineer, Rust (Cross-Platform)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 55
+    },
+    "vlrhjr6zb3cy2kvsgc": {
+      "title": "Engineering Lead/Manager, Risk (Relocate to Singapore)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "edv6fjqfomtlsq5oxj": {
+      "title": "Field Engineering, Platform & Security Product Specialist",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "rwyfh4tjgnt6vindtw": {
+      "title": "Senior Software Engineer- Singapore",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "djnxe3tyux6zs4x3qz": {
+      "title": "Software Engineer- Fullstack- Singapore",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "5vfcjf2adjc7pejmsv": {
+      "title": "Senior Software Engineer, Machine Learning, Debug - Singapore",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "lf4z3ywfkgqoexzbxu": {
+      "title": "Software Engineering Manager, Open Source Security - Singapore",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "yw7yr7o7ismntieii3": {
+      "title": "Staff Software Engineer, Full Stack, Debug - Singapore",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "jhbchty74tj3ydqgam": {
+      "title": "Technical Program Manager, Street View Operations - Singapore",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 54
+    },
+    "obdhayniecukwhiutt": {
+      "title": "Associate, Merchant Risk Operations",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 53
+    },
+    "62q6vanhpxclxolba6": {
+      "title": "Director, Fraud Risk",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 53
+    },
+    "unxs6mkfyrh4drnqxu": {
+      "title": "Senior People Strategy Partner",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 53
+    },
+    "72w5wbqqh4doachuui": {
+      "title": "AI Engineer",
+      "company": "NCS PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 53
+    },
+    "fcprafxlxsfh5xbohe": {
+      "title": "AI Agent Security Research Engineer",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 53
+    },
+    "tgqtix3l6ufqlks2ni": {
+      "title": "Senior Data Scientist, Product & Growth Analytics",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 53
+    },
+    "deqctjllk2lutomxed": {
+      "title": "Senior Risk Manager, Trading (AI-Augmented Operations)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 53
+    },
+    "gdwb3pl3nksqwuyeni": {
+      "title": "Senior/Staff Software Engineer (Android) - Mobile Infrastructure",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 53
+    },
+    "dzknry4ap74xslm6pc": {
+      "title": "Software Engineer (Android) - Mobile Infrastructure (Performance Optimization)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 53
+    },
+    "awls2n7rewgkn5ldov": {
+      "title": "AI Engineer",
+      "company": "PIXEL1 PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 53
+    },
+    "uif6cw4fvm5rpyovlw": {
+      "title": "AI Engineer",
+      "company": "WE-PLUS PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 53
+    },
+    "ckzuzl6u7xmjkpuc3x": {
+      "title": "Forward Deployment Engineer",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "nt7sz5wsquylam6qcd": {
+      "title": "Technical Program Manager, Detection and Response - Singapore",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "icm6lmfpwtq5swrfpi": {
+      "title": "Product Design Manager",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "pbufta54zdm5i3r2ij": {
+      "title": "Product Manager / Director, CeDeFi",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "fgvwq6bppvgfjekwo2": {
+      "title": "Product Manager / Director, Fiat",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "gvrznugaimmp7qq3qf": {
+      "title": "Product Manager / Director, Global Payment Partnerships",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "rajlmddddtfmwdbdpx": {
+      "title": "Product Manager / Director, Global Trading",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "ntak44o2eepnvttbk3": {
+      "title": "Product Manager / Director, Institutional Product",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "3vnjf3chkr24dw427n": {
+      "title": "Product Manager / Product Director, Copy Trading / Trading Bot",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "gksi4sxb3xrefrlehn": {
+      "title": "Senior Product Designer",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "huf5ookwlfgl7ncpue": {
+      "title": "Senior Product Designer, Chat Experience",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "wb5omyakmyirgjt4fv": {
+      "title": "Senior Product Designer, Trading",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "hwjv2pwjib5qc66sza": {
+      "title": "Senior Product Designer, User Growth",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "tz46hx5673lfdlqora": {
+      "title": "Senior Product Designer, Wallets",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "drlbcjrtrrx624iirv": {
+      "title": "Senior Product Designer, Web3",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "fbv4xvdbd7wcevfxsk": {
+      "title": "Senior Product Designer, Web3 Growth",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "buojiy3knsmqv2y7b5": {
+      "title": "Senior Product Manager, VIP Growth & Operations",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 52
+    },
+    "cfc5i7f46fintavi5u": {
+      "title": "(Associate) Director, Product Legal, Financial and Strategic Partnership",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "sfymzdwhfxgt6mupy2": {
+      "title": "(Senior) Growth Manager",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "63yjk4cfk74yr6gyol": {
+      "title": "(Senior) iOS Engineer, Mobile - Identity & Org",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "fz3h7ubd2ikueyjpo5": {
+      "title": "(Senior)Android Engineer, Payments Team (Card, POS), CN",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "icqshavvm4upr5ns34": {
+      "title": "(Senior/Staff)Android Engineer, Payments Team (Card, POS), SG",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "njb2qmmrnhza5za572": {
+      "title": "Account Manager, SME & Growth (Digital & Tech)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "mtopibokggd4l3iqb3": {
+      "title": "AI Engineer",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "dxjqtdpyrwupep7oq3": {
+      "title": "Analyst, KYC Operations",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "eqxji4oksrvgzw2ygi": {
+      "title": "Cloud Network Engineer, Infra",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "rvz7uxzeyddkf2ht2y": {
+      "title": "Director of Product Design - Business Accounts",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "lusikibhm6cl4gakcn": {
+      "title": "Engineering Manager - IAM & Account Infrastructure",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "s3epomzhbgpurxo5ef": {
+      "title": "Engineering Manager - Onboarding Team",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "c6ekvucsuwt336yikr": {
+      "title": "Engineering Manager, AI Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "r34ywp6ee7rfba6a3x": {
+      "title": "Engineering Manager, Core Banking",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "qvgnmyh5pugy4d7zhm": {
+      "title": "Engineering Manager, Data Knowledge Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "kttdeyma3el75wic4n": {
+      "title": "Engineering Manager, Growth",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "r44igcc3lwmfdcu5xp": {
+      "title": "Engineering Manager, Technical Support (Asia Pacific incl. China coverage)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "6qklyljwznq64764bt": {
+      "title": "Growth Manager",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "irjfa66wddqcwpkthg": {
+      "title": "GTM Partnerships Manager, SME & Growth (Payment Acceptance)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "6fobfm5jgd36xscxmc": {
+      "title": "Manager, FP&A Data",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "qqj2ldffl35ijasygw": {
+      "title": "Manager, Global Growth, Lifecycle",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "ktubonggmydw7nwsj2": {
+      "title": "Manager, Growth Innovation",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "ou4iffvooe2wpsyecw": {
+      "title": "Manager, Influencer Marketing",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "pyjnjpav5l26m6smpt": {
+      "title": "Manager, Internal Audit (Technology)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "wjt4lfhnrydld47hgt": {
+      "title": "Procurement Manager",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "tzlskp4crlgzqtwzkx": {
+      "title": "Product Director, Financial Markets & Financial Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "me3zwf4j3etvexpttn": {
+      "title": "Product Director, Global Payments Network Infrastructure",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "53arehqzr3ru4s76oj": {
+      "title": "Product Director, Payment Fraud",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "tq6pwak36yyqbesytw": {
+      "title": "Senior AI Engineer",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "7vgb3gdhh4bplxsisq": {
+      "title": "Senior Analyst/Associate, Operations Quality Assurance (Merchant Fraud/Underwriting)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "omaqm27l5xc2423mrt": {
+      "title": "Senior Android Engineer, Identity",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "w5hlm7tsmtxfwncei3": {
+      "title": "Senior Compliance Manager & Deputy MLRO",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "umljvnc3s7zenyt33e": {
+      "title": "Senior Data Scientist, Analytics (Regulatory Reporting)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "b7twwcbh4yojtclayc": {
+      "title": "Senior Data Scientist, GTM Analytics",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "m5hc7rxobkelwsbeog": {
+      "title": "Senior Data Scientist, Revenue",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "kz6w2bgc7orwiilgto": {
+      "title": "Senior DevOps Engineer, Infrastructure",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "iu7ovxlcs5lzt4uwfa": {
+      "title": "Senior Financial Analyst, Treasury",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "a7ienow3hgm2llgixg": {
+      "title": "Senior iOS Engineer, GTPN Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "yaz45zkjtsaq35cdqr": {
+      "title": "Senior IT Engineer, Financial System",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "rw25qimzkrn5l5doib": {
+      "title": "Senior IT Engineer, LRC",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "pu25ukiu75pcvo75rk": {
+      "title": "Senior Manager, Field Marketing, SEA",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "uewqmmxxvedqietwhc": {
+      "title": "Senior Manager, Financial Operations",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "633vko6n2usgdtgyhm": {
+      "title": "Senior Manager, Financial Partnerships APAC",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "3ozhfqomab47gvjkua": {
+      "title": "Senior Manager, Financial Partnerships, APAC (Local Payment Providers)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "gjwcw7hbsdkjezf5fz": {
+      "title": "Senior Manager, Model Governance and Data Standards",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "pqm3iifchh5j4walrg": {
+      "title": "Senior Manager, Regulatory Reporting",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "bnb7vlijaujvhpfgwa": {
+      "title": "Senior Manager, Social Impact",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "aaocgy3ecgr4dqxdfm": {
+      "title": "Senior Manager, Strategic Partnerships",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "rjjmtlnhrlg45hyu2b": {
+      "title": "Senior ML Platform Engineer, AI Platform",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "ymnf6yfuoplu7e7fqv": {
+      "title": "Senior Mobile Engineer (iOS or Android)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "gzfqpzgg3xj5fgs7jv": {
+      "title": "Senior Site Reliability Engineer, Spend",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "2wzc6ffcumkhdrlwc3": {
+      "title": "Senior Solutions Engineer",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "tlrttnabowsi4sh7f3": {
+      "title": "Senior Technical Account Manager",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "kvx6lcccrd6tqhcew6": {
+      "title": "Senior/Staff Network Engineer",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "uwywkqbbygvfklcnph": {
+      "title": "Staff / Senior Devops Engineer, Data&AI Infrastructure",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "duoqvvdbjll3ayi7m2": {
+      "title": "Staff AI Engineer",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "jjizo3ksxsxn7ivkd2": {
+      "title": "Staff Data Scientist",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "oz5we6cr5aaxv55uuo": {
+      "title": "Staff Data Scientist, Algorithm (Payments Optimization)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "b5oeds4hlkfheynicp": {
+      "title": "Staff Data Scientist, Analytics (Payments)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "frzgsrwrf6dtjgcqe5": {
+      "title": "Staff Data Scientist, GTM Analytics",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "sz52mghcgyx5bq5lwi": {
+      "title": "Staff Data Scientist, Revenue",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "jpuki3pabxzi2xq4yp": {
+      "title": "Staff Mobile Engineer, Spend Foundation",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "7wjrjh47fxo5qtanot": {
+      "title": "Technical Support Engineer",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "bptzoeqgosejtdqt43": {
+      "title": "Principal AIgorithm Engineer, Search and Recommendation",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "dzkkhnzk3gmcaw2kuh": {
+      "title": "Principal Business Development Manager, Affiliate Program & KOL",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "frknr3phnyu3to7p6b": {
+      "title": "Principal Engineer, Middleware",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "22y7wqkflj5mylgxym": {
+      "title": "Senior Program Manager, Executive Support",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "2np6suio7omq4ddeeh": {
+      "title": "Staff/Senior Staff Frontend Engineer - Customer Genius & BOSS",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "74o3ncezcbwlyznw6m": {
+      "title": "Staff/Senior Staff Frontend Engineer - Growth",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 50
+    },
+    "jlhomqss6nhfbfrqep": {
+      "title": "Frontend Business Engineering Director",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 49
+    },
+    "emw62ewetnh75jovoc": {
+      "title": "Data Engineering Director",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 48
+    },
+    "ypid7gp2vghlducqf6": {
+      "title": "Senior Visual Designer",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 48
+    },
+    "o4zfdgbznmp56ajvxz": {
+      "title": "Senior Data Analyst, Trading Product (AI-Native)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 47
+    },
+    "xauyo56tueetdbhbel": {
+      "title": "Field Engineering, AI/ML Product Specialist",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "f6cr45v6fl2dbkjm5w": {
+      "title": "Field Engineering, Data Warehousing Product Specialist",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "ju64qm34gkupxqx27d": {
+      "title": "Technical Program Manager, Subsea Cable Build - Singapore",
+      "company": "DORID SERVICES PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "72gfkqklovzx7nycvo": {
+      "title": "Regional Marketing Manager (Singapore)",
+      "company": "Figma",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "hldg7qk44twk4ip4ab": {
+      "title": "Construction Quality Technical Program Manager - Singapore",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "6vsonz4gmrq47djq42": {
+      "title": "Security Engineer II, Enterprise SaaS Security - Singapore",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "uzyqt4h6z32x2zcqkh": {
+      "title": "Security Engineer, Third Party Security Diligence - Singapore",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "ggd4m2qev5f2hjv5he": {
+      "title": "Senior Security Engineer, Enterprise SaaS Security - Singapore",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "nrtizy7i5uqxaezxdo": {
+      "title": "Technical Program Manager, WAN Infrastructure and Capacity - Singapore",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "f4x2fc76gx6csry6jw": {
+      "title": "Expert Application Security Engineer (iOS)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "hgaxm6oeym3va3dgf5": {
+      "title": "Senior Data Engineer, Compliance Data Infrastructure",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "ayi463fyltnwyvaf75": {
+      "title": "Senior Machine Learning Engineer, Compliance",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "vxadonybryondr5p6w": {
+      "title": "Senior Risk Manager, Trading (24/7 team)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "dx3bwpr2t4j34sc7uf": {
+      "title": "Senior Strategy PMO / Project Manager (AI & Org Efficiency)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "5oblhvpzau5tnlzl7s": {
+      "title": "Senior/Staff Software Engineer Mobile (Android) - Compliance & KYC",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "6wgnvptq426ncjk7zl": {
+      "title": "Senior/Staff Software Engineer Mobile (iOS) - Compliance & KYC",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 46
+    },
+    "lzon56koofybln76sm": {
+      "title": "Associate, Reporting Operations",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "7frozoo2b5jdn5ehqg": {
+      "title": "Corporate Secretary",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "wlritidf7msjlmdvfg": {
+      "title": "Director, Government Affairs, SEA & India",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "4t2dlpgk7lwuiqcefh": {
+      "title": "Director, Marketing, SEA",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "befj6jemdkwlpx7yil": {
+      "title": "Director, Onboarding Operations",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "cqf65pwo2b3oeoohle": {
+      "title": "Director, People Operations & Enablement",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "lsrrytbwh7ciwaqf26": {
+      "title": "Director, Regulatory Compliance, Asia",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "om4py3weumcx2fnf32": {
+      "title": "Director, Strategic Partnerships APAC",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "er5xlpibkxtb3k46k6": {
+      "title": "Engineering Director, GTPN Platform (Relocate to Singapore)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "xhe7aw3fxtrx4snqhc": {
+      "title": "Executive Assistant",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "fkhe7svtqmsf4u32im": {
+      "title": "Payroll Partner",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "miyvmlxy5tbppuw4no": {
+      "title": "Senior Associate, Revenue Operations",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "3gzhfhhpux7c2igfcr": {
+      "title": "Senior Associate, Revenue Operations, SG",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "zr7yoraybvlhxnbu64": {
+      "title": "Senior Company Secretary",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "uckmagv6hundcvc3tl": {
+      "title": "Senior Director, Global Customer Support",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "gsvvk2x3ce5iryjpmv": {
+      "title": "Senior Employment Counsel",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "7otdaixqlav2gnojci": {
+      "title": "Senior Legal Counsel, Procurement",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "is4pfucu7okudsyknf": {
+      "title": "Senior Workplace Experience Specialist",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "vicliscnueil5ynzjx": {
+      "title": "Business Engineer",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "ilvddrd4gobtctado3": {
+      "title": "iOS Developer",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "k3r2jclxwcd4naahgr": {
+      "title": "Listing Manager, Structured Digital Assets",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "rizrh4ncpt46urocgj": {
+      "title": "Product Director (Pay & Card)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "qbfnb4sse5nw42ln2t": {
+      "title": "Senior Growth Manager, OKX DEX",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "56tw3dj3egqyqbnvm3": {
+      "title": "Senior Operations Manager",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "pu5i4pp2zawu6xk23p": {
+      "title": "Senior/Staff Engineer, Growth",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 45
+    },
+    "liglh4h3ay6o4xrygp": {
+      "title": "Engineering Director, Frontend",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 44
+    },
+    "yy3rd5urti35aly65l": {
+      "title": "Vice President, AI Strategy & Transformation",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 44
+    },
+    "5ledi7bygkdnarm4i2": {
+      "title": "APJ Manufacturing & Automotive Industry GTM Leader",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 43
+    },
+    "r5l3bfbd32bgu5pg5j": {
+      "title": "Retail & Consumer Goods APAC Leader",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 43
+    },
+    "wg6abn53kp5z5ecdqr": {
+      "title": "Staff Forward Deployment Engineer",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 43
+    },
+    "pwivkyw2cjx7sbqxoq": {
+      "title": "Cybersecurity Operations Specialist (Security Services) ***SINGAPOREAN ONLY***",
+      "company": "ETHOS SEARCH ASSOCIATES PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 43
+    },
+    "xxkiwin7qatpez5xrd": {
+      "title": "Events Marketing Manager (Singapore)",
+      "company": "Figma",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 43
+    },
+    "57zyvsk24nvwqug37g": {
+      "title": "Technical Program Manager, Data Center Network Infrastructure Construction - Singapore",
+      "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 43
+    },
+    "btzjdeu4cbafxw77uf": {
+      "title": "Senior Staff Engineer, Growth Product",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 43
+    },
+    "dvztm4rnwmlaczsmrq": {
+      "title": "Deputy General Counsel, Regulatory (APAC)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 42
+    },
+    "wb7dn53ttjhrzm5f47": {
+      "title": "Product Director, Compliance (Transaction Monitoring & Case Management)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 42
+    },
+    "kv4nogwipjggl7hif2": {
+      "title": "Senior Staff Algorithm Engineer, Recommendation",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 42
+    },
+    "twxzxfhiwpocxwhcfx": {
+      "title": "Senior/Staff Engineer, AI Agent Development",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 42
+    },
+    "sfggiedpvut2gjfm3y": {
+      "title": "Vice President of Product, AI and Agent",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 42
+    },
+    "f4c5ydfc4yyxzzmrxy": {
+      "title": "Engineering Lead, KYC (Relocation to Singapore)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "vmm5veobhumuyc24wm": {
+      "title": "Engineering Manager, Risk (Relocate to Singapore)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "sg2atkyy2pnufvbfml": {
+      "title": "Director, Partner Account Manager - Accenture APJ",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "h5z67pa5hpyfbkqfpj": {
+      "title": "GTM Talent Sourcer (Contract)",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "pvess2aqw76ttdzkz5": {
+      "title": "Senior Technical Solutions Engineer - Platform (Greater China Region)",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "hjqd5xmlpvbgbxzw5d": {
+      "title": "Distribution Partner Manager (Singapore)",
+      "company": "Figma",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "76zxsyb36x5vpqdrea": {
+      "title": "Manager, Solutions Consulting (Singapore)",
+      "company": "Figma",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 40
+    },
+    "45zc5f2snm3mqvari5": {
+      "title": "Business Assistant 业务助理",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 39
+    },
+    "e2chuahpgdgq5xya7b": {
+      "title": "Engineering Director - Mobile (Performance Lab & Foundation)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 39
+    },
+    "v42b5maqp4ejayqsji": {
+      "title": "Engineering Director - Mobile [iOS/Android]",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 39
+    },
+    "zq4ty2pfmirdzlgwsf": {
+      "title": "Finance & Strategy, GTM (ASEAN)",
+      "company": "Anthropic",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "chsbcf6empid6flaid": {
+      "title": "Regional Service Manager, Global Submarine Networks - Singapore",
+      "company": "DORID SERVICES PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "op7ie7l4flqps235nu": {
+      "title": "Android Developer",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "vw7anobxienuvastrr": {
+      "title": "Growth & AI Initiatives Manager",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "4v3gqnhd4tgnxcbotr": {
+      "title": "HRBP Director (Leadership Growth), Product & Engineering",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "voggjim2e2qxpna5bp": {
+      "title": "HRBP Director, Product & Engineering",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "zw3bpcmzcpbgkvprhc": {
+      "title": "Listing Manager",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "3if6igjnmh4mfai2re": {
+      "title": "Product Design Director, Growth",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "52w2awpoqiakrrtmym": {
+      "title": "Product Design Director, Orbit",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "5n3jssmkfjj5lphh4z": {
+      "title": "Product Director, Trust & Experience",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "euybw274s3opvdbymj": {
+      "title": "Relationship Manager, Greater China",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "7v36yxekbgupuk53fe": {
+      "title": "Senior Compliance Data Scientist",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "szrms4uugeu7g6hlst": {
+      "title": "Senior Finance Manager, Group Consolidation",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "3b3duei5ga5ctawbdk": {
+      "title": "Senior/Staff Android Developer",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "ct3exjqk5zjthdtt5g": {
+      "title": "Senior/Staff iOS Developer",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "kuct72od35v2g2raod": {
+      "title": "Staff AI Engineer, Model Post-Training and Alignment",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 38
+    },
+    "7vteuybndbjy5nbctx": {
+      "title": "HR Business Partner Director",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 36
+    },
+    "2ucoft36q3rwabxpvc": {
+      "title": "Staff Employee Relations Manager, APAC",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 35
+    },
+    "4a26fcc2j2lcwxb7nm": {
+      "title": "People Partner, Japan & APAC (Singapore)",
+      "company": "Figma",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 34
+    },
+    "5h7e3d5ns5zlufzn3j": {
+      "title": "(Senior) Growth Manager - Relocation to Singapore",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "jywurav4t3o2rgecin": {
+      "title": "Growth Manager (Relocation to Singapore)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "u5ep2xvapaidkaj6jy": {
+      "title": "Manager, Growth Innovation (relocate to Singapore)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "5mdttqxmgz62xmdaa5": {
+      "title": "Manager, Influencer Marketing (Relocate to Singapore)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "rmpsyzoqr4izfg7awn": {
+      "title": "Product Support Specialist (Singapore - Weekend Coverage)",
+      "company": "Anthropic",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "eqhs7b6arwycx6favl": {
+      "title": "Product Support Specialist (Singapore)",
+      "company": "Anthropic",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "gztjsgvezkuxt4aei6": {
+      "title": "AI Engineer - FDE (Forward Deployed Engineer)",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "fa665q4wtvh26rdava": {
+      "title": "Communications & PR Director, APAC",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "cti4s2hl72zwfwkgzx": {
+      "title": "Director, Compliance Data Science & AI",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "pdf5lqxya3gllgb4pi": {
+      "title": "Engineering Director (Java), Trading Services",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "zim35ym3sop2ujqtds": {
+      "title": "Head of Wholesale, NEA (VIP)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "27z54yv73b5tas75dc": {
+      "title": "Senior Front-end Leader ( Business/ Infra)",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "7r5aap3x6isq2a6iwk": {
+      "title": "Talent Acquisition Director, Greater China",
+      "company": "OKX",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 32
+    },
+    "djt45nnafxyj7bdwnw": {
+      "title": "Sr. Manager, Field Engineering (Specialist)",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 28
+    },
+    "4augws57tbsjgtxqwn": {
+      "title": "Director, Marketing, SEA (Relocate to Singapore)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 27
+    },
+    "r2kmzzwoggxloygwoi": {
+      "title": "Senior Director, Global Customer Support (Relocate to Singapore)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 27
+    },
+    "2kr22sscdqt6a2r33a": {
+      "title": "Outbound Product Manager, AI Operations",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 26
+    },
+    "k7vtv5cnecusojfrpm": {
+      "title": "Manager, Sales, SME & Growth",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 16
+    },
+    "c5unhuq7e5bgtyphmh": {
+      "title": "Senior Data Scientist, Sales Analytics",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 16
+    },
+    "6tzzl2vhtyqwucarbg": {
+      "title": "Staff Data Scientist, Sales Analytics",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 16
+    },
+    "2t2vsbskcpkll45dak": {
+      "title": "Technical Program Manager, Sales Operations - Singapore",
+      "company": "DORID SERVICES PTE. LTD.",
+      "source": "MyCareersFuture",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 12
+    },
+    "wwnkjuk5ouktxfzvj6": {
+      "title": "Account Executive (Education Segment)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 11
+    },
+    "vfcxgjxldzidmsq7p3": {
+      "title": "Account Executive, Inbound, SME & Growth",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 11
+    },
+    "vhe5tjgy2dw5gg4zpg": {
+      "title": "Account Executive, SME & Growth",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 11
+    },
+    "5fy2nad5ou2o47sgfk": {
+      "title": "Account Executive, Startups",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 11
+    },
+    "qepedpdvriccq63frk": {
+      "title": "Account Executive/Senior Account Executive, Enterprise (Team Expansion)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 11
+    },
+    "zy6vencnmownms3vyu": {
+      "title": "Account Executive/Senior Account Executive, Enterprise (Travel Vertical)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 11
+    },
+    "zcoehbby7yr746dzcv": {
+      "title": "Inbound Sales Representative, SME & Growth (Indonesia market)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 11
+    },
+    "n4zomkheztu5zmuwdv": {
+      "title": "Inbound Sales Representative, SME & Growth (Thai speaking)",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 11
+    },
+    "wpb7qx72pcf37ycrbk": {
+      "title": "Sales Development Representative, Enterprise",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 11
+    },
+    "okk7jwrzi5amcyhttw": {
+      "title": "Sales Development Representative, SME & Growth",
+      "company": "Airwallex",
+      "source": "Ashby",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 11
+    },
+    "ejt5mx7ysqer5ij6pr": {
+      "title": "Sr. Manager, Partner Solutions Architect",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 11
+    },
+    "otexu7g6yqunaz52pl": {
+      "title": "Delivery Solutions Architect",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 6
+    },
+    "nbu7fczgtdcwwddl7x": {
+      "title": "Manager, Field Engineering",
+      "company": "Databricks",
+      "source": "Greenhouse",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "last_score": 6
     }
   }
 }

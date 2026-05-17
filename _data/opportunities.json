@@ -1,147 +1,206 @@
 {
   "title": "Opportunity Radar",
-  "updated_at": "2026-05-17T07:04:08Z",
+  "updated_at": "2026-05-17T07:24:29Z",
   "search_focus": "Configurable public opportunity radar for software engineering, data/AI, product, security, research, leadership, and adjacent roles.",
   "sources": [
     "Greenhouse/GitLab",
     "Greenhouse/Stripe",
     "Greenhouse/Cloudflare",
+    "Greenhouse/GovTech Singapore",
+    "Greenhouse/OKX",
+    "Greenhouse/Databricks",
+    "Greenhouse/Figma",
+    "Greenhouse/Anthropic",
     "Lever/Mistral AI",
     "Ashby/OpenAI",
     "Ashby/Cursor",
     "Ashby/Modal",
-    "Remotive/software engineer remote",
-    "Remotive/data engineer remote",
-    "Remotive/product manager remote",
-    "Remotive/security engineer remote",
-    "Remotive/designer remote",
-    "RemoteOK"
+    "Ashby/Airwallex",
+    "MyCareersFuture/software engineer",
+    "MyCareersFuture/data engineer",
+    "MyCareersFuture/machine learning engineer",
+    "MyCareersFuture/ai engineer",
+    "MyCareersFuture/cybersecurity engineer",
+    "MyCareersFuture/application security",
+    "MyCareersFuture/product manager",
+    "MyCareersFuture/technical program manager",
+    "MyCareersFuture/ux designer",
+    "MyCareersFuture/platform engineer"
   ],
   "source_health": [
     {
       "source": "Greenhouse/GitLab",
       "status": "ok",
-      "count": 180,
-      "seconds": 0.4
+      "count": 0,
+      "seconds": 0.39
     },
     {
       "source": "Greenhouse/Stripe",
       "status": "ok",
-      "count": 124,
-      "seconds": 0.6
+      "count": 25,
+      "seconds": 0.44
     },
     {
       "source": "Greenhouse/Cloudflare",
       "status": "ok",
-      "count": 2,
+      "count": 0,
+      "seconds": 0.61
+    },
+    {
+      "source": "Greenhouse/GovTech Singapore",
+      "status": "ok",
+      "count": 184,
+      "seconds": 0.44
+    },
+    {
+      "source": "Greenhouse/OKX",
+      "status": "ok",
+      "count": 113,
+      "seconds": 0.85
+    },
+    {
+      "source": "Greenhouse/Databricks",
+      "status": "ok",
+      "count": 19,
+      "seconds": 2.06
+    },
+    {
+      "source": "Greenhouse/Figma",
+      "status": "ok",
+      "count": 5,
       "seconds": 0.58
+    },
+    {
+      "source": "Greenhouse/Anthropic",
+      "status": "ok",
+      "count": 3,
+      "seconds": 0.69
     },
     {
       "source": "Lever/Mistral AI",
       "status": "ok",
-      "count": 11,
-      "seconds": 2.78
+      "count": 10,
+      "seconds": 2.77
     },
     {
       "source": "Ashby/OpenAI",
       "status": "ok",
-      "count": 115,
-      "seconds": 0.23
+      "count": 21,
+      "seconds": 0.99
     },
     {
       "source": "Ashby/Cursor",
       "status": "ok",
-      "count": 11,
-      "seconds": 0.08
+      "count": 3,
+      "seconds": 0.31
     },
     {
       "source": "Ashby/Modal",
       "status": "ok",
       "count": 0,
-      "seconds": 0.07
+      "seconds": 0.31
     },
     {
-      "source": "Remotive/software engineer remote",
+      "source": "Ashby/Airwallex",
+      "status": "ok",
+      "count": 216,
+      "seconds": 0.63
+    },
+    {
+      "source": "MyCareersFuture/software engineer",
       "status": "ok",
       "count": 8,
-      "seconds": 0.06
+      "seconds": 0.14
     },
     {
-      "source": "Remotive/data engineer remote",
+      "source": "MyCareersFuture/data engineer",
       "status": "ok",
       "count": 8,
-      "seconds": 0.06
+      "seconds": 0.14
     },
     {
-      "source": "Remotive/product manager remote",
+      "source": "MyCareersFuture/machine learning engineer",
+      "status": "ok",
+      "count": 13,
+      "seconds": 0.14
+    },
+    {
+      "source": "MyCareersFuture/ai engineer",
+      "status": "ok",
+      "count": 10,
+      "seconds": 0.14
+    },
+    {
+      "source": "MyCareersFuture/cybersecurity engineer",
+      "status": "ok",
+      "count": 3,
+      "seconds": 0.13
+    },
+    {
+      "source": "MyCareersFuture/application security",
+      "status": "ok",
+      "count": 15,
+      "seconds": 0.14
+    },
+    {
+      "source": "MyCareersFuture/product manager",
       "status": "ok",
       "count": 8,
-      "seconds": 0.07
+      "seconds": 0.14
     },
     {
-      "source": "Remotive/security engineer remote",
+      "source": "MyCareersFuture/technical program manager",
       "status": "ok",
-      "count": 8,
-      "seconds": 0.06
+      "count": 17,
+      "seconds": 0.09
     },
     {
-      "source": "Remotive/designer remote",
+      "source": "MyCareersFuture/ux designer",
       "status": "ok",
-      "count": 8,
-      "seconds": 0.08
+      "count": 4,
+      "seconds": 0.12
     },
     {
-      "source": "RemoteOK",
+      "source": "MyCareersFuture/platform engineer",
       "status": "ok",
-      "count": 75,
-      "seconds": 0.08
+      "count": 11,
+      "seconds": 0.12
     }
   ],
   "stats": {
-    "candidates_scored": 509,
-    "published_count": 12,
-    "alert_count": 2
+    "candidates_scored": 655,
+    "published_count": 18,
+    "alert_count": 6
   },
   "alerts": [
     {
-      "title": "Lead Product Marketing Manager, Pricing and Packaging",
-      "company": "GitLab",
-      "location": "Remote, Canada; Remote, US",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8542042002",
+      "title": "Lead / Principal Product Manager (SLS)",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4000973201?gh_jid=4000973201",
       "source": "Greenhouse",
-      "published_at": "2026-05-11",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure softw…",
+      "published_at": "2026-05-08",
+      "summary": "Role Overview You will play a pivotal role in shaping core educational products that empower personalized education for each student. We are seeking a Lead/Principal Product Manager to lead the modernization and transformation of the Student Learning Space (SLS). SLS is one of the key learning platforms used by primary, secondary and junior college students…",
       "tags": [
-        "Software Engineering",
-        "Platform",
         "Product / Program Leadership",
-        "Lead",
-        "Cybersecurity / Trust",
-        "Security",
-        "Risk"
+        "Product Manager",
+        "Principal",
+        "Lead"
       ],
-      "score": 82,
+      "score": 97,
       "matched_profiles": [
-        "Software Engineering",
-        "Product / Program Leadership",
-        "Cybersecurity / Trust"
+        "Product / Program Leadership"
       ],
-      "why_match": "Matches Software Engineering, Product / Program Leadership, Cybersecurity / Trust; title relevance 75/100, profile relevance 72/100, location fit 100/100, freshness 100/100.",
-      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership, Cybersecurity / Trust.",
+      "why_match": "Matches Product / Program Leadership; title relevance 75/100, profile relevance 54/100, location fit 100/100, freshness 82/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
       "skillsets_to_build": [
-        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
-        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives.",
-        "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
       ],
       "certifications_to_consider": [
-        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
-        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary.",
-        "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
       ],
       "learning_gaps": [
-        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
-        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
-        "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
       "status_badge": "New this refresh",
       "first_seen": "2026-05-17",
@@ -149,45 +208,173 @@
       "status": "New"
     },
     {
-      "title": "Principal Product Manager, Security - GTM",
-      "company": "GitLab",
-      "location": "Remote, Canada; Remote, US",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8489126002",
+      "title": "Principal / Lead Product Manager, TradeNet, DEP",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4001140201?gh_jid=4001140201",
       "source": "Greenhouse",
-      "published_at": "2026-04-30",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure softw…",
+      "published_at": "2026-05-08",
+      "summary": "GovTech is Singapore's lead agency for digital government and the Smart Nation initiative. We build and deploy technology that meaningfully improves lives — for citizens, businesses, and the public sector. Digital Economy Products (DEP) is a division within GovTech that operates with the pace and rigour of a modern product company. Our teams tackle high-sta…",
       "tags": [
-        "Software Engineering",
-        "Platform",
         "Product / Program Leadership",
         "Product Manager",
         "Principal",
-        "Cybersecurity / Trust",
-        "Security",
-        "Risk"
+        "Lead"
       ],
-      "score": 82,
+      "score": 97,
       "matched_profiles": [
-        "Software Engineering",
-        "Product / Program Leadership",
-        "Cybersecurity / Trust"
+        "Product / Program Leadership"
       ],
-      "why_match": "Matches Software Engineering, Product / Program Leadership, Cybersecurity / Trust; title relevance 50/100, profile relevance 90/100, location fit 100/100, freshness 82/100.",
-      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership, Cybersecurity / Trust.",
+      "why_match": "Matches Product / Program Leadership; title relevance 75/100, profile relevance 54/100, location fit 100/100, freshness 82/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
       "skillsets_to_build": [
-        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
-        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives.",
-        "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
       ],
       "certifications_to_consider": [
-        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
-        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary.",
-        "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
       ],
       "learning_gaps": [
-        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Principal / Lead UX Designer (GeBIZ X)",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4003191201?gh_jid=4003191201",
+      "source": "Greenhouse",
+      "published_at": "2026-05-12",
+      "summary": "The Ministry of Finance (MOF) is responsible for the Government Procurement (GP) policies, which govern how government agencies conduct their procurement. With evolving needs of our public officers and changing procurement landscape, MOF is embarking on the Whole of Government Procurement initiative. GeBIZ X is the MOF product that would transform the procu…",
+      "tags": [
+        "Product / Program Leadership",
+        "Principal",
+        "Lead",
+        "Design / Ux Research",
+        "Ux"
+      ],
+      "score": 94,
+      "matched_profiles": [
+        "Product / Program Leadership",
+        "Design / UX Research"
+      ],
+      "why_match": "Matches Product / Program Leadership, Design / UX Research; title relevance 50/100, profile relevance 54/100, location fit 100/100, freshness 100/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership, Design / UX Research.",
+      "skillsets_to_build": [
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives.",
+        "Portfolio storytelling, user research synthesis, interaction flows, design systems, accessibility, and product impact measurement."
+      ],
+      "certifications_to_consider": [
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary.",
+        "Accessibility training such as WCAG-focused coursework if the role emphasizes inclusive design or design systems."
+      ],
+      "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
-        "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
+        "Prepare case studies that connect user evidence to product decisions and measurable outcomes."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Principal Product Manager",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4003723201?gh_jid=4003723201",
+      "source": "Greenhouse",
+      "published_at": "2026-05-12",
+      "summary": "The Government Technology Agency (GovTech) is the lead agency driving Singapore’s Smart Nation initiatives and public sector digital transformation. As the Centre of Excellence for Infocomm Technology and Smart Systems (ICT & SS), GovTech develops the Singapore Government’s capabilities in Data Science & Artificial Intelligence, Application Development, Sma…",
+      "tags": [
+        "Product / Program Leadership",
+        "Product Manager",
+        "Principal",
+        "Lead"
+      ],
+      "score": 94,
+      "matched_profiles": [
+        "Product / Program Leadership"
+      ],
+      "why_match": "Matches Product / Program Leadership; title relevance 50/100, profile relevance 54/100, location fit 100/100, freshness 100/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
+      "skillsets_to_build": [
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
+      ],
+      "certifications_to_consider": [
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
+      ],
+      "learning_gaps": [
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Lead Product Manager",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4001865201?gh_jid=4001865201",
+      "source": "Greenhouse",
+      "published_at": "2026-05-14",
+      "summary": "GovTech is the lead agency driving Singapore’s Smart Nation initiatives and public sector digital transformation. As the Centre of Excellence for Infocomm Technology and Smart Systems (ICT & SS), GovTech develops the Singapore Government’s capabilities in Data Science & Artificial Intelligence, Application Development, Smart City Technology, Digital Infrast…",
+      "tags": [
+        "Product / Program Leadership",
+        "Product Manager",
+        "Lead"
+      ],
+      "score": 91,
+      "matched_profiles": [
+        "Product / Program Leadership"
+      ],
+      "why_match": "Matches Product / Program Leadership; title relevance 75/100, profile relevance 36/100, location fit 100/100, freshness 100/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
+      "skillsets_to_build": [
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
+      ],
+      "certifications_to_consider": [
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
+      ],
+      "learning_gaps": [
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Senior / Product Manager (SC)",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4001785201?gh_jid=4001785201",
+      "source": "Greenhouse",
+      "published_at": "2026-05-08",
+      "summary": "Customs is seeking a passionate Product Manager or Senior Product Manager to lead the development, delivery, and operation of innovative G2B and G2G digital products and services that enhance the lives of citizens and businesses in Singapore. You will be instrumental in shaping product strategy, driving execution, and ensuring the successful adoption of tec…",
+      "tags": [
+        "Product / Program Leadership",
+        "Product Manager",
+        "Strategy",
+        "Lead"
+      ],
+      "score": 91,
+      "matched_profiles": [
+        "Product / Program Leadership"
+      ],
+      "why_match": "Matches Product / Program Leadership; title relevance 50/100, profile relevance 54/100, location fit 100/100, freshness 82/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
+      "skillsets_to_build": [
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
+      ],
+      "certifications_to_consider": [
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
+      ],
+      "learning_gaps": [
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
       "status_badge": "New this refresh",
       "first_seen": "2026-05-17",
@@ -197,42 +384,108 @@
   ],
   "jobs": [
     {
-      "title": "Lead Product Marketing Manager, Pricing and Packaging",
-      "company": "GitLab",
-      "location": "Remote, Canada; Remote, US",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8542042002",
-      "source": "Greenhouse",
-      "published_at": "2026-05-11",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure softw…",
+      "title": "Senior Platform Engineer",
+      "company": "ASSOCIATION EDHEC BUSINESS SCHOOL Singapore Branch",
+      "location": "D01 Cecil, Marina, People’s Park, Raffles Place",
+      "url": "https://www.mycareersfuture.gov.sg/job/design/senior-platform-engineer-association-edhec-business-school-singapore-branch-def9f30893a9f123f3d2df17ced547f9",
+      "source": "MyCareersFuture",
+      "published_at": "2026-05-12",
+      "summary": "Location: Singapore Role Join a growing and global team focused on measuring climate risks and bringing new data and rating services to investors. As climate physical and transition risks increasingly impact investors’ portfolios and corporate balance sheets, the need for high-quality climate risk data and assessment… Categories: Design, Information Technol…",
       "tags": [
         "Software Engineering",
         "Platform",
-        "Product / Program Leadership",
-        "Lead",
         "Cybersecurity / Trust",
-        "Security",
         "Risk"
       ],
       "score": 82,
       "matched_profiles": [
         "Software Engineering",
-        "Product / Program Leadership",
         "Cybersecurity / Trust"
       ],
-      "why_match": "Matches Software Engineering, Product / Program Leadership, Cybersecurity / Trust; title relevance 75/100, profile relevance 72/100, location fit 100/100, freshness 100/100.",
-      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership, Cybersecurity / Trust.",
+      "why_match": "Matches Software Engineering, Cybersecurity / Trust; title relevance 25/100, profile relevance 36/100, location fit 100/100, freshness 100/100, source boost +28.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Software Engineering, Cybersecurity / Trust.",
       "skillsets_to_build": [
         "System design, production debugging, API design, automated testing, and maintainable service ownership.",
-        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives.",
         "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
       ],
       "certifications_to_consider": [
         "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
-        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary.",
         "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."
       ],
       "learning_gaps": [
         "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
+        "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Backend Platform Engineer",
+      "company": "FIREROCK CAPITAL PTE. LTD.",
+      "location": "D02 Anson, Tanjong Pagar",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/backend-platform-engineer-firerock-capital-8c4900c655172def98f32c274a508924",
+      "source": "MyCareersFuture",
+      "published_at": "2026-05-10",
+      "summary": "About the Role We’re looking for a skilled Backend Software Engineer to join our team in Singapore. In this role, you will primarily build and maintain platform services that power client integrations , including those used by our Unity SDK, while also supporting game-related backend systems. You will design scalable… Categories: Information Technology Empl…",
+      "tags": [
+        "Software Engineering",
+        "Software Engineer",
+        "Backend",
+        "Platform"
+      ],
+      "score": 80,
+      "matched_profiles": [
+        "Software Engineering"
+      ],
+      "why_match": "Matches Software Engineering; title relevance 25/100, profile relevance 54/100, location fit 100/100, freshness 100/100, source boost +18.",
+      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering.",
+      "skillsets_to_build": [
+        "System design, production debugging, API design, automated testing, and maintainable service ownership."
+      ],
+      "certifications_to_consider": [
+        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project."
+      ],
+      "learning_gaps": [
+        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Lead Cybersecurity Specialist (Offensive Security)",
+      "company": "JJ CONSULTING SERVICES",
+      "location": "Islandwide",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/lead-cybersecurity-specialist-jj-consulting-services-0b74c5ede54fe7bb828a03e0cc849a30",
+      "source": "MyCareersFuture",
+      "published_at": "2026-05-16",
+      "summary": "​ Our Client is an established company in Singapore, who is seeking to recruit a Lead Cybersecurity Specialist (Offensive Security). Lead Cybersecurity Specialist (Offensive Security) As the Cybersecurity Specialist (Offensive Security) within the CISO Office, you will be the domain expert responsible for elevating th… Categories: Information Technology Emp…",
+      "tags": [
+        "Product / Program Leadership",
+        "Lead",
+        "Cybersecurity / Trust",
+        "Security",
+        "Cybersecurity"
+      ],
+      "score": 80,
+      "matched_profiles": [
+        "Product / Program Leadership",
+        "Cybersecurity / Trust"
+      ],
+      "why_match": "Matches Product / Program Leadership, Cybersecurity / Trust; title relevance 25/100, profile relevance 54/100, location fit 100/100, freshness 100/100, source boost +18.",
+      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Product / Program Leadership, Cybersecurity / Trust.",
+      "skillsets_to_build": [
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives.",
+        "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
+      ],
+      "certifications_to_consider": [
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary.",
+        "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."
+      ],
+      "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
         "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
       ],
@@ -242,44 +495,183 @@
       "status": "New"
     },
     {
-      "title": "Principal Product Manager, Security - GTM",
-      "company": "GitLab",
-      "location": "Remote, Canada; Remote, US",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8489126002",
-      "source": "Greenhouse",
-      "published_at": "2026-04-30",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure softw…",
+      "title": "Technical Program Manager, LLM data",
+      "company": "RAKUTEN ASIA PTE. LTD.",
+      "location": "D01 Cecil, Marina, People’s Park, Raffles Place",
+      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/technical-program-manager-llm-data-rakuten-asia-38337d32f6438294412095e0ea553534",
+      "source": "MyCareersFuture",
+      "published_at": "2026-05-13",
+      "summary": "Situated in the heart of Singapore's Central Business District, Rakuten Asia Pte. Ltd. is Rakuten's Asia Regional headquarters. Established in August 2012 as part of Rakuten's global expansion strategy, Rakuten Asia comprises various businesses that provide essential value-added services to Rakuten's global ecosystem.… Categories: Information Technology Emp…",
+      "tags": [
+        "Data / Ai Engineering",
+        "Llm",
+        "Product / Program Leadership",
+        "Program Manager",
+        "Strategy"
+      ],
+      "score": 80,
+      "matched_profiles": [
+        "Data / AI Engineering",
+        "Product / Program Leadership"
+      ],
+      "why_match": "Matches Data / AI Engineering, Product / Program Leadership; title relevance 25/100, profile relevance 54/100, location fit 100/100, freshness 100/100, source boost +18.",
+      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Data / AI Engineering, Product / Program Leadership.",
+      "skillsets_to_build": [
+        "Data pipelines, model evaluation, feature stores or embeddings, deployment, monitoring, and cost/performance tradeoffs.",
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
+      ],
+      "certifications_to_consider": [
+        "Cloud data/ML engineer certification aligned to the employer stack, or a hands-on MLOps specialization.",
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
+      ],
+      "learning_gaps": [
+        "Publish an end-to-end data or ML project with ingestion, evaluation, deployment, and monitoring evidence.",
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Computer Software Engineer (Senior Level)",
+      "company": "XIAOMI TECHNOLOGIES SINGAPORE PTE. LTD.",
+      "location": "D05 Clementi New Town, Hong Leong Garden, Pasir Panjang",
+      "url": "https://www.mycareersfuture.gov.sg/job/engineering/computer-software-engineer-xiaomi-technologies-singapore-bd0c7f550a2a266745c2c924c2a49092",
+      "source": "MyCareersFuture",
+      "published_at": "2026-05-09",
+      "summary": "Job Summary We are seeking a Senior Computer Software Engineer to lead technical work on the company's database and storage infrastructure platforms in Singapore. You will research, design, and develop large-scale, specialised software systems that power our database and storage services, and partner with hardware and… Categories: Engineering, Information T…",
       "tags": [
         "Software Engineering",
-        "Platform",
+        "Software Engineer",
+        "Product / Program Leadership",
+        "Lead"
+      ],
+      "score": 80,
+      "matched_profiles": [
+        "Software Engineering",
+        "Product / Program Leadership"
+      ],
+      "why_match": "Matches Software Engineering, Product / Program Leadership; title relevance 25/100, profile relevance 36/100, location fit 100/100, freshness 82/100, source boost +28.",
+      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership.",
+      "skillsets_to_build": [
+        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
+      ],
+      "certifications_to_consider": [
+        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
+      ],
+      "learning_gaps": [
+        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Lead / Principal Product Manager (SLS)",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4000973201?gh_jid=4000973201",
+      "source": "Greenhouse",
+      "published_at": "2026-05-08",
+      "summary": "Role Overview You will play a pivotal role in shaping core educational products that empower personalized education for each student. We are seeking a Lead/Principal Product Manager to lead the modernization and transformation of the Student Learning Space (SLS). SLS is one of the key learning platforms used by primary, secondary and junior college students…",
+      "tags": [
         "Product / Program Leadership",
         "Product Manager",
         "Principal",
-        "Cybersecurity / Trust",
-        "Security",
-        "Risk"
+        "Lead"
       ],
-      "score": 82,
+      "score": 97,
+      "matched_profiles": [
+        "Product / Program Leadership"
+      ],
+      "why_match": "Matches Product / Program Leadership; title relevance 75/100, profile relevance 54/100, location fit 100/100, freshness 82/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
+      "skillsets_to_build": [
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
+      ],
+      "certifications_to_consider": [
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
+      ],
+      "learning_gaps": [
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Principal / Lead Product Manager, TradeNet, DEP",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4001140201?gh_jid=4001140201",
+      "source": "Greenhouse",
+      "published_at": "2026-05-08",
+      "summary": "GovTech is Singapore's lead agency for digital government and the Smart Nation initiative. We build and deploy technology that meaningfully improves lives — for citizens, businesses, and the public sector. Digital Economy Products (DEP) is a division within GovTech that operates with the pace and rigour of a modern product company. Our teams tackle high-sta…",
+      "tags": [
+        "Product / Program Leadership",
+        "Product Manager",
+        "Principal",
+        "Lead"
+      ],
+      "score": 97,
+      "matched_profiles": [
+        "Product / Program Leadership"
+      ],
+      "why_match": "Matches Product / Program Leadership; title relevance 75/100, profile relevance 54/100, location fit 100/100, freshness 82/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
+      "skillsets_to_build": [
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
+      ],
+      "certifications_to_consider": [
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
+      ],
+      "learning_gaps": [
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Senior Software Engineer, Frontend - Identity & User Security",
+      "company": "Airwallex",
+      "location": "SG - Singapore",
+      "url": "https://jobs.ashbyhq.com/airwallex/9774f068-d9de-4197-980b-a98311e90366",
+      "source": "Ashby",
+      "published_at": "",
+      "summary": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 200,000 businesses worldwide – including Brex, Rippling, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business acc…",
+      "tags": [
+        "Software Engineering",
+        "Software Engineer",
+        "Frontend",
+        "Platform",
+        "Cybersecurity / Trust",
+        "Security"
+      ],
+      "score": 75,
       "matched_profiles": [
         "Software Engineering",
-        "Product / Program Leadership",
         "Cybersecurity / Trust"
       ],
-      "why_match": "Matches Software Engineering, Product / Program Leadership, Cybersecurity / Trust; title relevance 50/100, profile relevance 90/100, location fit 100/100, freshness 82/100.",
-      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership, Cybersecurity / Trust.",
+      "why_match": "Matches Software Engineering, Cybersecurity / Trust; title relevance 25/100, profile relevance 72/100, location fit 100/100, freshness 45/100, source boost +12.",
+      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Cybersecurity / Trust.",
       "skillsets_to_build": [
         "System design, production debugging, API design, automated testing, and maintainable service ownership.",
-        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives.",
         "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
       ],
       "certifications_to_consider": [
         "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
-        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary.",
         "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."
       ],
       "learning_gaps": [
         "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
-        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
         "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
       ],
       "status_badge": "New this refresh",
@@ -288,29 +680,28 @@
       "status": "New"
     },
     {
-      "title": "Lead Product Marketing Manager, AI",
-      "company": "GitLab",
-      "location": "Remote, Canada; Remote, US",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8472475002",
-      "source": "Greenhouse",
-      "published_at": "2026-04-30",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure softw…",
+      "title": "Engineering Lead/Manager, Risk",
+      "company": "Airwallex",
+      "location": "SG - Singapore",
+      "url": "https://jobs.ashbyhq.com/airwallex/1276800f-a4ad-4c75-af30-d4a14933aa38",
+      "source": "Ashby",
+      "published_at": "",
+      "summary": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 200,000 businesses worldwide – including Brex, Rippling, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business acc…",
       "tags": [
         "Software Engineering",
         "Platform",
         "Product / Program Leadership",
         "Lead",
         "Cybersecurity / Trust",
-        "Security",
         "Risk"
       ],
-      "score": 79,
+      "score": 72,
       "matched_profiles": [
         "Software Engineering",
         "Product / Program Leadership",
         "Cybersecurity / Trust"
       ],
-      "why_match": "Matches Software Engineering, Product / Program Leadership, Cybersecurity / Trust; title relevance 75/100, profile relevance 72/100, location fit 100/100, freshness 82/100.",
+      "why_match": "Matches Software Engineering, Product / Program Leadership, Cybersecurity / Trust; title relevance 50/100, profile relevance 54/100, location fit 100/100, freshness 45/100, source boost +12.",
       "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership, Cybersecurity / Trust.",
       "skillsets_to_build": [
         "System design, production debugging, API design, automated testing, and maintainable service ownership.",
@@ -333,45 +724,149 @@
       "status": "New"
     },
     {
-      "title": "Principal Cybersecurity Incident Manager (USA)",
-      "company": "GitLab",
-      "location": "Remote, US",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8440164002",
+      "title": "Senior Product Manager - Risk Platform",
+      "company": "OKX",
+      "location": "Singapore, Singapore",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/6642975003",
+      "source": "Greenhouse",
+      "published_at": "2026-04-06",
+      "summary": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking acc…",
+      "tags": [
+        "Software Engineering",
+        "Platform",
+        "Product / Program Leadership",
+        "Product Manager",
+        "Cybersecurity / Trust",
+        "Risk"
+      ],
+      "score": 72,
+      "matched_profiles": [
+        "Software Engineering",
+        "Product / Program Leadership",
+        "Cybersecurity / Trust"
+      ],
+      "why_match": "Matches Software Engineering, Product / Program Leadership, Cybersecurity / Trust; title relevance 50/100, profile relevance 54/100, location fit 100/100, freshness 58/100, source boost +10.",
+      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership, Cybersecurity / Trust.",
+      "skillsets_to_build": [
+        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives.",
+        "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
+      ],
+      "certifications_to_consider": [
+        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary.",
+        "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."
+      ],
+      "learning_gaps": [
+        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
+        "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Principal / Lead UX Designer (GeBIZ X)",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4003191201?gh_jid=4003191201",
+      "source": "Greenhouse",
+      "published_at": "2026-05-12",
+      "summary": "The Ministry of Finance (MOF) is responsible for the Government Procurement (GP) policies, which govern how government agencies conduct their procurement. With evolving needs of our public officers and changing procurement landscape, MOF is embarking on the Whole of Government Procurement initiative. GeBIZ X is the MOF product that would transform the procu…",
+      "tags": [
+        "Product / Program Leadership",
+        "Principal",
+        "Lead",
+        "Design / Ux Research",
+        "Ux"
+      ],
+      "score": 94,
+      "matched_profiles": [
+        "Product / Program Leadership",
+        "Design / UX Research"
+      ],
+      "why_match": "Matches Product / Program Leadership, Design / UX Research; title relevance 50/100, profile relevance 54/100, location fit 100/100, freshness 100/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership, Design / UX Research.",
+      "skillsets_to_build": [
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives.",
+        "Portfolio storytelling, user research synthesis, interaction flows, design systems, accessibility, and product impact measurement."
+      ],
+      "certifications_to_consider": [
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary.",
+        "Accessibility training such as WCAG-focused coursework if the role emphasizes inclusive design or design systems."
+      ],
+      "learning_gaps": [
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
+        "Prepare case studies that connect user evidence to product decisions and measurable outcomes."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Principal Product Manager",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4003723201?gh_jid=4003723201",
+      "source": "Greenhouse",
+      "published_at": "2026-05-12",
+      "summary": "The Government Technology Agency (GovTech) is the lead agency driving Singapore’s Smart Nation initiatives and public sector digital transformation. As the Centre of Excellence for Infocomm Technology and Smart Systems (ICT & SS), GovTech develops the Singapore Government’s capabilities in Data Science & Artificial Intelligence, Application Development, Sma…",
+      "tags": [
+        "Product / Program Leadership",
+        "Product Manager",
+        "Principal",
+        "Lead"
+      ],
+      "score": 94,
+      "matched_profiles": [
+        "Product / Program Leadership"
+      ],
+      "why_match": "Matches Product / Program Leadership; title relevance 50/100, profile relevance 54/100, location fit 100/100, freshness 100/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
+      "skillsets_to_build": [
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
+      ],
+      "certifications_to_consider": [
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
+      ],
+      "learning_gaps": [
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Lead Product Manager",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4001865201?gh_jid=4001865201",
       "source": "Greenhouse",
       "published_at": "2026-05-14",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure softw…",
+      "summary": "GovTech is the lead agency driving Singapore’s Smart Nation initiatives and public sector digital transformation. As the Centre of Excellence for Infocomm Technology and Smart Systems (ICT & SS), GovTech develops the Singapore Government’s capabilities in Data Science & Artificial Intelligence, Application Development, Smart City Technology, Digital Infrast…",
       "tags": [
-        "Software Engineering",
-        "Platform",
         "Product / Program Leadership",
-        "Principal",
-        "Cybersecurity / Trust",
-        "Security",
-        "Cybersecurity",
-        "Risk"
+        "Product Manager",
+        "Lead"
       ],
-      "score": 79,
+      "score": 91,
       "matched_profiles": [
-        "Software Engineering",
-        "Product / Program Leadership",
-        "Cybersecurity / Trust"
+        "Product / Program Leadership"
       ],
-      "why_match": "Matches Software Engineering, Product / Program Leadership, Cybersecurity / Trust; title relevance 25/100, profile relevance 90/100, location fit 100/100, freshness 100/100.",
-      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership, Cybersecurity / Trust.",
+      "why_match": "Matches Product / Program Leadership; title relevance 75/100, profile relevance 36/100, location fit 100/100, freshness 100/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
       "skillsets_to_build": [
-        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
-        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives.",
-        "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
       ],
       "certifications_to_consider": [
-        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
-        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary.",
-        "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
       ],
       "learning_gaps": [
-        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
-        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
-        "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
       "status_badge": "New this refresh",
       "first_seen": "2026-05-17",
@@ -379,44 +874,72 @@
       "status": "New"
     },
     {
-      "title": "Senior Product Manager, Tenant Scale",
-      "company": "GitLab",
-      "location": "Remote, Canada; Remote, US; Remote, US-Southeast",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8512220002",
+      "title": "Senior / Product Manager (SC)",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4001785201?gh_jid=4001785201",
       "source": "Greenhouse",
-      "published_at": "2026-05-01",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure softw…",
+      "published_at": "2026-05-08",
+      "summary": "Customs is seeking a passionate Product Manager or Senior Product Manager to lead the development, delivery, and operation of innovative G2B and G2G digital products and services that enhance the lives of citizens and businesses in Singapore. You will be instrumental in shaping product strategy, driving execution, and ensuring the successful adoption of tec…",
+      "tags": [
+        "Product / Program Leadership",
+        "Product Manager",
+        "Strategy",
+        "Lead"
+      ],
+      "score": 91,
+      "matched_profiles": [
+        "Product / Program Leadership"
+      ],
+      "why_match": "Matches Product / Program Leadership; title relevance 50/100, profile relevance 54/100, location fit 100/100, freshness 82/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
+      "skillsets_to_build": [
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
+      ],
+      "certifications_to_consider": [
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
+      ],
+      "learning_gaps": [
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
+      ],
+      "status_badge": "New this refresh",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "status": "New"
+    },
+    {
+      "title": "Senior / Product Manager, One Talent Management Platform (PSD)",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4001344201?gh_jid=4001344201",
+      "source": "Greenhouse",
+      "published_at": "2026-05-08",
+      "summary": "GovTech is the lead agency driving Singapore’s Smart Nation initiatives and public sector digital transformation. As the Centre of Excellence for Infocomm Technology and Smart Systems (ICT & SS), GovTech develops the Singapore Government’s capabilities in Data Science & Artificial Intelligence, Application Development, Smart City Technology, Digital Infrast…",
       "tags": [
         "Software Engineering",
         "Platform",
         "Product / Program Leadership",
         "Product Manager",
-        "Cybersecurity / Trust",
-        "Security",
-        "Risk"
+        "Lead"
       ],
-      "score": 74,
+      "score": 91,
       "matched_profiles": [
         "Software Engineering",
-        "Product / Program Leadership",
-        "Cybersecurity / Trust"
+        "Product / Program Leadership"
       ],
-      "why_match": "Matches Software Engineering, Product / Program Leadership, Cybersecurity / Trust; title relevance 50/100, profile relevance 72/100, location fit 100/100, freshness 82/100.",
-      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership, Cybersecurity / Trust.",
+      "why_match": "Matches Software Engineering, Product / Program Leadership; title relevance 50/100, profile relevance 54/100, location fit 100/100, freshness 82/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership.",
       "skillsets_to_build": [
         "System design, production debugging, API design, automated testing, and maintainable service ownership.",
-        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives.",
-        "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
       ],
       "certifications_to_consider": [
         "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
-        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary.",
-        "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
       ],
       "learning_gaps": [
         "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
-        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
-        "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
       "status_badge": "New this refresh",
       "first_seen": "2026-05-17",
@@ -424,174 +947,32 @@
       "status": "New"
     },
     {
-      "title": "Staff Backend Engineer, Developer Experience",
-      "company": "GitLab",
-      "location": "Remote, Canada; Remote, United Kingdom; Remote, US",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8490477002",
+      "title": "Lead / Product Manager (ACRA)",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4001737201?gh_jid=4001737201",
       "source": "Greenhouse",
-      "published_at": "2026-04-30",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure softw…",
+      "published_at": "2026-05-08",
+      "summary": "The Government Technology Agency (GovTech) aims to transform the delivery of Government digital services by taking an \"outside-in\" view, putting citizens and businesses at the heart of everything we do. We also develop the Smart Nation infrastructure and applications, and facilitate collaboration with citizens and businesses to co-develop technologies. Join…",
       "tags": [
-        "Software Engineering",
-        "Backend",
-        "Platform",
-        "Cybersecurity / Trust",
-        "Security",
-        "Risk"
-      ],
-      "score": 74,
-      "matched_profiles": [
-        "Software Engineering",
-        "Cybersecurity / Trust"
-      ],
-      "why_match": "Matches Software Engineering, Cybersecurity / Trust; title relevance 50/100, profile relevance 72/100, location fit 100/100, freshness 82/100.",
-      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Cybersecurity / Trust.",
-      "skillsets_to_build": [
-        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
-        "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
-      ],
-      "certifications_to_consider": [
-        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
-        "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."
-      ],
-      "learning_gaps": [
-        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
-        "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
-      ],
-      "status_badge": "New this refresh",
-      "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
-    },
-    {
-      "title": "Staff Product Designer, Knowledge Graph",
-      "company": "GitLab",
-      "location": "Remote, Canada; Remote, France; Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, United Kingdom; Remote, US",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8475077002",
-      "source": "Greenhouse",
-      "published_at": "2026-04-30",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure softw…",
-      "tags": [
-        "Software Engineering",
-        "Platform",
-        "Cybersecurity / Trust",
-        "Security",
-        "Risk",
-        "Design / Ux Research",
-        "Product Designer"
-      ],
-      "score": 74,
-      "matched_profiles": [
-        "Software Engineering",
-        "Cybersecurity / Trust",
-        "Design / UX Research"
-      ],
-      "why_match": "Matches Software Engineering, Cybersecurity / Trust, Design / UX Research; title relevance 50/100, profile relevance 72/100, location fit 100/100, freshness 82/100.",
-      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Cybersecurity / Trust, Design / UX Research.",
-      "skillsets_to_build": [
-        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
-        "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation.",
-        "Portfolio storytelling, user research synthesis, interaction flows, design systems, accessibility, and product impact measurement."
-      ],
-      "certifications_to_consider": [
-        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
-        "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles.",
-        "Accessibility training such as WCAG-focused coursework if the role emphasizes inclusive design or design systems."
-      ],
-      "learning_gaps": [
-        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
-        "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details.",
-        "Prepare case studies that connect user evidence to product decisions and measurable outcomes."
-      ],
-      "status_badge": "New this refresh",
-      "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
-    },
-    {
-      "title": "Staff Product Designer, Security & Compliance",
-      "company": "GitLab",
-      "location": "Remote, Americas; Remote, Ireland; Remote, Netherlands",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8425775002",
-      "source": "Greenhouse",
-      "published_at": "2026-04-30",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure softw…",
-      "tags": [
-        "Software Engineering",
-        "Platform",
-        "Cybersecurity / Trust",
-        "Security",
-        "Risk",
-        "Design / Ux Research",
-        "Product Designer"
-      ],
-      "score": 74,
-      "matched_profiles": [
-        "Software Engineering",
-        "Cybersecurity / Trust",
-        "Design / UX Research"
-      ],
-      "why_match": "Matches Software Engineering, Cybersecurity / Trust, Design / UX Research; title relevance 50/100, profile relevance 72/100, location fit 100/100, freshness 82/100.",
-      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Cybersecurity / Trust, Design / UX Research.",
-      "skillsets_to_build": [
-        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
-        "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation.",
-        "Portfolio storytelling, user research synthesis, interaction flows, design systems, accessibility, and product impact measurement."
-      ],
-      "certifications_to_consider": [
-        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
-        "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles.",
-        "Accessibility training such as WCAG-focused coursework if the role emphasizes inclusive design or design systems."
-      ],
-      "learning_gaps": [
-        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
-        "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details.",
-        "Prepare case studies that connect user evidence to product decisions and measurable outcomes."
-      ],
-      "status_badge": "New this refresh",
-      "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
-    },
-    {
-      "title": "Staff Product Manager, AI Agent Orchestration",
-      "company": "GitLab",
-      "location": "Remote, US",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8536109002",
-      "source": "Greenhouse",
-      "published_at": "2026-05-07",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure softw…",
-      "tags": [
-        "Software Engineering",
-        "Platform",
         "Product / Program Leadership",
         "Product Manager",
-        "Cybersecurity / Trust",
-        "Security",
-        "Risk"
+        "Lead"
       ],
-      "score": 74,
+      "score": 89,
       "matched_profiles": [
-        "Software Engineering",
-        "Product / Program Leadership",
-        "Cybersecurity / Trust"
+        "Product / Program Leadership"
       ],
-      "why_match": "Matches Software Engineering, Product / Program Leadership, Cybersecurity / Trust; title relevance 50/100, profile relevance 72/100, location fit 100/100, freshness 82/100.",
-      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership, Cybersecurity / Trust.",
+      "why_match": "Matches Product / Program Leadership; title relevance 75/100, profile relevance 36/100, location fit 100/100, freshness 82/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
       "skillsets_to_build": [
-        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
-        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives.",
-        "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
       ],
       "certifications_to_consider": [
-        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
-        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary.",
-        "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
       ],
       "learning_gaps": [
-        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
-        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
-        "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
       "status_badge": "New this refresh",
       "first_seen": "2026-05-17",
@@ -599,39 +980,32 @@
       "status": "New"
     },
     {
-      "title": "Manager, Security Incident Response Team (USA)",
-      "company": "GitLab",
-      "location": "Remote, US",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8535048002",
+      "title": "Lead / Product Manager (PSD)",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4001779201?gh_jid=4001779201",
       "source": "Greenhouse",
-      "published_at": "2026-05-15",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure softw…",
+      "published_at": "2026-05-08",
+      "summary": "GovTech is the lead agency driving Singapore’s Smart Nation initiatives and public sector digital transformation. As the Centre of Excellence for Infocomm Technology and Smart Systems (ICT & SS), GovTech develops the Singapore Government’s capabilities in Data Science & Artificial Intelligence, Application Development, Smart City Technology, Digital Infrast…",
       "tags": [
-        "Software Engineering",
-        "Platform",
-        "Cybersecurity / Trust",
-        "Security",
-        "Incident Response",
-        "Risk"
+        "Product / Program Leadership",
+        "Product Manager",
+        "Lead"
       ],
-      "score": 71,
+      "score": 89,
       "matched_profiles": [
-        "Software Engineering",
-        "Cybersecurity / Trust"
+        "Product / Program Leadership"
       ],
-      "why_match": "Matches Software Engineering, Cybersecurity / Trust; title relevance 25/100, profile relevance 72/100, location fit 100/100, freshness 100/100.",
-      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Cybersecurity / Trust.",
+      "why_match": "Matches Product / Program Leadership; title relevance 75/100, profile relevance 36/100, location fit 100/100, freshness 82/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
       "skillsets_to_build": [
-        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
-        "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
       ],
       "certifications_to_consider": [
-        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
-        "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
       ],
       "learning_gaps": [
-        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
-        "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
       "status_badge": "New this refresh",
       "first_seen": "2026-05-17",
@@ -639,84 +1013,32 @@
       "status": "New"
     },
     {
-      "title": "Principal Engineer, Infrastructure Platforms",
-      "company": "GitLab",
-      "location": "Remote, Canada; Remote, US",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8366595002",
+      "title": "Lead / Senior Localization Product Manager, AI Programme",
+      "company": "GovTech Singapore",
+      "location": "Singapore",
+      "url": "https://jobs.careers.gov.sg/jobs/greenhouse/4001637201?gh_jid=4001637201",
       "source": "Greenhouse",
-      "published_at": "2026-05-13",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure softw…",
+      "published_at": "2026-05-08",
+      "summary": "The Government Technology Agency (GovTech) is the lead agency driving Singapore’s Smart Nation initiatives and public sector digital transformation. As the Centre of Excellence for Infocomm Technology and Smart Systems (ICT & SS), GovTech develops the Singapore Government’s capabilities in Data Science & Artificial Intelligence, Application Development, Sma…",
       "tags": [
-        "Software Engineering",
-        "Platform",
         "Product / Program Leadership",
-        "Principal",
-        "Cybersecurity / Trust",
-        "Security",
-        "Risk"
+        "Product Manager",
+        "Lead"
       ],
-      "score": 71,
+      "score": 89,
       "matched_profiles": [
-        "Software Engineering",
-        "Product / Program Leadership",
-        "Cybersecurity / Trust"
+        "Product / Program Leadership"
       ],
-      "why_match": "Matches Software Engineering, Product / Program Leadership, Cybersecurity / Trust; title relevance 25/100, profile relevance 72/100, location fit 100/100, freshness 100/100.",
-      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Product / Program Leadership, Cybersecurity / Trust.",
+      "why_match": "Matches Product / Program Leadership; title relevance 75/100, profile relevance 36/100, location fit 100/100, freshness 82/100, source boost +26.",
+      "next_action": "Prioritize: verify the posting is still open, then tailor your application around Product / Program Leadership.",
       "skillsets_to_build": [
-        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
-        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives.",
-        "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
+        "Roadmap framing, customer discovery, prioritization, metrics, stakeholder management, and crisp execution narratives."
       ],
       "certifications_to_consider": [
-        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
-        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary.",
-        "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."
+        "Pragmatic Institute, Reforge, or equivalent product strategy coursework if the role expects formal product leadership vocabulary."
       ],
       "learning_gaps": [
-        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
-        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
-        "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
-      ],
-      "status_badge": "New this refresh",
-      "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
-    },
-    {
-      "title": "VP of Product Security",
-      "company": "GitLab",
-      "location": "Remote, US",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8539288002",
-      "source": "Greenhouse",
-      "published_at": "2026-05-15",
-      "summary": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure softw…",
-      "tags": [
-        "Software Engineering",
-        "Platform",
-        "Cybersecurity / Trust",
-        "Security",
-        "Product Security",
-        "Risk"
-      ],
-      "score": 71,
-      "matched_profiles": [
-        "Software Engineering",
-        "Cybersecurity / Trust"
-      ],
-      "why_match": "Matches Software Engineering, Cybersecurity / Trust; title relevance 25/100, profile relevance 72/100, location fit 100/100, freshness 100/100.",
-      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Cybersecurity / Trust.",
-      "skillsets_to_build": [
-        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
-        "Threat modeling, secure design review, exploitability triage, incident response, detection, and engineering-ready remediation."
-      ],
-      "certifications_to_consider": [
-        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
-        "Choose role-aligned depth: OSCP/OSWE for offensive roles, CSSLP for secure SDLC, CISSP/CISM for leadership, or cloud security specialty for platform roles."
-      ],
-      "learning_gaps": [
-        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
-        "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
+        "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
       "status_badge": "New this refresh",
       "first_seen": "2026-05-17",
