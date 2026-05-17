@@ -4,6 +4,7 @@ title: Merlion Radar
 ---
 
 <section class="hero">
+  <img class="hero-logo" src="{{ '/assets/img/merlion-radar-logo.svg' | relative_url }}" alt="Merlion Radar logo">
   <p class="eyebrow">Singapore-first career intelligence</p>
   <h1>Merlion Radar tracks relevant Singapore/APAC opportunities and the skills to become a stronger match.</h1>
   <p>Configure public job sources, career signals, locations, skillsets, certifications, and learning gaps. The result is a static portal you can publish on GitHub Pages.</p>

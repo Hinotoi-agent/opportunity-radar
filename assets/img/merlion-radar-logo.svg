@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Merlion Radar logo</title>
+  <desc id="desc">A stylized Merlion head inside concentric radar rings with a Singapore red and cyan night-sky palette.</desc>
+  <defs>
+    <radialGradient id="bg" cx="35%" cy="25%" r="75%">
+      <stop offset="0" stop-color="#263d8f"/>
+      <stop offset="0.55" stop-color="#101a35"/>
+      <stop offset="1" stop-color="#070b16"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="82" y1="92" x2="552" y2="552" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ef3340"/>
+    </linearGradient>
+    <linearGradient id="mane" x1="214" y1="170" x2="404" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.48" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="640" height="640" rx="144" fill="url(#bg)"/>
+  <circle cx="320" cy="320" r="232" fill="none" stroke="url(#ring)" stroke-width="10" opacity="0.95"/>
+  <circle cx="320" cy="320" r="174" fill="none" stroke="#7dd3fc" stroke-width="5" opacity="0.36"/>
+  <circle cx="320" cy="320" r="112" fill="none" stroke="#c4b5fd" stroke-width="4" opacity="0.34"/>
+  <path d="M320 320 520 210" stroke="#ef3340" stroke-width="16" stroke-linecap="round" opacity="0.9" filter="url(#glow)"/>
+  <circle cx="320" cy="320" r="10" fill="#ffffff"/>
+  <path d="M248 456c-55-41-77-102-58-164 16-53 56-91 107-105 8-43 36-72 83-88-6 35-1 65 15 91 22 5 43 16 62 32-36 3-64 19-85 46 34 14 61 39 80 74-42-21-80-29-114-22-39 9-65 31-77 66 40-17 83-14 128 10-46 2-84 16-113 41-10 9-19 15-28 19Z" fill="url(#mane)" stroke="#ffffff" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M296 206c28 14 49 35 62 64-35-6-63 3-85 26 9-38 16-67 23-90Z" fill="#ef3340" opacity="0.94"/>
+  <path d="M340 275c24-5 47 1 68 18-28 0-49 8-63 25-6-17-8-31-5-43Z" fill="#0b1020" opacity="0.66"/>
+  <circle cx="352" cy="260" r="8" fill="#07111f"/>
+  <path d="M220 462c57 42 131 53 208 24" fill="none" stroke="#7dd3fc" stroke-width="12" stroke-linecap="round" opacity="0.82"/>
+  <path d="M436 186c27 10 51 28 70 52" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity="0.72"/>
+  <path d="M112 326h54M474 326h54M320 112v54M320 474v54" stroke="#7dd3fc" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+</svg>

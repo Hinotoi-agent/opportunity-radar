@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/img/merlion-radar-logo.svg" alt="Merlion Radar logo" width="160">
+</p>
+
 # Merlion Radar
 
 **Merlion Radar** is a Singapore-first, static GitHub Pages job/opportunity radar that anyone can adapt to their own career focus.
