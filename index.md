@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Opportunity Radar
+title: Merlion Radar
 ---
 
 <section class="hero">
-  <p class="eyebrow">Reusable career intelligence</p>
-  <h1>Track relevant opportunities and the skills to become a stronger match.</h1>
+  <p class="eyebrow">Singapore-first career intelligence</p>
+  <h1>Merlion Radar tracks relevant Singapore/APAC opportunities and the skills to become a stronger match.</h1>
   <p>Configure public job sources, career signals, locations, skillsets, certifications, and learning gaps. The result is a static portal you can publish on GitHub Pages.</p>
   <p><a class="button" href="{{ '/opportunities/' | relative_url }}">View opportunities</a></p>
 </section>

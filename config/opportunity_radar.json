@@ -1,5 +1,5 @@
 {
-  "title": "Opportunity Radar",
+  "title": "Merlion Radar",
   "site_url": "https://hinotoi-agent.github.io/opportunity-radar/",
   "max_items": 18,
   "alert_score": 82,
@@ -33,7 +33,7 @@
       "europe only"
     ]
   },
-  "search_focus": "Configurable public opportunity radar for software engineering, data/AI, product, security, research, leadership, and adjacent roles.",
+  "search_focus": "Singapore-first public opportunity radar for software engineering, data/AI, product, security, research, leadership, and adjacent roles across Singapore/APAC.",
   "title_terms": [
     "engineer",
     "developer",

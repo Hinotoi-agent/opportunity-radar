@@ -1,6 +1,8 @@
-# Opportunity Radar
+# Merlion Radar
 
-A reusable, static GitHub Pages job/opportunity radar that anyone can adapt to their own career focus.
+**Merlion Radar** is a Singapore-first, static GitHub Pages job/opportunity radar that anyone can adapt to their own career focus.
+
+![Merlion Radar screenshot showing Singapore/APAC opportunity cards, fit scores, and role-specific action plans](assets/img/merlion-radar-screenshot.png)
 
 It is intentionally **not limited to AI security**. Configure it for software engineering, data science, product, design, security, research, marketing, leadership, or any mix of roles.
 
