@@ -1,6 +1,6 @@
 {
   "title": "Merlion Radar",
-  "updated_at": "2026-05-17T08:07:36Z",
+  "updated_at": "2026-05-18T06:34:52Z",
   "search_focus": "Singapore-first public opportunity radar for software engineering, data/AI, product, security, research, leadership, and adjacent roles across Singapore/APAC.",
   "sources": [
     "Greenhouse/GitLab",
@@ -38,134 +38,134 @@
     {
       "source": "Greenhouse/Stripe",
       "status": "ok",
-      "count": 25,
-      "seconds": 0.86
+      "count": 24,
+      "seconds": 0.67
     },
     {
       "source": "Greenhouse/Cloudflare",
       "status": "ok",
       "count": 0,
-      "seconds": 0.36
+      "seconds": 0.38
     },
     {
       "source": "Greenhouse/GovTech Singapore",
       "status": "ok",
       "count": 184,
-      "seconds": 1.04
+      "seconds": 0.5
     },
     {
       "source": "Greenhouse/OKX",
       "status": "ok",
-      "count": 113,
-      "seconds": 0.46
+      "count": 114,
+      "seconds": 0.54
     },
     {
       "source": "Greenhouse/Databricks",
       "status": "ok",
       "count": 19,
-      "seconds": 1.29
+      "seconds": 1.06
     },
     {
       "source": "Greenhouse/Figma",
       "status": "ok",
       "count": 5,
-      "seconds": 0.56
+      "seconds": 0.31
     },
     {
       "source": "Greenhouse/Anthropic",
       "status": "ok",
       "count": 3,
-      "seconds": 0.93
+      "seconds": 0.74
     },
     {
       "source": "Lever/Mistral AI",
       "status": "ok",
       "count": 10,
-      "seconds": 6.02
+      "seconds": 3.59
     },
     {
       "source": "Ashby/OpenAI",
       "status": "ok",
       "count": 21,
-      "seconds": 20.53
+      "seconds": 2.64
     },
     {
       "source": "Ashby/Cursor",
       "status": "ok",
       "count": 3,
-      "seconds": 0.05
+      "seconds": 0.98
     },
     {
       "source": "Ashby/Modal",
       "status": "ok",
       "count": 0,
-      "seconds": 0.06
+      "seconds": 0.11
     },
     {
       "source": "Ashby/Airwallex",
       "status": "ok",
-      "count": 216,
-      "seconds": 0.61
+      "count": 214,
+      "seconds": 5.1
     },
     {
       "source": "MyCareersFuture/software engineer",
       "status": "ok",
-      "count": 8,
-      "seconds": 0.12
+      "count": 10,
+      "seconds": 1.73
     },
     {
       "source": "MyCareersFuture/data engineer",
       "status": "ok",
       "count": 8,
-      "seconds": 0.1
+      "seconds": 1.6
     },
     {
       "source": "MyCareersFuture/machine learning engineer",
       "status": "ok",
       "count": 13,
-      "seconds": 0.11
+      "seconds": 1.71
     },
     {
       "source": "MyCareersFuture/ai engineer",
       "status": "ok",
       "count": 10,
-      "seconds": 0.1
+      "seconds": 1.64
     },
     {
       "source": "MyCareersFuture/cybersecurity engineer",
       "status": "ok",
       "count": 3,
-      "seconds": 0.09
+      "seconds": 8.26
     },
     {
       "source": "MyCareersFuture/application security",
       "status": "ok",
-      "count": 15,
-      "seconds": 0.12
+      "count": 16,
+      "seconds": 9.58
     },
     {
       "source": "MyCareersFuture/product manager",
       "status": "ok",
       "count": 8,
-      "seconds": 0.12
+      "seconds": 1.65
     },
     {
       "source": "MyCareersFuture/technical program manager",
       "status": "ok",
-      "count": 17,
-      "seconds": 0.09
+      "count": 18,
+      "seconds": 10.81
     },
     {
       "source": "MyCareersFuture/ux designer",
       "status": "ok",
-      "count": 4,
-      "seconds": 0.11
+      "count": 5,
+      "seconds": 1.51
     },
     {
       "source": "MyCareersFuture/platform engineer",
       "status": "ok",
       "count": 11,
-      "seconds": 0.12
+      "seconds": 8.32
     },
     {
       "source": "Custom/Custom Singapore/APAC feed",
@@ -175,7 +175,7 @@
     }
   ],
   "stats": {
-    "candidates_scored": 655,
+    "candidates_scored": 656,
     "published_count": 18,
     "alert_count": 6
   },
@@ -209,10 +209,10 @@
       "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Repeated high match",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Principal / Lead Product Manager, TradeNet, DEP",
@@ -243,10 +243,10 @@
       "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Repeated high match",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Principal / Lead UX Designer (GeBIZ X)",
@@ -282,10 +282,10 @@
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
         "Prepare case studies that connect user evidence to product decisions and measurable outcomes."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Repeated high match",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Principal Product Manager",
@@ -316,10 +316,10 @@
       "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Repeated high match",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Lead Product Manager",
@@ -349,10 +349,10 @@
       "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Repeated high match",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Senior / Product Manager (SC)",
@@ -383,10 +383,10 @@
       "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Repeated high match",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     }
   ],
   "jobs": [
@@ -423,10 +423,10 @@
         "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
         "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Still open",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Computer Software Engineer (Senior Level)",
@@ -461,44 +461,10 @@
         "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Still open",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
-    },
-    {
-      "title": "Backend Platform Engineer",
-      "company": "FIREROCK CAPITAL PTE. LTD.",
-      "location": "D02 Anson, Tanjong Pagar",
-      "url": "https://www.mycareersfuture.gov.sg/job/information-technology/backend-platform-engineer-firerock-capital-8c4900c655172def98f32c274a508924",
-      "source": "MyCareersFuture",
-      "published_at": "2026-05-10",
-      "summary": "About the Role We’re looking for a skilled Backend Software Engineer to join our team in Singapore. In this role, you will primarily build and maintain platform services that power client integrations , including those used by our Unity SDK, while also supporting game-related backend systems. You will design scalable… Categories: Information Technology Empl…",
-      "tags": [
-        "Software Engineering",
-        "Software Engineer",
-        "Backend",
-        "Platform"
-      ],
-      "score": 72,
-      "matched_profiles": [
-        "Software Engineering"
-      ],
-      "why_match": "Matches Software Engineering; title relevance 25/100, profile relevance 54/100, location fit 100/100, freshness 100/100, source boost +18.",
-      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering.",
-      "skillsets_to_build": [
-        "System design, production debugging, API design, automated testing, and maintainable service ownership."
-      ],
-      "certifications_to_consider": [
-        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project."
-      ],
-      "learning_gaps": [
-        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions."
-      ],
-      "status_badge": "New this refresh",
-      "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Lead Cybersecurity Specialist (Offensive Security)",
@@ -534,10 +500,10 @@
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
         "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Still open",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Technical Program Manager, LLM data",
@@ -573,10 +539,49 @@
         "Publish an end-to-end data or ML project with ingestion, evaluation, deployment, and monitoring evidence.",
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Still open",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
+    },
+    {
+      "title": "Software Engineering, Lakehouse and AI Data Platform Engineer, Analyst, Singapore",
+      "company": "GOLDMAN SACHS SERVICES (SINGAPORE) PTE. LTD.",
+      "location": "D01 Cecil, Marina, People’s Park, Raffles Place",
+      "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/software-engineering-lakehouse-ai-data-platform-engineer-analyst-singapore-goldman-sachs-services-b53cc7ed99ddaa317cfc3993bd993ad2",
+      "source": "MyCareersFuture",
+      "published_at": "2026-05-14",
+      "summary": "The Opportunity Join a team building the data foundations that support the firm’s AI and analytics capabilities. This role sits within the engineering effort to develop a modern Lakehouse and AI data platform that enables reliable, well-governed and high-performing data use across the firm. At Goldman Sachs, engineeri… Categories: Banking and Finance Employ…",
+      "tags": [
+        "Software Engineering",
+        "Software Engineer",
+        "Platform",
+        "Data / Ai Engineering",
+        "Data Platform"
+      ],
+      "score": 71,
+      "matched_profiles": [
+        "Software Engineering",
+        "Data / AI Engineering"
+      ],
+      "why_match": "Matches Software Engineering, Data / AI Engineering; title relevance 50/100, profile relevance 54/100, location fit 0/100, freshness 100/100, source boost +28.",
+      "next_action": "Shortlist: verify the posting is still open, then tailor your application around Software Engineering, Data / AI Engineering.",
+      "skillsets_to_build": [
+        "System design, production debugging, API design, automated testing, and maintainable service ownership.",
+        "Data pipelines, model evaluation, feature stores or embeddings, deployment, monitoring, and cost/performance tradeoffs."
+      ],
+      "certifications_to_consider": [
+        "Cloud practitioner or associate developer certification only if the target role is cloud-heavy; otherwise prioritize a production-quality portfolio project.",
+        "Cloud data/ML engineer certification aligned to the employer stack, or a hands-on MLOps specialization."
+      ],
+      "learning_gaps": [
+        "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
+        "Publish an end-to-end data or ML project with ingestion, evaluation, deployment, and monitoring evidence."
+      ],
+      "status_badge": "Still open",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Lead / Principal Product Manager (SLS)",
@@ -607,10 +612,10 @@
       "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Repeated high match",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Principal / Lead Product Manager, TradeNet, DEP",
@@ -641,10 +646,10 @@
       "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Repeated high match",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Senior Software Engineer, Frontend - Identity & User Security",
@@ -681,10 +686,10 @@
         "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
         "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Still open",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Engineering Lead/Manager, Risk",
@@ -725,10 +730,10 @@
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
         "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Still open",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Senior Product Manager - Risk Platform",
@@ -769,10 +774,10 @@
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
         "Keep public-safe case studies that show risk, proof, mitigation, and verification without exposing private details."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Still open",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Principal / Lead UX Designer (GeBIZ X)",
@@ -808,10 +813,10 @@
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome.",
         "Prepare case studies that connect user evidence to product decisions and measurable outcomes."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Repeated high match",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Principal Product Manager",
@@ -842,10 +847,10 @@
       "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Repeated high match",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Lead Product Manager",
@@ -875,10 +880,10 @@
       "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Repeated high match",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Senior / Product Manager (SC)",
@@ -909,10 +914,10 @@
       "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Repeated high match",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Senior / Product Manager, One Talent Management Platform (PSD)",
@@ -948,10 +953,10 @@
         "Show one shipped project with tests, observability, deployment notes, and clear tradeoff decisions.",
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Repeated high match",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Lead / Product Manager (ACRA)",
@@ -981,10 +986,10 @@
       "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Still open",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Lead / Product Manager (PSD)",
@@ -1014,10 +1019,10 @@
       "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Still open",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     },
     {
       "title": "Lead / Senior Localization Product Manager, AI Programme",
@@ -1047,10 +1052,10 @@
       "learning_gaps": [
         "Prepare two stories showing ambiguous problem framing, prioritization, tradeoffs, launch, and measured outcome."
       ],
-      "status_badge": "New this refresh",
+      "status_badge": "Still open",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
-      "status": "New"
+      "last_seen": "2026-05-18",
+      "status": "Still open"
     }
   ]
 }
